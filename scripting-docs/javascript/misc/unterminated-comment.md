@@ -3,7 +3,7 @@ title: "Unterminated comment | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1016"
 dev_langs: 
@@ -27,5 +27,5 @@ This is another part of the same comment.*/
   
 - Be sure to terminate multi-line comments with "*/".  
   
-## See Also  
- [Comment Statements](../../javascript/reference/comment-statements-javascript.md)
+## See also  
+ [Comment Statements](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isPointerToDataMember | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: ef17c737-242e-43e8-b7e1-2c3bc58cfcef
@@ -29,5 +29,5 @@ HRESULT get_isPointerToDataMember(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

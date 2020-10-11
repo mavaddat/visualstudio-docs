@@ -1,12 +1,12 @@
 ---
-title: "Troubleshoot template discovery in Visual Studio | Microsoft Docs"
-ms.date: "01/02/2018"
-ms.topic: "conceptual"
-author: madskristensen
-ms.author: madsk
+title: Troubleshoot template discovery in Visual Studio | Microsoft Docs
+ms.date: 01/02/2018
+ms.topic: troubleshooting
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Troubleshooting template installation
 
@@ -53,9 +53,9 @@ The log file contains the following columns:
 
 - **FullPathToTemplate**, which has the following values:
 
-    - 1 for manifest-based deployment
+  - 1 for manifest-based deployment
 
-    - 0 for disk-based deployment
+  - 0 for disk-based deployment
 
 - **TemplateFileName**
 
@@ -67,3 +67,4 @@ The log file contains the following columns:
 ## See also
 
 - [Creating custom project and item templates](creating-custom-project-and-item-templates.md)
+- [Visual Studio troubleshooting](/troubleshoot/visualstudio/welcome-visual-studio/)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isSingleInheritance | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 46cde656-059b-4c20-9476-3ca68ccc9912
@@ -27,5 +27,5 @@ HRESULT get_isSingleInheritance(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -3,7 +3,7 @@ title: "The URI to be decoded is not a valid encoding | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5025"
 dev_langs: 
@@ -30,6 +30,6 @@ You attempted to decode an improperly formed URI (Uniform Resource Identifier). 
   
 - Ensure you are trying to decode valid URIs only. You cannot decode normal [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)] strings, as they may contain invalid characters.  
   
-## See Also  
- [decodeURI Function](../../javascript/reference/decodeuri-function-javascript.md)   
- [decodeURIComponent Function](../../javascript/reference/decodeuricomponent-function-javascript.md)
+## See also  
+ [decodeURI Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/decodeuri)   
+ [decodeURIComponent Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/decodeuricomponent)

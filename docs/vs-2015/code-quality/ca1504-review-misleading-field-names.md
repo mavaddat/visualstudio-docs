@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "ReviewMisleadingFieldNames"
 ms.assetid: 94136ff1-4aaf-4dc2-9170-48c171ab7499
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1504: Review misleading field names
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ReviewMisleadingFieldNames|
 |CheckId|CA1504|

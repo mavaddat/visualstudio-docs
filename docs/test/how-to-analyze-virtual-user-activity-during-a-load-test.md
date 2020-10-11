@@ -1,12 +1,12 @@
 ---
-title: "Analyze Virtual User Activity for load tests"
+title: Analyze Virtual User Activity for load tests
 ms.date: 10/19/2016
-ms.topic: conceptual
-helpviewer_keywords:
-  - "virtual user activity chart, viewing"
+ms.topic: how-to
+helpviewer_keywords: 
+  - virtual user activity chart, viewing
 ms.assetid: 8bda19b3-91c1-4daf-b6c7-09108bddadff
-author: gewarren
-ms.author: gewarren
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
 ---
 # How to: Analyze what virtual users are doing during a load test using the virtual user activity chart

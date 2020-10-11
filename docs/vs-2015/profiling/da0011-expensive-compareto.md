@@ -18,9 +18,9 @@ manager: jillfra
 # DA0011: Expensive CompareTo
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [DA0011: Expensive CompareTo](https://docs.microsoft.com/visualstudio/profiling/da0011-expensive-compareto).  
+For the latest documentation on Visual Studio, see [DA0011: Expensive CompareTo](/visualstudio/profiling/da0011-expensive-compareto).  
   
-|||  
+|Item|Value|  
 |-|-|  
 |Rule Id|DA0011|  
 |Category|.NET Framework Usage|  

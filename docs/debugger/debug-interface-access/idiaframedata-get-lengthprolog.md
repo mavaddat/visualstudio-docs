@@ -1,7 +1,7 @@
 ---
 title: "IDiaFrameData::get_lengthProlog | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_lengthProlog ( 
 ## Remarks
  The prologue code is a sequence of instructions that preserves registers, sets the CPU state, and establishes the stack for the function.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

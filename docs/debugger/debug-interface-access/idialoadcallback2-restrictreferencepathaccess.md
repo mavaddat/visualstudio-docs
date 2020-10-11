@@ -1,7 +1,7 @@
 ---
 title: "IDiaLoadCallback2::RestrictReferencePathAccess | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -28,5 +28,5 @@ HRESULT RestrictReferencePathAccess();
 ## Remarks
  Any return code other than `S_OK` to prevent looking for a .pdb file in the path where the .exe file is located.
 
-## See Also
+## See also
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

@@ -1,7 +1,8 @@
 ---
 title: Use Help Viewer index
+description: Find topics by using the Microsoft Help Viewer index, which contains a list of keywords that are associated with topics in the installed content.
 ms.date: 11/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "Index tab [Help Viewer]"
   - "Help Viewer, using the index"
@@ -10,8 +11,8 @@ helpviewer_keywords:
   - "index filtering [Help Viewer]"
   - "Help Viewer, index filtering"
 ms.assetid: cb071e93-f297-459c-a6fa-8ae0dabc42a4
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
   - "multiple"

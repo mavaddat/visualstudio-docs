@@ -1,15 +1,15 @@
 ---
-title: "Specifying File Handlers for File Name Extensions | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Specifying File Handlers for File Name Extensions | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "file extensions, specifying file handlers"
+- file extensions, specifying file handlers
 ms.assetid: e3de4730-a95c-465a-b3b2-92ca85364ad7
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Specifying File Handlers for File Name Extensions
 There are a number of ways to determine the application that handles a file which has a particular file extension. The OpenWithList and OpenWithProgids verbs are two ways to specify file handlers under the registry entry for the file extension.
@@ -71,6 +71,6 @@ HKEY_CLASSES_ROOT\
 
  If the old ProgID has verbs associated with it, then these verbs will also appear under **Open With** *Product Name* in the shortcut menu.
 
-## See Also
+## See also
 - [About File Name Extensions](../extensibility/about-file-name-extensions.md)
 - [Registering Verbs for File Name Extensions](../extensibility/registering-verbs-for-file-name-extensions.md)

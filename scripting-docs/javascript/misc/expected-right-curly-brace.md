@@ -3,7 +3,7 @@ title: "Expected '}' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1009"
 dev_langs: 
@@ -22,6 +22,6 @@ You did not include the right brace that marks the end of the function body, loo
   
 - Add the right brace that marks the ending of the function, loop, block, or object initializer.  
   
-## See Also  
- [Function Object](../../javascript/reference/function-object-javascript.md)   
- [Controlling Program Flow](../../javascript/controlling-program-flow-javascript.md)
+## See also  
+ [Function Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function)   
+ [Controlling Program Flow](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)

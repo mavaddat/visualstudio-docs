@@ -3,7 +3,7 @@ title: "Object expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5007"
 dev_langs: 
@@ -40,6 +40,6 @@ You attempted to invoke a method or property on an object of a type other than `
     }  
     ```  
   
-## See Also  
- [Object Object](../../javascript/reference/object-object-javascript.md)   
- [Objects and Arrays](../../javascript/objects-and-arrays-javascript.md)
+## See also  
+ [Object Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object)   
+ [Objects and Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/Objects)

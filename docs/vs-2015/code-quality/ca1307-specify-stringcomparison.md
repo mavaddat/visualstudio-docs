@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "SpecifyStringComparison"
 ms.assetid: 9b0d5e71-1683-4a0d-bc4a-68b2fbd8af71
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1307: Specify StringComparison
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|SpecifyStringComparison|
 |CheckId|CA1307|

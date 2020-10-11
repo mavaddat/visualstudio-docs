@@ -1,17 +1,17 @@
 ---
-title: "IDE-Defined Commands, Menus, and Groups | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: IDE-Defined Commands, Menus, and Groups | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "commands, environment-defined"
-  - ".vsct files, environment-defined constants"
-  - "command groups, environment-defined"
+- commands, environment-defined
+- .vsct files, environment-defined constants
+- command groups, environment-defined
 ms.assetid: 86b3af13-7163-48c6-986b-7beeedbc26cc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # IDE-Defined Commands, Menus, and Groups
 Many menus, commands and command groups are already defined for use by the [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] IDE. These commands are also available for your use when you extend [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)].
@@ -42,7 +42,7 @@ Many menus, commands and command groups are already defined for use by the [!INC
 
  Gives the GUID and ID values of commands defined by the Visual Studio IDE.
 
-## See Also
+## See also
 - [Visual Studio Command Table (.Vsct) Files](../../extensibility/internals/visual-studio-command-table-dot-vsct-files.md)
 - [IDE-Defined Commands for Extending Project Systems](../../extensibility/internals/ide-defined-commands-for-extending-project-systems.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)

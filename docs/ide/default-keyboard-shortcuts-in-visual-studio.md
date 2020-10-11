@@ -3,34 +3,54 @@ title: Default keyboard shortcuts
 ms.date: 06/26/2017
 ms.topic: reference
 helpviewer_keywords:
-  - "shortcut keys [Visual Studio], keyboard binding schemes"
-  - "keyboard binding schemes [Visual Studio]"
-  - "Help [Visual Studio], shortcut keys"
-  - "keyboard shortcuts [Visual Studio], keyboard binding schemes"
-  - "keyboard shortcuts"
-author: gewarren
-ms.author: gewarren
+- shortcut keys [Visual Studio], keyboard binding schemes
+- keyboard binding schemes [Visual Studio]
+- Help [Visual Studio], shortcut keys
+- keyboard shortcuts [Visual Studio], keyboard binding schemes
+- keyboard shortcuts
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Default keyboard shortcuts in Visual Studio
 
-For more information about keyboard accessibility, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
+You can access a variety of [commands](reference/visual-studio-commands.md) and windows in Visual Studio by choosing the appropriate keyboard shortcut. This page lists the default command shortcuts for the **General** profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can [identify the shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md) for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.
 
-You can access a variety of commands and windows in Visual Studio by choosing the appropriate keyboard shortcut. This page lists the default shortcuts for the **General** profile, which you might have chosen when you installed Visual Studio. No matter which profile you chose, you can identify the shortcut for a command by opening the **Options** dialog box, expanding the **Environment** node, and then choosing **Keyboard**. You can also customize your shortcuts by assigning a different shortcut to any given command.
+For a list of common keyboard shortcuts and other productivity information, see:
 
-For a list of common keyboard shortcuts and other productivity information, see [Default keyboard shortcuts for frequently used commands in Visual Studio](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md), [Keyboard tips](../ide/tips-and-tricks-for-visual-studio.md), and [Productivity tips](../ide/productivity-tips-for-visual-studio.md).
+- [Keyboard shortcuts for frequently used commands](../ide/default-keyboard-shortcuts-for-frequently-used-commands-in-visual-studio.md)
+- [Keyboard tips](../ide/productivity-shortcuts.md)
+- [Productivity tips](../ide/productivity-features.md).
 
-|||||
-|-|-|-|-|
-|[Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze)|[Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit)|[Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project)|[Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)|
-|[Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)|[Editor context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext)|[Project and Solution context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext)|[Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)|
-|[Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build)|[File](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_file)|[Refactor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_refactor)|[Tools](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_tools)|
-|[Class View context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview)|[Help](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_help)|[Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)|[View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view)|
-|[Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug)|[Load test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_loadtest)|[Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team)|[Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window)|
-|[Debugger context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)|[Other context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)|[Team Foundation context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)|[Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)|
-|[Diagnostics hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)||||
+For more information about accessibility in Visual Studio, see [Accessibility tips and tricks](../ide/reference/accessibility-tips-and-tricks.md) and [How to: Use the keyboard exclusively](../ide/reference/how-to-use-the-keyboard-exclusively.md).
+
+- [Analyze](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_analyze)
+- [Edit](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_edit)
+- [Project](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_project)
+- [Test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_test)
+- [Architecture](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_architecture)
+- [Editor context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_editorContext)
+- [Project and Solution context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_projectContext)
+- [Test Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_testexplorerGLOBAL)
+- [Build](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_build)
+- [File](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_file)
+- [Refactor](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_refactor)
+- [Tools](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_tools)
+- [Class View context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_classview)
+- [Help](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_help)
+- [Solution Explorer](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_solutionexplorerGLOBAL)
+- [View](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_view)
+- [Debug](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debug)
+- [Load test](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_loadtest)
+- [Team](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_team)
+- [Window](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_window)
+- [Debugger context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_debugger)
+- [Other context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_otherContext)
+- [Team Foundation context menus](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_TFcontext)
+- [Azure](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_windowsazure)
+- [Diagnostics hub](../ide/default-keyboard-shortcuts-in-visual-studio.md#bkmk_diagnostics)
 
 ## Global shortcuts
 
@@ -53,6 +73,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 |Commands|Keyboard shortcuts|
 |--------------| - |
+|Build.BuildSelection|**Ctrl+B** (Visual Studio 2019)|
 |Build.BuildSolution|**Ctrl+Shift+B**|
 |Build.Cancel|**Ctrl+Break**|
 |Build.Compile|**Ctrl+F7**|
@@ -71,7 +92,6 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Debug.ApplyCodeChanges|**Alt+F10**|
 |Debug.Autos|**Ctrl+Alt+V, A**|
 |Debug.BreakAll|**Ctrl+Alt+Break**|
-|Debug.BreakatFunction|**Ctrl+B**|
 |Debug.Breakpoints|**Ctrl+Alt+B**|
 |Debug.CallStack|**Ctrl+Alt+C**|
 |Debug.DeleteAllBreakpoints|**Ctrl+Shift+F9**|
@@ -80,6 +100,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Debug.DOMExplorer|**Ctrl+Alt+V, D**|
 |Debug.EnableBreakpoint|**Ctrl+F9**|
 |Debug.Exceptions|**Ctrl+Alt+E**|
+|Debug.FunctionBreakpoint|**Ctrl+K, B** (Visual Studio 2019)<br />**Ctrl**+**B** (Visual Studio 2017)|
 |Debug.GoToPreviousCallorIntelliTraceEvent|**Ctrl+Shift+F11**|
 |Debug.Graphics.StartDiagnostics|**Alt+F5**|
 |Debug.Immediate|**Ctrl+Alt+I**|
@@ -103,7 +124,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Debug.ParallelWatch3|**Ctrl+Shift+D, 3**|
 |Debug.ParallelWatch4|**Ctrl+Shift+D, 4**|
 |Debug.Processes|**Ctrl+Alt+Z**|
-|Debug.QuickWatch|**Shift+F9**<br /><br /> or<br /><br /> **Ctrl+Alt+Q**|
+|Debug.QuickWatch|**Shift+F9** or **Ctrl+Alt+Q**|
 |Debug.RefreshWindowsapp|**Ctrl+Shift+R**|
 |Debug.Registers|**Ctrl+Alt+G**|
 |Debug.Restart|**Ctrl+Shift+F5**|
@@ -330,9 +351,13 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |--------------| - |
 |TestExplorer.DebugAllTests|**Ctrl+R, Ctrl+A**|
 |TestExplorer.DebugAllTestsInContext|**Ctrl+R, Ctrl+T**|
+|TestExplorer.DebugLastRun|**Ctrl+R, D**|
 |TestExplorer.RepeatLastRun|**Ctrl+R, L**|
 |TestExplorer.RunAllTests|**Ctrl+R, A**|
 |TestExplorer.RunAllTestsInContext|**Ctrl+R, T**|
+|TestExplorer.ShowTestExplorer|**Ctrl+E, T**|
+|LiveUnitTesting.OpenTab|**Ctrl+E, L**|
+|Test.CodeCoverageResults|**Ctrl+E, C**|
 
 ### <a name="bkmk_tools"></a> Tools
 
@@ -390,6 +415,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |View.WebBrowser|**Ctrl+Alt+R**|
 |View.ZoomIn|**Ctrl+Shift+.**|
 |View.ZoomOut|**Ctrl+Shift+,**|
+|TestExplorer.ShowTestExplorer|**Ctrl+E, T**|
 
 ### <a name="bkmk_window"></a> Window
 
@@ -778,6 +804,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 | Edit.CollapseCurrentRegion | **Ctrl+M, Ctrl+S** |
 | Edit.CollapseTag | **Ctrl+M, Ctrl+T** |
 | Edit.CollapseToDefinitions | **Ctrl+M, Ctrl+O** (letter 'O') |
+| Edit.ContractSelection | **Shift+Alt+-** |
 | Edit.CommentSelection | **Ctrl+K, Ctrl+C** |
 | Edit.CompleteWord | **Ctrl+Space**<br /><br /> or<br /><br /> **Alt+Right Arrow** |
 | Edit.CopyParameterTip | **Ctrl+Shift+Alt+C** |
@@ -790,6 +817,8 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 | Edit.DocumentStartExtend | **Ctrl+Shift+Home** |
 | Edit.ExpandAllOutlining | **Ctrl+M, Ctrl+X** |
 | Edit.ExpandCurrentRegion | **Ctrl+M, Ctrl+E** |
+| Edit.ExpandSelection | **Shift+Alt+=** |
+| Edit.ExpandSelectiontoContainingBlock | **Shift+Alt+]** |
 | Edit.FormatDocument | **Ctrl+K, Ctrl+D** |
 | Edit.FormatSelection | **Ctrl+K, Ctrl+F** |
 | Edit.GotoAll | **Ctrl+T**<br /><br /> or<br /><br /> **Ctrl+,** |
@@ -1143,5 +1172,4 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 
 ## See also
 
-- [Image Editor for icons](/cpp/windows/image-editor-for-icons)
-- [Using IntelliSense](../ide/using-intellisense.md)
+- [Visual Studio commands](reference/visual-studio-commands.md)

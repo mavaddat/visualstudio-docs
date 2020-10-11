@@ -1,7 +1,7 @@
 ---
 title: "How to: Add a Filter Descriptor to a Finder Method | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -45,7 +45,7 @@ ms.workload:
 
 9. In the list that appears for the **Type** property, choose the filtering pattern that you want.
 
-     For example, to create a filter that uses an order date to limit the number of sales orders returned in a Finder method, choose **Comparison**. A Comparison filter ensures that a finder method returns only instances that meet a specific condition. For more information about each filtering pattern, see [Types of Filters Supported by the BDC](http://go.microsoft.com/fwlink/?LinkId=169287).
+     For example, to create a filter that uses an order date to limit the number of sales orders returned in a Finder method, choose **Comparison**. A Comparison filter ensures that a finder method returns only instances that meet a specific condition. For more information about each filtering pattern, see [Types of Filters Supported by the BDC](/previous-versions/office/developer/sharepoint-2010/ee556392(v=office.14)).
 
 10. In the **Properties** window, choose the **Associated Type Descriptors** property.
 

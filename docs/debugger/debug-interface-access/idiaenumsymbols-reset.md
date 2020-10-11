@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSymbols::Reset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -25,5 +25,5 @@ HRESULT Reset ();
 ## Return Value
  Returns `S_OK`.
 
-## See Also
+## See also
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

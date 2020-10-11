@@ -1,7 +1,7 @@
 ---
 title: "IDiaInjectedSource::get_sourceCompression | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_sourceCompression ( 
 ## Remarks
  The value returned by this method is specific to the compiler used. For example, a compiler might use Run-Length Encoding or Huffman-style compression.
 
-## See Also
+## See also
 - [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)

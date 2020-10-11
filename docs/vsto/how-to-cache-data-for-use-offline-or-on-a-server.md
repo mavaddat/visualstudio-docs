@@ -1,7 +1,7 @@
 ---
 title: "How to: Cache data for use offline or on a server"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -58,4 +58,4 @@ ms.workload:
 - [How to: Programmatically cache a data source in an Office document](../vsto/how-to-programmatically-cache-a-data-source-in-an-office-document.md)
 - [How to: Cache data in a password-protected document](../vsto/how-to-cache-data-in-a-password-protected-document.md)
 - [Access data in documents on the server](../vsto/accessing-data-in-documents-on-the-server.md)
-- [Save data](../data-tools/saving-data.md)
+- [Save data](../data-tools/save-data-back-to-the-database.md)

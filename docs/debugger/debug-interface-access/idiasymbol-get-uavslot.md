@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_uavSlot | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: a70648f2-3b25-439f-8099-239ac602515a
@@ -29,5 +29,5 @@ HRESULT get_uavSlot(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

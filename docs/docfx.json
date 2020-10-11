@@ -11,8 +11,7 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
+          "**/includes/**"
         ]
       },
       {
@@ -26,7 +25,6 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml",
           "vs-2015/**"
         ]
       }
@@ -44,8 +42,7 @@
         "exclude": [
           "**/obj/**",
           "vsdocsdocs/**",
-          "**/includes/**",
-          "missingapi.yml"
+          "**/includes/**"
         ]
       },
       {
@@ -61,7 +58,6 @@
           "**/obj/**",
           "vsdocsdocs/**",
           "**/includes/**",
-          "missingapi.yml",
           "vs-2015/**"
         ]
       }
@@ -74,7 +70,6 @@
       "feedback_product_url": "https://developercommunity.visualstudio.com/",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "extendBreadcrumb": "true",
-      "ROBOTS": "INDEX,FOLLOW",
       "manager": "jillfra",
       "author": "jillre",
       "ms.author": "jillfra",
@@ -126,6 +121,7 @@
         "test/**/**.md": "vs-ide-test",
         "vsto/**/**.md": "office-development",
         "workflow-designer/**/**.md": "vs-workflow-designer",
+        "xaml-tools/**/**.md": "vs-xaml-tools",
         "xml-tools/**/**.md": "vs-xml-tools"
       },
       "titleSuffix": {
@@ -136,7 +132,8 @@
         "vs-2015/**/*.md": "/visualstudio/_breadcrumb/vs-2015/toc.json"
       },
       "feedback_system": {
-        "vs-2015/**/*": "None"
+        "vs-2015/**/*": "None",
+        "extensibility/**/*": "None"
       },
       "searchScope": {
         "extensibility/**/*.md": [
@@ -148,10 +145,7 @@
       }
     },
     "template": [],
-    "xref": [
-      "missingapi.yml",
-      "vs.140.zip"
-    ],
+    "xref": [],
     "dest": "vsdocsdocs",
     "groups": {
       "vs-2015": {

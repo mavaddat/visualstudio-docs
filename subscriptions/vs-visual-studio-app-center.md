@@ -1,12 +1,12 @@
 ---
 title: Visual Studio App Center Benefit in Visual Studio Subscriptions | Microsoft Docs
 author: evanwindom
-ms.author: jaunger
-manager: evelynp
-ms.date: 12/19/2018
-ms.topic: conceptual
+ms.author: v-evwin
+manager: lank
+ms.assetid: badd1d4a-90a6-46de-a037-945a91e6019b
+ms.date: 04/20/2020
+ms.topic: how-to
 description:  Learn about the Visual Studio App Center benefit included in Visual Studio subscriptions.
-searchscope: VS Subscription
 ---
 
 # Visual Studio App Center in Visual Studio subscriptions
@@ -38,10 +38,12 @@ Getting started with Visual Studio App Center is easy.
 | Subscription Level                                                 |     Channels                                            | Benefit                                                          | Renewable?    |
 |--------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------|---------------|
 | Visual Studio Enterprise (Standard, monthly cloud)   | VL, Azure, Retail,  NFR<sup>1</sup> | Included       |  Yes          |
+| Visual Studio Enterprise with GitHub Enterprise  | VL | Included       |  Yes          |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail                                       | Included                                                            |Yes |
+| Visual Studio Professional with GitHub Enterprise | VL                                      | Included                                                            |Yes |
 | Visual Studio Test Professional (Standard)                         | VL, Retail                                              | Included                                                            |Yes |
 | MSDN Platforms (Standard)                                          | VL, Retail                                              | Included                                                            |Yes |
-| Visual Studio Dev Essentials | NA  | Included                                                            |Yes |
+||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR), FTE, Visual Studio Industry Partner (VSIP), Imagine, Microsoft Partner Network (MPN), MCT Software & Services, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD).*
 
@@ -62,7 +64,19 @@ You should now be able to access the App Center portal and create your account.
 
 ## Support Resources
 - Need help with App Center?
-    - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
-    - Check out complete [App Center documentation](/appcenter/)
+  - Get advice and answers from the App Center Team in the [App Center Help Center](https://intercom.help/appcenter/).
+  - Check out complete [App Center documentation](/appcenter/)
 - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://visualstudio.microsoft.com/subscriptions/support/).
 - Have a question about Visual Studio IDE, Azure DevOps Services or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
+
+## See also
+- [Visual Studio documentation](/visualstudio/)
+- [Azure DevOps documentation](/azure/devops/)
+- [Azure documentation](/azure/)
+- [Microsoft 365 documentation](/microsoft-365/)
+
+## Next steps
+Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+- [Visual Studio](vs-ide-benefit.md)
+- [Azure DevOps](vs-azure-devops.md)
+- [Azure DevTest individual credit](vs-azure.md)

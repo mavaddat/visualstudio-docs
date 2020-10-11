@@ -49,30 +49,30 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  Sets the interaction mode to pinch and zoom gestures of two fingers.  
   
 - ![Simulator two finger target](../debugger/media/simulator-twofinger.png "SIMULATOR_TwoFinger")  
-  
-    - The double target icon indicates the location of two fingers on the device screen.  
-  
-    - Move the mouse to position the icons over the object on the device screen.  
-  
-    - Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.  
-  
+
+  - The double target icon indicates the location of two fingers on the device screen.  
+
+  - Move the mouse to position the icons over the object on the device screen.  
+
+  - Rotate the mouse wheel backward or forward to change the simulated distance of the two fingers before you pinch or zoom.  
+
 - ![Pinch, zoom, and rotate targets](../debugger/media/simulator-twofingerengaged.png "SIMULATOR_TwoFingerEngaged")  
-  
-    - Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).  
-  
-    - Press the left button and rotate the mouse wheel forward (away from you) to zoom out (zoom).  
+
+  - Press the left button and rotate the wheel backward (towards you) to zoom in (pinch).  
+
+  - Press the left button and rotate the mouse wheel forward (away from you) to zoom out (zoom).  
   
 ## Object rotation  
  The **Touch emulation rotate** button sets the interaction mode to rotation gestures using two fingers.  
   
 - Move the mouse to position the icons over the object on the device screen.  
   
-    - Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.  
-  
+  - Rotate the mouse wheel backward or forward to change the simulated orientation of the two fingers before you rotate the object.  
+
 - Press the left button and rotate the wheel backward (towards you) to rotate the object counter-clockwise. As you rotate the mouse wheel, one of the two target icons rotates around the other to indicate the relative size of the rotation.  
-  
-    - Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
-  
+
+  - Press the left button and rotate the mouse wheel forward (away from you) to rotate the object clockwise.  
+
 ## <a name="BKMK_Enable_or_disable_Always_on_top_mode"></a> Enable or disable Always on top mode  
  You can set the simulator window to always be on top of other windows. The **Toggle Topmost Window** button enables or disables the **Always on top** mode of the simulator window.  
   
@@ -80,7 +80,7 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
  You can switch the device orientation between portrait and landscape by rotating the simulator 90 degrees in any direction.  
   
 > [!NOTE]
-> The simulator does not respect [DisplayProperties.AutoRotationPreferences](http://go.microsoft.com/fwlink/?LinkId=249460) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
+> The simulator does not respect [DisplayProperties.AutoRotationPreferences](https://msdn.microsoft.com/library/windows/apps/windows.graphics.display.displayproperties.autorotationpreferences.aspx) property of a project. For example, if your project sets the orientation to `Landscape`, and you then rotate the simulator to a portrait orientation, the simulator display image will also be rotated and resized. Test these settings on an actual device.  
   
 > [!NOTE]
 > If you rotate the simulator so that one edge of the simulator is larger than the screen it is displayed on, the simulator is automatically resized to fit within the screen. The simulator is not resized to its original size if you rotate it again.  
@@ -132,10 +132,10 @@ The Visual Studio simulator for Windows Store apps is a desktop application that
   
    [Quickstart: Managing metered network cost constraints](https://msdn.microsoft.com/library/windows/apps/Hh750310.aspx)  
   
-   [Network information sample](http://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
+   [Network information sample](https://code.msdn.microsoft.com/windowsapps/Network-Information-Sample-63aaa201)  
   
    [Analyze energy use](../profiling/analyze-energy-use-in-store-apps.md)  
-  
+    
    [Windows.Networking.Connectivity](https://msdn.microsoft.com/library/windows/apps/windows.networking.connectivity.aspx)  
   
    [How to respond to system events with background tasks](https://msdn.microsoft.com/f7c86e86-a7ae-4abb-a923-76b03337a80a)  

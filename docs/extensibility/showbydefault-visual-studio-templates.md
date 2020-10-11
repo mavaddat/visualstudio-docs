@@ -1,19 +1,19 @@
 ---
 title: ShowByDefault element (Visual Studio Templates)
-ms.date: "11/04/2016"
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#ShowByDefault"
+- http://schemas.microsoft.com/developer/vstemplate/2005#ShowByDefault
 helpviewer_keywords:
-  - "<ShowByDefault> element [Visual Studio Templates]"
-  - "ShowByDefault element [Visual Studio Templates]"
+- <ShowByDefault> element [Visual Studio Templates]
+- ShowByDefault element [Visual Studio Templates]
 ms.assetid: 7be783f6-0ef6-42bc-924a-df9a2eba7781
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # ShowByDefault element (Visual Studio Templates)
 If `false`, specifies that the template will only be displayed under the specified [TemplateGroupID](../extensibility/templategroupid-element-visual-studio-templates.md).
@@ -79,7 +79,7 @@ If `false`, specifies that the template will only be displayed under the specifi
 </VSTemplate>
 ```
 
-## See Also
+## See also
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)
 - [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [TemplateGroupID Element (Visual Studio Templates)](../extensibility/templategroupid-element-visual-studio-templates.md)

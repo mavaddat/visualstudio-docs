@@ -1,17 +1,18 @@
 ---
-title: "How to: Configure projects to target multiple platforms"
+title: Configure projects to target multiple platforms
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
 ms.technology: vs-ide-compile
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "projects [Visual Studio], targeting platforms"
-  - "platforms, changing target platforms"
+- projects [Visual Studio], targeting platforms
+- platforms, changing target platforms
 ms.assetid: affa2392-7aed-45ac-9ffa-1d8e0496d590
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # How to: Configure projects to target multiple platforms
 

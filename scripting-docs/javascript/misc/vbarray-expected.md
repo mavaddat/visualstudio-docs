@@ -3,7 +3,7 @@ title: "VBArray expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5013"
 dev_langs: 
@@ -28,6 +28,6 @@ new VBArray(safeArray);
   
 - Ensure you pass only **VBArray** objects to the **VBArray** constructor.  
   
-## See Also  
- [VBArray Object](../../javascript/reference/vbarray-object-javascript.md)   
- [Using Arrays](../../javascript/advanced/using-arrays-javascript.md)
+## See also  
+ [VBArray Object](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/VBArray)   
+ [Using Arrays](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Arrays)

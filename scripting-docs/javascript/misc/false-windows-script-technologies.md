@@ -3,7 +3,7 @@ title: "False (Windows Script Technologies) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "false_JavaScriptKeyword"
 dev_langs: 
@@ -21,5 +21,5 @@ manager: "ghogen"
 # False (Windows Script Technologies)
 The **False** keyword has a value equal to 0.  
   
-## See Also  
+## See also  
  [True Keyword](../../javascript/misc/true-keyword.md)

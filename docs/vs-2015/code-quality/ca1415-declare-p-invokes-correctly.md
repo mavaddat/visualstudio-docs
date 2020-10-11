@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "DeclarePInvokesCorrectly"
 ms.assetid: 42a90796-0264-4460-bf97-2fb4a093dfdc
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1415: Declare P/Invokes correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DeclarePInvokesCorrectly|
 |CheckId|CA1415|

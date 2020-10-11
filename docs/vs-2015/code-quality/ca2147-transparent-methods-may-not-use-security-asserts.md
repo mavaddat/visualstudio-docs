@@ -13,14 +13,14 @@ helpviewer_keywords:
   - "SecurityTransparentCodeShouldNotAssert"
 ms.assetid: 5d31e940-e599-4b23-9b28-1c336f8d910e
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2147: Transparent methods may not use security asserts
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|SecurityTransparentCodeShouldNotAssert|
 |CheckId|CA2147|

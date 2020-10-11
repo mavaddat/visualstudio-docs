@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalkHelper | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -52,7 +52,7 @@ IDiaStackWalkHelper: IUnknown
 
  DLL: msdia80.dll
 
-## See Also
+## See also
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

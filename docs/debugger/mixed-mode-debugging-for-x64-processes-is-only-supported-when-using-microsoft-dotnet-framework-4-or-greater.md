@@ -1,5 +1,5 @@
 ---
-title: "Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater | Microsoft Docs"
+title: "Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -51,5 +51,5 @@ ms.workload:
 
 - See [Setting Up SQL Debugging](/previous-versions/visualstudio/visual-studio-2010/s4sszxst(v=vs.100)).
 
-## See Also
+## See also
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

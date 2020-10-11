@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findSymbolByVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -49,7 +49,7 @@ IDiaSymbol* pFunc;
 pSession->findSymbolByVA( va, SymTagFunction, &pFunc );
 ```
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

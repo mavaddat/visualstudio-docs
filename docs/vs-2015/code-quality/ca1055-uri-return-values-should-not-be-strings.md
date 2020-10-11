@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1055"
 ms.assetid: 40e39873-7872-4988-8195-9eb0ade9ece0
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1055: URI return values should not be strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UriReturnValuesShouldNotBeStrings|
 |CheckId|CA1055|

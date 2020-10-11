@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "TypeLinkDemandsRequireInheritanceDemands"
 ms.assetid: 07b604e5-5579-4df9-a578-dadd0d8370a7
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2126: Type link demands require inheritance demands
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TypeLinkDemandsRequireInheritanceDemands|
 |CheckId|CA2126|

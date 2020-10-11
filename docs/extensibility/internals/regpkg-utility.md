@@ -1,16 +1,16 @@
 ---
-title: "RegPkg Utility | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: RegPkg Utility | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "regpkg, registration utility"
-  - "registration, regpkg utility"
+- regpkg, registration utility
+- registration, regpkg utility
 ms.assetid: 1683ee18-59d1-4bab-a674-dd00dd960de3
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # RegPkg Utility
 > [!NOTE]
@@ -57,6 +57,6 @@ RegPkg [/root:<root>] [/regfile:<regfile>] [/rgsfile:<rgsfile> [/rgm]] [/vrgfile
 
  with /regfile or /vrgfile or /rgsfile or /wixfile.
 
-## See Also
+## See also
 - [VSPackages](../../extensibility/internals/vspackages.md)
 - [Troubleshooting RegPkg Package Registration](../../extensibility/internals/troubleshooting-regpkg-package-registration.md)

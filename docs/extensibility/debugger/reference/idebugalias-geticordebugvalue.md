@@ -1,20 +1,20 @@
 ---
-title: "IDebugAlias::GetICorDebugValue | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IDebugAlias::GetICorDebugValue | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IDebugAlias::GetICorDebugValue"
+- IDebugAlias::GetICorDebugValue
 helpviewer_keywords:
-  - "IDebugAlias::GetICorDebugValue method"
+- IDebugAlias::GetICorDebugValue method
 ms.assetid: b9eb39ee-84af-4ace-9cfe-236b3d48aff5
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IDebugAlias::GetICorDebugValue
 Retrieves a managed code interface that represents the value associated with this alias.
@@ -41,7 +41,7 @@ int GetICorDebugValue(
  If successful, returns S_OK; otherwise, returns an error code.
 
 ## Remarks
- This method applies only to managed values (the `ICorDebugValue` is an interface available in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] and is defined in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK in the cordebug.idl file).
+ This method applies only to managed values (the `ICorDebugValue` is an interface available in the .NET Framework and is defined in the .NET Framework SDK in the cordebug.idl file).
 
 ## See also
 - [IDebugAlias](../../../extensibility/debugger/reference/idebugalias.md)

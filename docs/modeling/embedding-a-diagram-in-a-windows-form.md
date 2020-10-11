@@ -1,12 +1,12 @@
 ---
 title: Embedding a Diagram in a Windows Form
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: gewarren
-ms.author: gewarren
+ms.topic: how-to
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Embed a Diagram in a Windows Form
 

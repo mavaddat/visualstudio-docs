@@ -1,7 +1,7 @@
 ---
 title: "How to: Map ListObject columns to data"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -18,8 +18,6 @@ ms.workload:
   When you bind a <xref:Microsoft.Office.Tools.Excel.ListObject> control to a <xref:System.Data.DataTable>, you might not want to display all the columns in a list, or you might have certain columns that are not bound to data. You can map which columns you want to appear in the <xref:Microsoft.Office.Tools.Excel.ListObject> when you call the <xref:Microsoft.Office.Tools.Excel.ListObject.SetDataBinding%2A> method.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create a list in Excel that is connected to a SharePoint list?](http://go.microsoft.com/fwlink/?LinkID=130263).
 
 ## Map columns
 
@@ -54,9 +52,9 @@ ms.workload:
  This code example assumes you have an existing <xref:Microsoft.Office.Tools.Excel.ListObject> named `list1` on the worksheet in which this code appears.
 
 ## See also
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [How to: Fill ListObject controls with data](../vsto/how-to-fill-listobject-controls-with-data.md)
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [ListObject control](../vsto/listobject-control.md)

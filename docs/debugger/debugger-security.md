@@ -44,14 +44,14 @@ The ability to debug another process gives you extremely broad powers that you w
 
  ![Error dialog](../debugger/media/dbg_err_remotepermissionschanged.png "DBG_ERR_RemotePermissionsChanged")
 
- When using Windows Authentication mode, be aware that granting an untrusted user permission to connect to msvsmon is dangerous, because the user is granted all your permissions on the computer..
+ When using Windows Authentication mode, be aware that granting an untrusted user permission to connect to msvsmon is dangerous, because the user is granted all your permissions on the computer hosting msvsmon.
 
- Do not debug an unknown process on a remote machine: there are potential exploits that might affect the machine running the debugger, or that might compromise msvsmon.exe, the Visual Studio Remote Debugging Monitor. If you absolutely must debug an unknown process, try debugging locally, and use a firewall to keep any potential threats localized.
+ Do not debug an unknown process on a remote machine: there are potential exploits that might affect the machine running the debugger, or that might compromise msvsmon. If you absolutely must debug an unknown process, try debugging locally, and use a firewall to keep any potential threats localized.
 
- For more information, see [Remote Debugging](../debugger/remote-debugging.md).
+ For information on configuring msvsmon, see [Set up the remote debugger](../debugger/remote-debugging.md#bkmk_setup).
 
 ### Web Services Debugging Security
- It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](https://msdn.microsoft.com/library/c900b137-9fbd-4f59-91b5-9c2c6ce06f00).
+ It is safer to debug locally, but since you probably do not have [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] installed on the web server, local debugging might not be practical. Generally, debugging Web services is done remotely, except during development, so the recommendations for remote debugging security also apply to Web services debugging. Here are some additional best practices. For more information, see [Debugging XML Web Services](/previous-versions/ms241873(v=vs.100)).
 
 - Do not enable debugging on a Web server that has been compromised.
 
@@ -71,7 +71,7 @@ The ability to debug another process gives you extremely broad powers that you w
 
   See [Specify Symbol (.pdb) and Source Files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 
-## See Also
+## See also
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)

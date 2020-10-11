@@ -32,7 +32,7 @@ ms.workload:
 # C/C++ Assertions
 An assertion statement specifies a condition that you expect to be true at a point in your program. If that condition is not true, the assertion fails, execution of your program is interrupted, and the [Assertion Failed dialog box](../debugger/assertion-failed-dialog-box.md) appears.
 
-Visual C++ supports assertion statements that are based on the following constructs:
+Visual Studio supports C++ assertion statements that are based on the following constructs:
 
 - MFC assertions for MFC programs.
 
@@ -150,7 +150,7 @@ _ASSERTE(_CrtIsMemoryBlock (myData, size, &requestNumber, &filename, &linenumber
 [In this topic](#BKMK_In_this_topic)
 
 ## <a name="BKMK_MFC_assertions"></a> MFC assertions
-MFC defines the [ASSERT](https://msdn.microsoft.com/Library/1e70902d-d58c-4e7b-9f69-2aeb6cbe476c) macro for assertion checking. It also defines the `MFC ASSERT_VALID` and `CObject::AssertValid` methods for checking the internal state of a `CObject`-derived object.
+MFC defines the [ASSERT](/previous-versions/ew16s3zc(v=vs.140)) macro for assertion checking. It also defines the `MFC ASSERT_VALID` and `CObject::AssertValid` methods for checking the internal state of a `CObject`-derived object.
 
 If the argument of the MFC `ASSERT` macro evaluates to zero or false, the macro halts program execution and alerts the user; otherwise, execution continues.
 
@@ -163,16 +163,16 @@ int x = SomeFunc(y);
 ASSERT(x >= 0);   //  Assertion fails if x is negative
 ```
 
-You can use ASSERT with the [IsKindOf](https://docs.microsoft.com/cpp/mfc/reference/cobject-class#iskindof) function to provide type checking of function arguments:
+You can use ASSERT with the [IsKindOf](/cpp/mfc/reference/cobject-class#iskindof) function to provide type checking of function arguments:
 
 ```cpp
 ASSERT( pObject1->IsKindOf( RUNTIME_CLASS( CPerson ) ) );
 ```
 
-The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](https://msdn.microsoft.com/library/s8c29sw2.aspx#verify) macro instead of ASSERT.
+The `ASSERT` macro produces no code in the Release version. If you need to evaluate the expression in the Release version, use the [VERIFY](/cpp/mfc/reference/diagnostic-services#verify) macro instead of ASSERT.
 
 ### <a name="BKMK_MFC_ASSERT_VALID_and_CObject__AssertValid"></a> MFC ASSERT_VALID and CObject::AssertValid
-The [CObject::AssertValid](https://docs.microsoft.com/cpp/mfc/reference/cobject-class#assertvalid) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.
+The [CObject::AssertValid](/cpp/mfc/reference/cobject-class#assertvalid) method provides run-time checks of the internal state of an object. Although you are not required to override `AssertValid` when you derive your class from `CObject`, you can make your class more reliable by doing this. `AssertValid` should perform assertions on all of the object's member variables to verify that they contain valid values. For example, it should check that pointer member variables are not NULL.
 
 The following example shows how to declare an `AssertValid` function:
 
@@ -331,7 +331,7 @@ This code relies on the assertion statement to handle the error condition. As a 
 
 [In this topic](#BKMK_In_this_topic)
 
-## See Also
+## See also
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Debugging Native Code](../debugger/debugging-native-code.md)

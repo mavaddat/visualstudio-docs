@@ -1,7 +1,7 @@
 ---
 title: "Constants (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -49,7 +49,7 @@ HRESULT GetSymbolTable(IDiaEnumTables *pEnumTables, IDiaTable **pTable)
 ## Requirements
 Header: dia2.h
 
-## See Also
+## See also
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)
 - [Enumerations and Structures](../../debugger/debug-interface-access/enumerations-and-structures.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)

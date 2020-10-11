@@ -1,27 +1,27 @@
 ---
-title: "Use ClickOnce to deploy multitarget apps"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "VB"
-  - "CSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ClickOnce applications, multiple .NET Framework versions"
-  - "ClickOnce deployment, multiple .NET Framework versions"
-  - "deploying applications [ClickOnce], multiple .NET Framework versions"
+title: Use ClickOnce to deploy multitarget apps
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - VB
+  - CSharp
+  - C++
+helpviewer_keywords: 
+  - ClickOnce applications, multiple .NET Framework versions
+  - ClickOnce deployment, multiple .NET Framework versions
+  - deploying applications [ClickOnce], multiple .NET Framework versions
 ms.assetid: e0a8c330-21bc-4eb2-b936-fd0f3c3221f1
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "dotnet"
+ms.workload: 
+  - dotnet
 ---
 # How to: Use ClickOnce to deploy applications that can run on multiple versions of the .NET framework
 You can deploy an application that targets multiple versions of the .NET Framework by using the ClickOnce deployment technology. This requires that you generate and update the application and deployment manifests.
 
 > [!NOTE]
-> Before you change the application to target multiple versions of the .NET Framework, you should ensure that your application runs with multiple versions of the .NET Framework. The version common language runtime is different between [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)] versus .NET Framework 2.0, .NET Framework 3.0, and .NET Framework 3.5.
+> Before you change the application to target multiple versions of the .NET Framework, you should ensure that your application runs with multiple versions of the .NET Framework. The version common language runtime is different between .NET Framework 4 versus .NET Framework 2.0, .NET Framework 3.0, and .NET Framework 3.5.
 
  This process requires the following steps:
 
@@ -82,7 +82,7 @@ You can deploy an application that targets multiple versions of the .NET Framewo
    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true" group="framework">
    ```
 
-3. Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and [!INCLUDE[net_v40_short](../code-quality/includes/net_v40_short_md.md)], use the 2.0.50727.0 version number and the XML should look like the following:
+3. Update the version number of the `<assemblyIdentity>` element for Microsoft.Windows.CommonLanguageRuntime to the version number for the .NET Framework that is the lowest common denominator. For example, if the application targets .NET Framework 3.5 and .NET Framework 4, use the 2.0.50727.0 version number and the XML should look like the following:
 
    ```xml
    <dependency>

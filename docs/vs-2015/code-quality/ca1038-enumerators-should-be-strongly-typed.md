@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1038"
 ms.assetid: 8919f526-d487-42a4-87dc-2b2ee25260c4
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1038: Enumerators should be strongly typed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|EnumeratorsShouldBeStronglyTyped|
 |CheckId|CA1038|

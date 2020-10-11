@@ -1,7 +1,7 @@
 ---
-title: "Error: Remote computer could not initiate DCOM communications | Microsoft Docs"
+title: "Remote computer could not initiate DCOM communications | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.unmarshal_callback_failed"
 dev_langs:
@@ -32,5 +32,5 @@ A DCOM error occurred when the remote machine tried to communicate with the loca
 
 3. To restore Windows authentication, try rebooting both machines. Examine event logs on local and remote machines for Kerberos errors and contact domain administrators for known problems.
 
-## See Also
+## See also
  [Remote Debugging](../debugger/remote-debugging.md)

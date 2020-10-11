@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "ImplementSerializationConstructors"
 ms.assetid: 8e04d5fe-dfad-445a-972e-0648324fac45
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2229: Implement serialization constructors
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ImplementSerializationConstructors|
 |CheckId|CA2229|

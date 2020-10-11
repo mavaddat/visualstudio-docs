@@ -1,7 +1,7 @@
 ---
-title: "Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
+title: "Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network. | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.remote.dcom_disabled"
 dev_langs:
@@ -38,6 +38,6 @@ This behavior occurs if one of the following conditions is true:
 
 - Make sure that the password that you are using to connect to the remote computer is valid and has not expired.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)

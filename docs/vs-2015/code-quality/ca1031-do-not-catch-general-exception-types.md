@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "DoNotCatchGeneralExceptionTypes"
 ms.assetid: cbc283ae-2a46-4ec0-940e-85aa189b118f
 caps.latest.revision: 22
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1031: Do not catch general exception types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotCatchGeneralExceptionTypes|
 |CheckId|CA1031|

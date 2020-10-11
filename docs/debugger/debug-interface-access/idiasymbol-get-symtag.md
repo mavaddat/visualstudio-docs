@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_symTag | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -43,6 +43,6 @@ DWORD       tag = 0;
 pType->get_symTag( &tag );
 ```
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

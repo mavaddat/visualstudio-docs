@@ -1,5 +1,6 @@
 ---
-title: "A DCOM error occurred trying to contact the remote computer. Access is denied. | Microsoft Docs"
+title: "A DCOM error occurred trying to contact the remote computer. Access is denied."
+titleSuffix: ""
 ms.date: "11/04/2016"
 ms.topic: "reference"
 f1_keywords:
@@ -42,7 +43,7 @@ Remote debugging uses DCOM to communicate between the local and remote computers
 
 - If remote debugging requires entering credentials, check the option to save the credentials.
 
-## See Also
+## See also
 
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

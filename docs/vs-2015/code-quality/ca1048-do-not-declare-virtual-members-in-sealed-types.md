@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1048"
 ms.assetid: 5dcf4a30-6f98-48a8-b8cc-7b89ea757262
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1048: Do not declare virtual members in sealed types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotDeclareVirtualMembersInSealedTypes|
 |CheckId|CA1048|

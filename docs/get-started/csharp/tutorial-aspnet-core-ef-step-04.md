@@ -2,14 +2,14 @@
 title: "Step 4: Exposing a web API From Your ASP.NET Core App"
 description: "Add a web API to your ASP.NET Core Web App with this video tutorial and step-by-step instructions."
 ms.custom: "get-started"
-ms.date: 03/31/2019
+ms.date: 02/13/2020
 ms.technology: vs-ide-general
 ms.prod: visual-studio-windows
 monikerRange: vs-2019
 ms.topic: tutorial
 ms.devlang: CSharp
 author: ardalis
-ms.author: tglee
+ms.author: ornella
 manager: jillfra
 dev_langs:
   - CSharp
@@ -181,7 +181,7 @@ Finally, an `[HttpDelete]` route is used with an ID to delete a record. If the r
 
 ## Adding Swagger
 
-Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Click on **Browse** and search for `Swashbuckle.AspNetCore` and install the corresponding package.
+Swagger is an API documentation and testing tool that can be added as a set of services and middleware to an ASP.NET Core app. To do so, right-click on the project and choose **Manage NuGet Packages**. Then, click **Browse**, search for `Swashbuckle.AspNetCore`, and install the 4.0.1 version.
 
 ![Visual Studio 2019 Add Swashbuckle From Nuget](media/vs-2019/vs2019-nuget-swashbuckle.png)
 
@@ -202,7 +202,7 @@ Next, add the following to the `Configure` method, just before `UseMvc`:
 // Enable middleware to serve generated Swagger as a JSON endpoint.
 app.UseSwagger();
 
-// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
+// Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
 // specifying the Swagger JSON endpoint.
 app.UseSwaggerUI(c =>
 {
@@ -210,7 +210,7 @@ app.UseSwaggerUI(c =>
 });
 ```
 
-Now you should be able to build and run your app. In the browser, navigate to `/swagger` in the address bar. You should see a list of your app's API endpoints and models. 
+Now you should be able to build and run your app. In the browser, navigate to `/swagger` in the address bar. You should see a list of your app's API endpoints and models.
 
 ![Visual Studio 2019 Swagger Page in Browser](media/vs-2019/vs2019-swagger-browser.png)
 
@@ -224,5 +224,5 @@ In the next video, you'll learn how to deploy your app to Azure.
 
 ## See also
 
-- [Getting Started with Swashbuckle and ASP.NET Core](/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.2&tabs=visual-studio)
-- [ASP.NET Core web API help pages with Swagger / OpenAPI](/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2)
+- [Getting Started with Swashbuckle and ASP.NET Core](/aspnet/core/tutorials/getting-started-with-swashbuckle?view=aspnetcore-2.2&tabs=visual-studio&preserve-view=true)
+- [ASP.NET Core web API help pages with Swagger / OpenAPI](/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-2.2&preserve-view=true)

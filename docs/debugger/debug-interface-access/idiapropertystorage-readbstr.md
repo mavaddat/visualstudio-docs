@@ -1,7 +1,7 @@
 ---
 title: "IDiaPropertyStorage::ReadBSTR | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -40,5 +40,5 @@ HRESULT ReadBSTR ( 
 ## Remarks
  A `BSTR` is defined by Windows as a zero-terminated wide character string.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

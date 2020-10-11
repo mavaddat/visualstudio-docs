@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "ListsAreStronglyTyped"
 ms.assetid: 5ac366c4-fd87-4d5c-95d5-f755510c8e5c
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1039: Lists are strongly typed
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ListsAreStronglyTyped|
 |CheckId|CA1039|

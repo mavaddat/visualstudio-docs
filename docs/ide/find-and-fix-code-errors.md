@@ -4,11 +4,11 @@ description: This article describes some basic ways Visual Studio can help you f
 ms.date: 05/02/2018
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Make code work in Visual Studio
 
@@ -68,11 +68,11 @@ Code analyzers look for common code problems that can lead to run-time errors or
 
 ### C# and Visual Basic code analysis
 
-Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the code editor as a squiggly under the offending code, and in the **Error List**.
+Visual Studio includes a built-in set of [.NET Compiler Platform analyzers](../code-quality/roslyn-analyzers-overview.md) that examine C# and Visual Basic code as you type. You can install additional analyzers as a Visual Studio extension, or as a NuGet package. If rule violations are found, they are reported both in the Error List and in the code editor as a squiggle under the offending code.
 
 ### C++ code analysis
 
-To analyze C++ code, run [static code analysis](../code-quality/quick-start-code-analysis-for-c-cpp.md). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
+To analyze C++ code, run [static code analysis](/cpp/code-quality/quick-start-code-analysis-for-c-cpp). Get in the habit of running it once you've cleaned up the obvious errors that prevent a successful build, and take some time to address the warnings it may produce. You'll save yourself some headaches down the road, and you may learn a few code style techniques.
 
 Press **Alt**+**F11** (or select **Analyze** > **Run Code Analysis on Solution** from the top menu) to start static code analysis.
 
@@ -114,7 +114,7 @@ Now that you've successfully built your code and performed a little clean up, ru
 
 Stop your app by pressing **Shift**+**F5** or by clicking the **Stop** button. Or, you can just close the app's main window (or command-line dialog).
 
-If your code ran perfectly and exactly as expected, congratulations! However, if it hung, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
+If your code ran perfectly and exactly as expected, congratulations! However, if it stops responding, or crashed, or gave you some strange results, you'll need to find the source of those problems and fix the bugs.
 
 ### Set simple breakpoints
 
@@ -126,7 +126,7 @@ Set a breakpoint by clicking in the far margin of the line where you want the br
 
 Common uses for breakpoints include:
 
-- To narrow down the source of a crash or hang, scatter breakpoints throughout and around the code of the method call you think is causing the failure. As you run code in the debugger, remove and then reset the breakpoints closer together until you find the offending line of code. See the next section to learn how to run code in the debugger.
+- To narrow down the source of a crash or unresponsive program, scatter breakpoints throughout and around the code of the method call you think is causing the failure. As you run code in the debugger, remove and then reset the breakpoints closer together until you find the offending line of code. See the next section to learn how to run code in the debugger.
 
 - When you introduce new code, set a breakpoint at the beginning of it, and run the code to make sure it is behaving as expected.
 
@@ -163,5 +163,5 @@ To learn more about unit tests in Visual Studio and how they can help you create
 ## See also
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Learn more about using the debugger](../debugger/index.md)
+- [Learn more about using the debugger](../debugger/index.yml)
 - [Generate and fix code](../ide/code-generation-in-visual-studio.md)

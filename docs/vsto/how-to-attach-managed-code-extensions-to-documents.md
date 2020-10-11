@@ -1,7 +1,7 @@
 ---
 title: "How to: Attach managed code extensions to documents"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -23,8 +23,6 @@ ms.workload:
 
 > [!NOTE]
 > The customization will fail to load if the code expects controls that the specified document does not have.
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Attach or detach a VSTO assembly from a Word document?](http://go.microsoft.com/fwlink/?LinkId=136782).
 
 ### To attach managed code extensions to a document
 

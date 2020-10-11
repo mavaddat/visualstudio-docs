@@ -1,7 +1,7 @@
 ---
 title: "Walkthrough: Extending a SharePoint Project Item Type | Microsoft Docs"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -22,9 +22,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that performs two main tasks:
 
-    - It generates an external list that displays the data in a BDC model. The extension uses the object model for the SharePoint project system to generate an *Elements.xml* file that defines the list. It also adds the file to the project so that it is deployed together with the BDC model.
+  - It generates an external list that displays the data in a BDC model. The extension uses the object model for the SharePoint project system to generate an *Elements.xml* file that defines the list. It also adds the file to the project so that it is deployed together with the BDC model.
 
-    - It adds a shortcut menu item to the **Business Data Connectivity Model** project items in **Solution Explorer**. Developers can click this menu item to generate an external list for the BDC model.
+  - It adds a shortcut menu item to the **Business Data Connectivity Model** project items in **Solution Explorer**. Developers can click this menu item to generate an external list for the BDC model.
 
 - Building a Visual Studio Extension (VSIX) package to deploy the extension assembly.
 
@@ -39,9 +39,9 @@ ms.workload:
 
   Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- The BDC service in [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)]. For more information, see [BDC Architecture](http://go.microsoft.com/fwlink/?LinkId=177798).
+- The BDC service in [!INCLUDE[moss_14_long](../sharepoint/includes/moss-14-long-md.md)]. For more information, see [BDC Architecture](/previous-versions/office/developer/sharepoint-2010/ee558876(v=office.14)).
 
-- The XML schema for BDC models. For more information, see [BDC Model Infrastructure](http://go.microsoft.com/fwlink/?LinkId=177799).
+- The XML schema for BDC models. For more information, see [BDC Model Infrastructure](/previous-versions/office/developer/sharepoint-2010/ee556378(v=office.14)).
 
 ## Create the projects
  To complete this walkthrough, you need to create two projects:
@@ -155,7 +155,7 @@ ms.workload:
 
 1. In **Solution Explorer**, open the shortcut menu for the source.extension.vsixmanifest file in the GenerateExternalDataLists project, and then choose **Open**.
 
-     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file is required by all VSIX packages. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file is required by all VSIX packages. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **External Data List Generator**.
 

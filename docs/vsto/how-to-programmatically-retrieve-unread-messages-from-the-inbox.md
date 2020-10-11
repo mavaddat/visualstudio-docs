@@ -1,7 +1,7 @@
 ---
-title: "How to: Programmatically retrieve unread messages from the Inbox"
+title: "Get unread messages from the Inbox programmatically"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

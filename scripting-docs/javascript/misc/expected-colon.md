@@ -3,7 +3,7 @@ title: "Expected ':' | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1003"
 dev_langs: 
@@ -22,6 +22,6 @@ You attempted to create an expression using the ternary conditional operator, bu
   
 - Insert a colon between the second and third operands.  
   
-## See Also  
- [Conditional (Ternary) Operator (?:)](../../javascript/reference/conditional-ternary-operator-decrement-javascript.md)   
- [Operators](../../javascript/operators-javascript.md)
+## See also  
+ [Conditional (Ternary) Operator (?:)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)   
+ [Operators](https://developer.mozilla.org/docs/Learn/Getting_started_with_the_web/JavaScript_basics)

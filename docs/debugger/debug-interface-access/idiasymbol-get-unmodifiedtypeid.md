@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_unmodifiedTypeId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 4f7fc73c-f524-4d7a-b378-a9ab99a96104
@@ -29,5 +29,5 @@ HRESULT get_unmodifiedTypeId(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

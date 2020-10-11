@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_symIndexId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -38,5 +38,5 @@ HRESULT get_symIndexId ( 
 ## Remarks
  The identifier is a unique value created by the DIA SDK to mark all symbols as unique.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaImageData::get_imageBase | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_imageBase ( 
 ## Remarks
  Due to image base conflicts, an image may be rebased automatically to an unused memory location when it is loaded. This method returns the base hint (suggested memory location) that was stored in the module at compile time.
 
-## See Also
+## See also
 - [IDiaImageData](../../debugger/debug-interface-access/idiaimagedata.md)

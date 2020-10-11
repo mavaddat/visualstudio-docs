@@ -1,7 +1,7 @@
 ---
 title: "IDiaSectionContrib::get_comdat | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_comdat ( 
 ## Remarks
  A COMDAT record is a Common Object File Format (COFF) record that makes packaged functions visible to the linker.
 
-## See Also
+## See also
 - [IDiaSectionContrib](../../debugger/debug-interface-access/idiasectioncontrib.md)

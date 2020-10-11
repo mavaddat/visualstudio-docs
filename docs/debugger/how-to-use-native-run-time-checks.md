@@ -1,45 +1,45 @@
 ---
-title: "How to: Use Native Run-Time Checks | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-f1_keywords:
-  - "c.runtime.errorchecks"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-  - "JScript"
-helpviewer_keywords:
-  - "/RTC compiler option [C++], /O compiler option"
-  - "run-time checks, native"
-  - "stack, pointer corruption"
-  - "stack pointers, corruption"
-  - "/O compiler option, /RTC option"
-  - "run-time errors, error checks"
-  - "O compiler option, /RTC option"
-  - "debugger, runtime errors"
-  - "variables [debugger], loss of data"
-  - "runtime_checks pragma"
-  - "variables [debugger], catching dependencies on uninitialized local variables"
-  - "run-time errors, debugging"
-  - "debugger, native run-time checks"
-  - "optimized build option"
-  - "RTC compiler option, /O compiler option"
-  - "native run-time checks"
-  - "run-time checks"
-  - "debugging arrays"
-  - "stack pointers"
-  - "arrays [Visual Studio], debugging"
+title: Use Native Run-Time Checks | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - c.runtime.errorchecks
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+  - JScript
+helpviewer_keywords: 
+  - /RTC compiler option [C++], /O compiler option
+  - run-time checks, native
+  - stack, pointer corruption
+  - stack pointers, corruption
+  - /O compiler option, /RTC option
+  - run-time errors, error checks
+  - O compiler option, /RTC option
+  - debugger, runtime errors
+  - variables [debugger], loss of data
+  - runtime_checks pragma
+  - variables [debugger], catching dependencies on uninitialized local variables
+  - run-time errors, debugging
+  - debugger, native run-time checks
+  - optimized build option
+  - RTC compiler option, /O compiler option
+  - native run-time checks
+  - run-time checks
+  - debugging arrays
+  - stack pointers
+  - arrays [Visual Studio], debugging
 ms.assetid: dc7b2f1e-5ff6-42e0-89b3-dc9dead83ee1
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "cplusplus"
+ms.workload: 
+  - cplusplus
 ---
 # How to: Use Native Run-Time Checks
-In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
+In a Visual Studio C++ project, you can use native [runtime_checks](/cpp/preprocessor/runtime-checks) to catch common run-time errors such as:
 
 - Stack pointer corruption.
 
@@ -71,8 +71,8 @@ In Visual C++, you can use native [runtime_checks](/cpp/preprocessor/runtime-che
 
 - Use the `runtime_checks` pragma.
 
-## See Also
-- [Debugging in Visual Studio](../debugger/index.md)
+## See also
+- [Debugging in Visual Studio](../debugger/index.yml)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [runtime_checks](/cpp/preprocessor/runtime-checks)
 - [Run-Time Error Checking](/cpp/c-runtime-library/run-time-error-checking)

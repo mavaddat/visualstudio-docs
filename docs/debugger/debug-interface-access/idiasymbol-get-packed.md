@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_packed | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -38,5 +38,5 @@ HRESULT get_packed ( 
 ## Remarks
  Packed means all the members of the UDT are positioned as close together as possible, with no intervening padding to align to memory boundaries.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

@@ -1,7 +1,7 @@
 ---
 title: "How to: Expose code to VBA in a Visual Basic project"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -29,8 +29,6 @@ ms.workload:
 - [Expose code in a host item class](#HostItemCode)
 
 - [Expose code that is not in a host item class](#NonHostItem)
-
-  ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Call VSTO code from VBA?](http://go.microsoft.com/fwlink/?LinkId=136757).
 
 ## <a name="HostItemCode"></a> Expose code in a host item class
  To enable VBA code to call Visual Basic code in a host item class, set the **EnableVbaCallers** property of the host item to **True**.

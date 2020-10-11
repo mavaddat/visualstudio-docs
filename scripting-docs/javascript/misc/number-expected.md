@@ -3,7 +3,7 @@ title: "Number expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5001"
 dev_langs: 
@@ -22,6 +22,6 @@ You attempted to invoke the **Number.prototype.toString** or **Number.prototype.
   
 - Only invoke the **Number.prototype.toString** or **Number.prototype.valueOf** methods on objects of type **Number**.  
   
-## See Also  
- [Number Object](../../javascript/reference/number-object-javascript.md)   
- [number Property (Error)](../../javascript/reference/number-property-error-javascript.md)
+## See also  
+ [Number Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number)   
+ [number Property (Error)](https://developer.mozilla.org/docs/Archive/Web/JavaScript/Microsoft_Extensions/Error.number)

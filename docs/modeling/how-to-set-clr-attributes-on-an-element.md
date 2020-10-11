@@ -1,13 +1,13 @@
 ---
 title: "How to: Set CLR Attributes on an Element"
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
   - "vs.dsltools.EditAttributesDialog"
 helpviewer_keywords:
   - "Domain-Specific Language, custom attrributes"
-author: gewarren
-ms.author: gewarren
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
   - "multiple"
@@ -35,6 +35,6 @@ Custom attributes are special attributes that can be added to domain elements, s
 
      `[` *AttributeName* `(` *ParameterName* `=` *Type* `)]`
 
-## See Also
+## See also
 
-- [Domain-Specific Language Tools Glossary](https://msdn.microsoft.com/ca5e84cb-a315-465c-be24-76aa3df276aa)
+- [Domain-Specific Language Tools Glossary](/previous-versions/bb126564(v=vs.100))

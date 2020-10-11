@@ -1,14 +1,14 @@
 ---
-title: "SDKReference Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: SDKReference Element (Visual Studio Templates) | Microsoft Docs
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 ms.assetid: 72c8b352-0b7a-42b3-ba5d-2a2d1e90c34b
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # SDKReference Element (Visual Studio Templates)
 Specifies that the item template uses an SDK reference.
@@ -54,7 +54,7 @@ Specifies that the item template uses an SDK reference.
 ...
 ```
 
-## See Also
+## See also
 - [References Element (Visual Studio Templates)](../extensibility/references-element-visual-studio-templates.md)
 - [Reference Element (Visual Studio Templates)](../extensibility/reference-element-visual-studio-templates.md)
 - [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md)

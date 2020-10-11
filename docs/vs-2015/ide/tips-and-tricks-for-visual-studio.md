@@ -6,8 +6,8 @@ ms.technology: "vs-ide-general"
 ms.topic: conceptual
 ms.assetid: 20489db9-7441-4f8b-97de-c72070d569b1
 caps.latest.revision: 14
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Tips and Tricks for Visual Studio
@@ -34,7 +34,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_WindowMgmt"></a> Window Management
 
-|||
+|Command|Shortcut|
 |-|-|
 |Drag Off Floating Tab Wells|Ctrl+click for multi-select|
 |Maximize Floating Window|Double-click on title bar|
@@ -45,7 +45,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_WindowShortcuts"></a> Window Shortcuts
 
-|||
+|Command|Shortcut|
 |-|-|
 |Move/Dock Floating Windows|Win+Left / Win+Right|
 |Maximize/Minimize Windows|Win+Up / Win+Down|
@@ -55,7 +55,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_Search"></a> Visual Studio Search
 
-|||
+|Command|Shortcut|
 |-|-|
 |Solution Explorer Search|Ctrl+;|
 |Place Focus in Search box in any tool window|Alt+` when the tool window has focus|
@@ -65,7 +65,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_EditorFind"></a> Editor Find
 
-|||
+|Command|Shortcut|
 |-|-|
 |Quick Find|Ctrl+F|
 |Quick Find Next Result|Enter|
@@ -80,7 +80,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_CodeEditor"></a> Code Editor
 
-|||
+|Command|Shortcut|
 |-|-|
 |IntelliSense Suggestion Mode|Ctrl+Alt+Space (Toggle)|
 |Force Show IntelliSense|Ctrl+J|
@@ -105,7 +105,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_Toolbars"></a> Toolbars
 
-|||
+|Command|Shortcut|
 |-|-|
 |Add Buttons|Click toolbar overflow button|
 |Find Combo in Standard toolbar|Ctrl+D|
@@ -114,7 +114,7 @@ You can navigate in Visual Studio more easily by using the shortcuts in this top
 
 ## <a name="BKMK_Debugging"></a> Debugging
 
-|||
+|Command|Shortcut|
 |-|-|
 |Start Debugging|F5|
 |Stop Debugging|Shift+F5|
@@ -137,7 +137,6 @@ See [Keyboard shortcuts: Visual Studio Online, TFS web portal, and Team Explorer
 
 ## See Also
 
-- [Visual Studio Blog](http://blogs.msdn.com/b/visualstudio)
-- [Visual Studio Tips and Tricks Blog](http://blogs.msdn.com/b/zainnab)
-- [Visual Studio Toolbox on Channel 9](http://channel9.msdn.com/Shows/Visual-Studio-Toolbox)
-- [Visual Studio UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio)
+- [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/)
+- [Visual Studio Tips and Tricks Blog](https://blogs.msdn.microsoft.com/zainnab/)
+- [Visual Studio Toolbox on Channel 9](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox)

@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "DoNotDeclareReadOnlyMutableReferenceTypes"
 ms.assetid: 81b83ee5-4db5-4be0-9f8d-90b53894ec3b
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2104: Do not declare read only mutable reference types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotDeclareReadOnlyMutableReferenceTypes|
 |CheckId|CA2104|

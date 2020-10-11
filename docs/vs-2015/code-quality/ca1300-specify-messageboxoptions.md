@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1300"
 ms.assetid: 9357a724-026e-4a3d-a03a-f14635064ec6
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1300: Specify MessageBoxOptions
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|SpecifyMessageBoxOptions|
 |CheckId|CA1300|

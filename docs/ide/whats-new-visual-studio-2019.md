@@ -2,7 +2,7 @@
 title: "What's new in Visual Studio 2019"
 titleSuffix: ""
 description: "Learn about the new features in Visual Studio 2019."
-ms.date: 05/22/2019
+ms.date: 08/21/2020
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
@@ -18,14 +18,18 @@ ms.workload:
 ---
 # What's new in Visual Studio 2019
 
-**Updated for the [16.1 release](/visualstudio/releases/2019/release-notes/)**
+**Updated for the [16.7 release](/visualstudio/releases/2019/release-notes/)**
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=button+cta&utm_content=download+vs2019)
+>[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads)
 
-With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in this new version!
+Visual Studio is constantly changing to meet the demands of developers. In the following video from the **[Microsoft Build](https://mybuild.microsoft.com/)** library, join us for a tour of some of the [newest features](/visualstudio/releases/2019/release-notes/) and a [sneak peek](/visualstudio/releases/2019/release-notes-preview/) at what's to come: <br><br>*Video length: 44.58 minutes*
 
-Here's a high-level recap of what's new:
+> [!VIDEO https://channel9.msdn.com/Events/Build/2020/BOD111/player]
+
+With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our latest version!
+
+Here's a high-level recap of what's new, all-up:
 
 * **[Develop](#develop)**: Stay focused and productive with improved performance, instant code cleanup, and better search results.
 * **[Collaborate](#collaborate)**: Enjoy natural collaboration through a Git-first workflow, real-time editing and debugging, and code reviews right in Visual Studio.
@@ -35,8 +39,8 @@ For a complete list of everything that's new in this version, see the [release n
 
 ## Develop
 
-Save time with new features.
-<br><br>
+View the following video to learn more about how you can save time with new features. <br><br>*Video length: 3.00 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/n5sJ4EewKGk]
 
 ### Improved search
@@ -59,7 +63,7 @@ Simply invoke the refactorings by pressing **Ctrl+.** and selecting the action y
 
 [Visual Studio IntelliCode](/visualstudio/intellicode/) enhances your software development efforts by using artificial intelligence (AI). IntelliCode trains across 2,000 open-source projects on GitHub&mdash;each with over 100 stars&mdash;to generate its recommendations.
 
- ![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
+![An animation of IntelliCode in Visual Studio 2019](media/vs-2019/IntelliCode.gif)
 
 Here are a few ways that Visual Studio IntelliCode can help enhance your productivity:
 
@@ -76,7 +80,7 @@ For more information about IntelliCode, see the [Announcing the general availabi
 
 ### Code cleanup
 
-Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with the click of a button.
+Paired with a new document health indicator is a new code cleanup command. You can use this new command to identify and then fix both warnings and suggestions with a single action (or click of a button).
 
 The cleanup will format the code and apply any code fixes as suggested by the [current settings](code-styles-and-code-cleanup.md) and [.editorconfig files](create-portable-custom-editor-options.md).
 
@@ -84,7 +88,7 @@ The cleanup will format the code and apply any code fixes as suggested by the [c
 
 You can also save collections of fixers as a profile. For example, if you have a small set of targeted fixers that you apply frequently while you code, and then you have another comprehensive set of fixers to apply before a code review, you can configure profiles to address these different tasks.
 
-   ![A screenshot of the new code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
+   ![A screenshot of the configure code cleanup control in Visual Studio 2019](media/vs-2019/code-cleanup-profile-configure.png)
 
 ### Per-monitor aware (PMA) rendering
 
@@ -96,13 +100,25 @@ With the release of Visual Studio 2019, we're making Visual Studio a per-monitor
 
 For more information, see the [Better multi-monitor experience with Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/a-better-multi-monitor-experience-with-visual-studio-2019/) blog post.
 
+### Test Explorer
+
+**New in 16.2**: We've updated Test Explorer to provide better handling of large test sets, easier filtering, more discoverable commands, tabbed playlist views, and customizable columns that let you fine-tune what test information is displayed.
+
+   ![A screenshot that shows the user interface improvements in the Test Explorer](media/vs-2019/test-explorer-ui.png)
+
+### .NET Core
+
+**New in 16.3**: We've included support for .NET Core 3.0. Cross-platform, open source&mdash;and fully supported by Microsoft.
+
+For more information, see the [Announcing .NET Core 3.0](https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/) blog post.
+
 ## Collaborate
 
-Team up to solve issues.
-<br><br>
+View the following video to learn more about how you can team up to solve issues. <br><br>*Video length: 4.22 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/dKLJsiK1QU8]
 
-### Cloud-first workflow
+### Git-first workflow
 
 Something you'll notice when you open Visual Studio 2019 is its new start window.
 
@@ -130,14 +146,14 @@ For more information, see the [Visual Studio Live Share for real-time code revie
 
 We're introducing a new extension that you can download to use with Visual Studio 2019. With this new extension, you can review, run, and even debug pull requests from your team without leaving Visual Studio. We support code in both GitHub and Azure DevOps repositories.
 
-   ![A screenshot of the new start window in Visual Studio 2019](media/vs-2019/pr-experience.png)
+   ![A screenshot of the new Pull Requests extension in Visual Studio 2019](media/vs-2019/pr-experience.png)
 
 For more information, see the [Code reviews using the Visual Studio Pull Requests extension](https://devblogs.microsoft.com/visualstudio/code-reviews-using-the-visual-studio-pull-requests-extension/) blog post.
 
 ## Debug
 
-Zero in with precise targeting.
-<br><br>
+View the following video to learn more about how you can zero in with precise targeting while you debug. <br><br>*Video length: 3.54 minutes*
+
 > [!VIDEO https://www.youtube.com/embed/hr72Fs8n_9c]
 
 ### Performance gains
@@ -156,7 +172,7 @@ You've probably been there before, looking in the Watch window for a string amon
 
    ![An animation that shows the debug search window in Visual Studio 2019](media/vs-2019/debug-window-search.gif)
 
-You can also format how a value is displayed within the Watch, Locals, and Autos windows.  Double-click one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
+You can also format how a value is displayed within the Watch, Locals, and Autos windows. Select (by double-clicking) one of the items in any of the windows and add a comma (",") to access the drop-down list of possible format specifiers, each of which includes a description of its intended effect.
 
    ![The new Watch window and format values feature in Visual Studio 2019](media/search-watch-window.png)
 
@@ -172,11 +188,39 @@ We've added support for targeting ASP.NET (Core and desktop) applications that r
 
 For more information, see the [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) page, and the [Introducing Time Travel Debugging for Visual Studio Enterprise 2019](https://devblogs.microsoft.com/visualstudio/introducing-time-travel-debugging-for-visual-studio-enterprise-2019/) blog post.
 
+### Microsoft Edge Insider support
+
+**New in 16.2**: You can set a breakpoint in a JavaScript application and start a debug session by using the [Microsoft Edge Insider](https://www.microsoftedgeinsider.com/) browser. When you do so, Visual Studio opens a new browser window with debugging enabled, which you can then use to step through application JavaScript within Visual Studio.
+
+   ![A screenshot that shows JavaScript code rendering in a browser](media/vs-2019/edge-chromium-breakpoint.png)
+
+### Pinnable Properties tool
+
+**New in 16.4**: Now, it's easier to identify objects by their properties while debugging with the new Pinnable Properties tool. Just hover the cursor over a property you want to display in the debugger window of the Watch, Autos, and Locals windows, select the pin icon, and immediately see the information you're looking for at the top of the window!
+
+   ![An animation that shows how to pin properties in the Visual Studio debugger by using the Pinnable Properties tool](media/vs-2019/debugger-pinnable-properties.gif)
+
+For more information, see the [Pinnable Properties: Debug & Display Managed Objects YOUR Way](https://devblogs.microsoft.com/visualstudio/pinnable-properties-debug-display-managed-objects-your-way/) blog post.
+
 ## What's next
 
-We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). And for a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/).
+We update Visual Studio 2019 often with new features that can make your development experience even better. To learn more about our latest innovations, check out the [Visual Studio Blog](https://devblogs.microsoft.com/visualstudio/). For a record of what we've released in preview to date, take a look at the [Preview Release Notes](/visualstudio/releases/2019/release-notes-preview/). And for a list of what we're planning to release next, see the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap).
 
-Want to know more about what else is in the works for Visual Studio 2019? See the [Visual Studio Roadmap](/visualstudio/productinfo/vs-roadmap/).
+Meanwhile, here are a few of our new features currently in the works.
+
+- **Visual Studio 2019 support for GitHub Codespaces (Preview)**
+
+  Now more than ever, developers are juggling multiple projects at work and at home. New features, bug fixes, PR reviews, &amp; prototypes all compete for time and require constant context-switching. [GitHub Codespaces](https://github.com/features/codespaces) can help. You can develop entirely in the cloud and create dedicated, custom environments for each of your projects in seconds. With Visual Studio 2019, you can connect to your codespace and work just as you would locally.
+
+  For more information, see the [What is GitHub Codespaces](codespaces/codespaces-overview.md) page.
+
+- **Improved Git experience in Visual Studio 2019 (Preview)**
+
+   We continue to iterate on a revamped Git experience to improve your productivity when working with code on GitHub, Azure Repos, and other remote hosting services. You can initialize and push from within Visual Studio 2019 with a single action (or click). You can also create new branches, manage current branches, and resolve merge conflicts.
+
+   For more information, see the [New Git experience in Visual Studio](git-with-visual-studio.md) page.
+
+For more information about the Preview release&mdash;and a download link if you'd like to try it out&mdash;see the **[Visual Studio Preview](https://visualstudio.microsoft.com/vs/preview/)** page.
 
 ## Give us feedback
 
@@ -184,13 +228,16 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 * If you want to make a suggestion about how we can improve Visual Studio, you can do so by using the [Suggest a Feature](suggest-a-feature.md) tool.
 
-* If you experience a hang, crash, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
+* If you experience an issue where Visual Studio stops responding, crashes, or other performance issue, you can easily share repro steps and supporting files with us by using the [Report a Problem](how-to-report-a-problem-with-visual-studio.md) tool.
 
 ## See also
 
-* [Announcing Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-code-faster-work-smarter-create-the-future/)
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
-* [What's New in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
-* [Visual Studio 2019 for Mac is now available](https://devblogs.microsoft.com/visualstudio/visual-studio-2019-for-mac-is-now-available/)
-* [Microsoft Build 2019 conference](https://www.microsoft.com/build)
-* [Microsoft Connect(); 2018 conference](https://www.microsoft.com/connectevent)
+* [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
+* [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md)
+* [What's new for C++ in Visual Studio](/cpp/overview/what-s-new-for-visual-cpp-in-visual-studio/)
+* [What's new for C# 8.0](/dotnet/csharp/whats-new/csharp-8/)
+* [What's new in .NET Core 3.1](/dotnet/core/whats-new/dotnet-core-3-1/)
+* [What's new in .NET Framework](/dotnet/framework/whats-new/)
+* [Microsoft Build conference](https://www.microsoft.com/build)
+* [Microsoft Ignite conference](https://www.microsoft.com/ignite)

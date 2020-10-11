@@ -1,20 +1,20 @@
 ---
 title: Bind WPF controls to a dataset
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "WPF, data binding in Visual Studio"
-  - "WPF data binding [Visual Studio], walkthroughs"
-  - "WPF Designer, data binding"
+- WPF, data binding in Visual Studio
+- WPF data binding [Visual Studio], walkthroughs
+- WPF Designer, data binding
 ms.assetid: 177420b9-568b-4dad-9d16-1b0e98a24d71
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Bind WPF controls to a dataset
 
@@ -44,7 +44,7 @@ Prior knowledge of the following concepts is also helpful, but not required to c
 
 - Datasets and TableAdapters. For more information, see [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md) and [TableAdapters](../data-tools/create-and-configure-tableadapters.md).
 
-- WPF data binding. For more information, see [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview).
+- WPF data binding. For more information, see [Data Binding Overview](/dotnet/desktop-wpf/data/data-binding-overview).
 
 ## Create the project
 
@@ -143,8 +143,8 @@ Add several buttons to the window by modifying the XAML in the WPF Designer. Lat
        <RowDefinition Height="75" />
        <RowDefinition Height="625" />
    </Grid.RowDefinitions>
-   <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75"><</Button>
-   <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">></Button>
+   <Button HorizontalAlignment="Left" Margin="22,20,0,24" Name="backButton" Width="75">&lt;</Button>
+   <Button HorizontalAlignment="Left" Margin="116,20,0,24" Name="nextButton" Width="75">&gt;</Button>
    <Button HorizontalAlignment="Right" Margin="0,21,46,24" Name="saveButton" Width="110">Save changes</Button>
    ```
 
@@ -256,4 +256,4 @@ After completing this walkthrough, you might try the following related tasks:
 
 - [Bind WPF controls to data in Visual Studio](../data-tools/bind-wpf-controls-to-data-in-visual-studio.md)
 - [Dataset tools in Visual Studio](../data-tools/dataset-tools-in-visual-studio.md)
-- [Data Binding Overview](/dotnet/framework/wpf/data/data-binding-overview)
+- [Data Binding Overview](/dotnet/desktop-wpf/data/data-binding-overview)

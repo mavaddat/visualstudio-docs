@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "UseIntegralOrStringArgumentForIndexers"
 ms.assetid: d7f14b9e-2220-4f80-b6b8-48c655a05701
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1043: Use integral or string argument for indexers
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseIntegralOrStringArgumentForIndexers|
 |CheckId|CA1043|

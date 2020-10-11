@@ -1,7 +1,7 @@
 ---
 title: "How to: Scroll through database records in a worksheet"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -19,7 +19,7 @@ ms.workload:
 # How to: Scroll through database records in a worksheet
   The following procedure shows how to use the designer to display a single field from a database table in a Microsoft Office Excel worksheet, with controls that enable the end user to scroll through all the records.
 
- You can use the designer only in document-level projects. However, you can also add controls and bind them to data programmatically at runtime. For more information, see [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md).
+ You can use the designer only in document-level projects. However, you can also add controls and bind them to data programmatically at run time. For more information, see [Walkthrough: Simple data binding in VSTO Add-in project](../vsto/walkthrough-simple-data-binding-in-vsto-add-in-project.md).
 
  [!INCLUDE[appliesto_xlalldoc](../vsto/includes/appliesto-xlalldoc-md.md)]
 

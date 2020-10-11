@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "EnumsShouldHaveZeroValue"
 ms.assetid: 3503a73c-360c-416d-8ee4-c2aa44365a05
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1008: Enums should have zero value
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|EnumsShouldHaveZeroValue|
 |CheckId|CA1008|

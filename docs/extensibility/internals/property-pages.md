@@ -1,17 +1,17 @@
 ---
-title: "Property Pages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Property Pages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "configuration options, changing properties"
-  - "property pages"
-  - "property pages, changing configuration options"
+- configuration options, changing properties
+- property pages
+- property pages, changing configuration options
 ms.assetid: b9b3e6e8-1e30-4c89-9862-330265dcf38c
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Property Pages
 Users can view and change project configuration-dependent and -independent properties using property pages. A **Property Pages** button is enabled in the **Properties** window or on Solution Explorer toolbar for objects that provide a property page view of the selected object. Property pages are created by the environment and are available for solutions and projects. They can, however, also be made available for project items that make use of configuration-dependent properties. This capability might be used when files within a project require different compiler switch settings to build properly.
@@ -73,7 +73,7 @@ Project Property Pages dialog box with field format and tree structure
 
    Implement the <xref:Microsoft.VisualStudio.Shell.Interop.IVsMonitorSelection.GetCurrentSelection%2A> method to retrieve the project hierarchy and project item or items selected. From DTE, you would use the `SelectedItems.SelectedItem.Project` and `SelectedItems.SelectedItem.ProjectItem` methods. There is sample code under those headings in the core [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] documents.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPropertyPage>
 - [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
 - [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)

@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "ParameterNamesShouldMatchBaseDeclaration"
 ms.assetid: 9b657ab0-fe81-4f4c-9481-ba746988c922
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1725: Parameter names should match base declaration
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ParameterNamesShouldMatchBaseDeclaration|
 |CheckId|CA1725|

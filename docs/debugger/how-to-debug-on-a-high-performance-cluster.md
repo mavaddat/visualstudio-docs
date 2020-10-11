@@ -1,21 +1,21 @@
 ---
-title: "How to: Debug On a High-Performance Cluster | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "cluster debugging"
-  - "high-performance debugging"
+title: Debug On a High-Performance Cluster | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - cluster debugging
+  - high-performance debugging
 ms.assetid: a2f0eb07-840e-4f95-a1b1-9509217e5b8f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Debug On a High-Performance Cluster (C#, Visual Basic, C++)
 
@@ -90,7 +90,7 @@ Debugging a multiprocessing program on a high-performance cluster is like debugg
 
 `(MachineName = marvin) & (ThreadName = fourier1)`
 
-## See Also
+## See also
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Remote Debugging](../debugger/remote-debugging.md)
 - [How to: Use the Processes Window](/previous-versions/visualstudio/visual-studio-2010/7h8h5sdw(v=vs.100))

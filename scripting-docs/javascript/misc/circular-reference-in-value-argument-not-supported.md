@@ -3,7 +3,7 @@ title: "Circular reference in value argument not supported | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5034"
 dev_langs: 
@@ -36,7 +36,7 @@ mary.brother = john;
 var error = JSON.stringify(john);  
 ```  
   
-## See Also  
- [JSON Object](../../javascript/reference/json-object-javascript.md)   
- [JSON.parse Function](../../javascript/reference/json-parse-function-javascript.md)   
- [JavaScript Run-time Errors](../../javascript/reference/javascript-run-time-errors.md)
+## See also  
+ [JSON Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON)   
+ [JSON.parse Function](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse)   
+ [JavaScript Run-time Errors](/microsoft-edge/devtools-guide/console/error-and-status-codes#javascript-run-time-errors)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSymbols::Next | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -51,7 +51,7 @@ DWORD celt;
 pEnum->Next( 1, &pSym, &celt );
 ```
 
-## See Also
+## See also
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
 - [IDiaSession::findLinesByLinenum](../../debugger/debug-interface-access/idiasession-findlinesbylinenum.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

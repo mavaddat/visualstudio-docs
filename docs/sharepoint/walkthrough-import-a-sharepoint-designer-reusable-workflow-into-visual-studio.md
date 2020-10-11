@@ -1,7 +1,8 @@
 ---
-title: "Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio | Microsoft Docs"
+title: "Walkthrough: Import a SharePoint Designer reusable workflow | Microsoft Docs"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.WSPImport.ImportWF"
 dev_langs:
@@ -16,7 +17,8 @@ manager: jillfra
 ms.workload:
   - "office"
 ---
-# Walkthrough: Import a SharePoint Designer reusable workflow into Visual Studio
+# Walkthrough: Import a SharePoint Designer reusable workflow
+
   This walkthrough demonstrates how to import a reusable workflow created in SharePoint Designer 2010 into a [!INCLUDE[vsprvs](../sharepoint/includes/vsprvs-md.md)] SharePoint workflow project.
 
  Workflows created in SharePoint Designer, or *declarative workflows*, consist of [!INCLUDE[TLA2#tla_xml](../sharepoint/includes/tla2sharptla-xml-md.md)] statements instead of code. SharePoint Designer 2010 introduces *reusable workflows*, which are portable, declarative workflows that can be used by different lists in SharePoint sites.
@@ -204,7 +206,7 @@ ms.workload:
 
     - In the **Properties** window for **CodeActivity1**, set the value of the **ExecuteCode** property to **codeActivity_ExecuteCode**.
 
-15. Add the following under the existing **using** or **Imports** statements:
+15. Add the following under the existing **using** or **Imports** directives:
 
      [!code-csharp[SP_SPDWFImport#1](../sharepoint/codesnippet/CSharp/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.cs#1)]
      [!code-vb[SP_SPDWFImport#1](../sharepoint/codesnippet/VisualBasic/workflowimportproject1/workflows/spd_task_workflowft/spd task workflow.xoml.vb#1)]

@@ -1,7 +1,7 @@
 ---
 title: "IDiaPropertyStorage::ReadBOOL | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -40,5 +40,5 @@ HRESULT ReadBOOL ( 
 ## Remarks
  For consistent results, interpret the `BOOL` value so that nonzero values are `TRUE` and zero is `FALSE`.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalkFrame::searchForReturnAddressStart | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -42,6 +42,6 @@ HRESULT searchForReturnAddressStart ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaStackWalkFrame](../../debugger/debug-interface-access/idiastackwalkframe.md)
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

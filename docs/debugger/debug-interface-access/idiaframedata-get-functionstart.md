@@ -1,7 +1,7 @@
 ---
 title: "IDiaFrameData::get_functionStart | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_functionStart ( 
 ## Remarks
  It is possible for a stack frame to not be the start of a function because the frame represents an inline method or function inserted into a function.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

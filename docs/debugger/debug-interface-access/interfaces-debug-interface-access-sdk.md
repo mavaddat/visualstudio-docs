@@ -1,7 +1,7 @@
 ---
 title: "Interfaces (Debug Interface Access SDK) | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -160,6 +160,6 @@ Describes the enumerations and structures used by the various interfaces of the 
 
 Describes the constants available in the DIA SDK.
 
-## See Also
+## See also
 
 - [Reference](../../debugger/debug-interface-access/debug-interface-access-sdk-reference.md)

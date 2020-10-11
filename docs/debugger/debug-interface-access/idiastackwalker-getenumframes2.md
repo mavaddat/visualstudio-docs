@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackWalker::getEnumFrames2 | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -46,7 +46,7 @@ Retrieves a stack frame enumerator for a specific platform type.
 ## Remarks
  To obtain a stack frame list for just the x86 platform, call the [IDiaStackWalker::getEnumFrames](../../debugger/debug-interface-access/idiastackwalker-getenumframes.md) method.
 
-## See Also
+## See also
 - [IDiaStackWalker](../../debugger/debug-interface-access/idiastackwalker.md)
 - [CV_CPU_TYPE_e Enumeration](../../debugger/debug-interface-access/cv-cpu-type-e.md)
 - [IDiaStackWalkHelper](../../debugger/debug-interface-access/idiastackwalkhelper.md)

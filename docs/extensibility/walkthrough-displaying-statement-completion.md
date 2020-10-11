@@ -1,15 +1,18 @@
 ---
-title: "Walkthrough: Displaying Statement Completion | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Displaying Statement Completion | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "editors [Visual Studio SDK], new - statement completion"
+- editors [Visual Studio SDK], new - statement completion
 ms.assetid: f3152c4e-7673-4047-a079-2326941d1c83
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
+dev_langs:
+- CSharp
+- VB
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Walkthrough: Display statement completion
 You can implement language-based statement completion by defining the identifiers for which you want to provide completion and then triggering a completion session. You can define statement completion in the context of a language service, define your own file name extension and content type and then display completion for just that type. Or, you can trigger completion for an existing content type—for example, "plaintext". This walkthrough shows how to trigger statement completion for the "plaintext" content type, which is the content type of text files. The "text" content type is the ancestor of all other content types, including code and XML files.
@@ -39,7 +42,7 @@ You can implement language-based statement completion by defining the identifier
 
      Microsoft.VisualStudio.OLE.Interop
 
-     Microsoft.VisualStudio.Shell.14.0
+     Microsoft.VisualStudio.Shell.15.0
 
      Microsoft.VisualStudio.Shell.Immutable.10.0
 
@@ -114,7 +117,7 @@ You can implement language-based statement completion by defining the identifier
 
 1. Add a file named `TestCompletionCommandHandler`.
 
-2. Add these using statements:
+2. Add these using directives:
 
      [!code-csharp[VSSDKCompletionTest#11](../extensibility/codesnippet/CSharp/walkthrough-displaying-statement-completion_11.cs)]
      [!code-vb[VSSDKCompletionTest#11](../extensibility/codesnippet/VisualBasic/walkthrough-displaying-statement-completion_11.vb)]

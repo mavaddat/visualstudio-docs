@@ -1,21 +1,21 @@
 ---
 title: Code maps
 ms.date: 05/16/2018
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.progression.codemap"
-  - "vs.progression.standardgraphsdialog"
+- vs.progression.codemap
+- vs.progression.standardgraphsdialog
 helpviewer_keywords:
-  - "DGML"
-  - "graph documents"
-  - "code visualization [Visual Studio]"
-  - "dependencies, visualizing"
-  - "dependency graphs"
-author: gewarren
-ms.author: gewarren
+- DGML
+- graph documents
+- code visualization [Visual Studio]
+- dependencies, visualizing
+- dependency graphs
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Map dependencies with code maps
 
@@ -183,7 +183,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
     For an **assembly**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Assemblies This References**|Add assemblies that this assembly references. External assemblies appear in the **Externals** group.|
     |**Show Assemblies Referencing This**|Add assemblies in the solution that reference this assembly.|
@@ -192,7 +192,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
     For a **class** or **interface**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Base Types**|For a class, add the base class and the implemented interfaces.<br /><br /> For an interface, add the base interfaces.|
     |**Show Derived Types**|For a class, add the derived classes.<br /><br /> For an interface, add the derived interfaces and the implementing classes or structs.|
@@ -205,7 +205,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
      For a **method**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Methods This Calls**|Add methods that this method calls.|
     |**Show Fields This References**|Add fields that this method references.|
@@ -215,7 +215,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
      For a **field** or **property**, choose:
 
-    |||
+    |Option|Description|
     |-|-|
     |**Show Containing Type**|Add the parent type.|
     |**Show Containing Type, Namespace, and Assembly**|Add the parent container hierarchy.|
@@ -232,7 +232,7 @@ Suppose you have a code review to perform in some files with pending changes. To
 
 ## See also
 
-- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)]
+- [Video: Understand design from code with Visual Studio 2015 code maps](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2015/502)
 - [Use code maps to debug your applications](../modeling/use-code-maps-to-debug-your-applications.md)
 - [Map methods on the call stack while debugging](../debugger/map-methods-on-the-call-stack-while-debugging-in-visual-studio.md)
 - [Find potential problems using code map analyzers](../modeling/find-potential-problems-using-code-map-analyzers.md)

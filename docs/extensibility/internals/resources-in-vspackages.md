@@ -1,17 +1,17 @@
 ---
-title: "Resources in VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Resources in VSPackages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "managed VSPackages, resources in"
-  - "resources, managed VSPackages"
-  - "VSPackages, managed resources"
+- managed VSPackages, resources in
+- resources, managed VSPackages
+- VSPackages, managed resources
 ms.assetid: cc8c17a6-b190-4856-b001-0c1104f104b2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Resources in VSPackages
 You can embed localized resources in native satellite UI DLLs, managed satellite DLLs, or in a managed VSPackage itself.
@@ -79,6 +79,6 @@ type="System.Resources.ResXFileRef,System.Windows.Forms">
 
  When [!INCLUDE[vsprvs](../../code-quality/includes/vsprvs_md.md)] requests a resource from a VSPackage after Setup, that package is likely to be already loaded and initialized, so the performance loss is minimal.
 
-## See Also
+## See also
 - [Managing VSPackages](../../extensibility/managing-vspackages.md)
 - [Localized Resources in MFC Applications: Satellite DLLs](/cpp/build/localized-resources-in-mfc-applications-satellite-dlls)

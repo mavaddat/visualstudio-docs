@@ -6,8 +6,8 @@ ms.prod: "visual-studio-dev14"
 ms.topic: conceptual
 ms.assetid: 772b6cf4-cee5-42d0-bc18-b4eb07e22ff0
 caps.latest.revision: 36
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Visual Studio IDE
@@ -31,9 +31,9 @@ If you’ve never used Visual Studio before, learn the basics with our [Get Star
 If you want to find out about new features in Visual Studio 2015, see [What's New in Visual Studio 2015](../what-s-new-in-visual-studio-2015.md).
 
 ## Visual Studio Setup
- You can find out which edition of Visual Studio is right for you at [Visual Studio Editions](http://www.visualstudio.com/products/visual-studio-with-msdn-overview-vs).
+ You can find out which edition of Visual Studio is right for you at [Visual Studio Editions](https://visualstudio.microsoft.com/vs/).
 
- You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](http://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). If you need to know more about the installation process, see [Installing Visual Studio 2015](../install/install-visual-studio-2015.md).
+ You can install Visual Studio 2015 by downloading it from [Visual Studio Downloads](https://www.visualstudio.com/downloads/download-visual-studio-vs.aspx). If you need to know more about the installation process, see [Installing Visual Studio 2015](../install/install-visual-studio-2015.md).
 
 ## IDE Basics
  The following image shows the Visual Studio IDE with an open project, and the Solution Explorer window for navigating in the project files, and the Team Explorer window for navigating source control and work item tracking. The features in the title bar that are called out are explained below in more detail.
@@ -88,7 +88,7 @@ If you want to find out about new features in Visual Studio 2015, see [What's Ne
 
  ![Artboard](../ide/media/b5-artboard.png "b5_artboard")
 
-|||
+|Image|Description|
 |-|-|
 |![](../designers/media/b1-1.png "B1_1")|**Design view** Displays the visual design of your document. In this view, you can draw or modify objects on the design surface.|
 |![](../designers/media/b1-2.png "B1_2")|**Breadcrumb** Quickly move between template-editing mode, style-editing mode, and object-editing scope for a selected object.|
@@ -184,18 +184,26 @@ The output from the build, including an error or success messages, appear in the
 
 ## In this Guide
 
-|||
-|-|-|
-|[User Accounts and Updates](../ide/user-accounts-and-updates.md)|[Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md)|
-|[How to: Move Around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)|[Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)|
-|[Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)|[Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)|
-|[Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)|[Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)|
-|[Profiling Tools](../profiling/profiling-tools.md)|[Improve Code Quality](https://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)|
-|[Designing User Interfaces](../designers/designing-user-interfaces.md)|[Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)|
-|[Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)|[Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md)|
-|[Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)|[Security](../ide/security-in-visual-studio.md)|
-|[Visual Studio Samples](../ide/visual-studio-samples.md)|[Microsoft Help Viewer](../ide/microsoft-help-viewer.md)|
-|[Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)|[UI Reference](../ide/reference/general-user-interface-elements-visual-studio.md)|
+- [User Accounts and Updates](../ide/user-accounts-and-updates.md)
+- [Personalizing the  IDE](../ide/personalizing-the-visual-studio-ide.md)
+- [How to: Move Around in the IDE](../ide/how-to-move-around-in-the-visual-studio-ide.md)
+- [Get Started Developing with Visual Studio](../ide/get-started-developing-with-visual-studio.md)
+- [Finding and Using Visual Studio Extensions](../ide/finding-and-using-visual-studio-extensions.md)
+- [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Writing Code](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Debugging in Visual Studio](../debugger/debugging-in-visual-studio.md)
+- [Profiling Tools](../profiling/profiling-tools.md)
+- [Improve Code Quality](https://msdn.microsoft.com/library/73baa961-c21f-43fe-bb92-3f59ae9b5945)
+- [Designing User Interfaces](../designers/designing-user-interfaces.md)
+- [Analyzing and Modeling Architecture](../modeling/analyze-and-model-your-architecture.md)
+- [Compiling and Building](../ide/compiling-and-building-in-visual-studio.md)
+- [Deploying Applications, Services, and Components](../deployment/deploying-applications-services-and-components.md)
+- [Visual Studio IDE 64-Bit Support](../ide/visual-studio-ide-64-bit-support.md)
+- [Security](../ide/security-in-visual-studio.md)
+- [Visual Studio Samples](../ide/visual-studio-samples.md)
+- [Microsoft Help Viewer](../ide/microsoft-help-viewer.md)
+- [Globalizing and Localizing Applications](../ide/globalizing-and-localizing-applications.md)
+- [UI Reference](../ide/reference/general-user-interface-elements-visual-studio.md)
 
 ## See Also
 

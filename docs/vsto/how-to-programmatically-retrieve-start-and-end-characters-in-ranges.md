@@ -1,7 +1,7 @@
 ---
-title: "How to: Programmatically retrieve start and end characters in ranges"
+title: "Get start & end characters in ranges programmatically"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

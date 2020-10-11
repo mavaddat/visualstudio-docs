@@ -9,7 +9,7 @@ monikerRange: vs-2019
 ms.topic: tutorial
 ms.devlang: CSharp
 author: ardalis
-ms.author: tglee
+ms.author: ornella
 manager: jillfra
 dev_langs:
   - CSharp
@@ -48,7 +48,7 @@ public class Game
 
 Now we're ready to create the pages we'll use to manage our library of games. This might sound daunting but it's actually amazingly easy. First we need to decide where in our app this functionality should live. Open the Pages folder in the web project and add a new folder there. Call it *Games*.
 
-Now right click on Games and choose **Add** > **New Scaffolded Item**. Choose the Razor Pages using **Entity Framework (CRUD)** option. CRUD stands for "Create, Read, Update, Delete" and this template will create pages for each of these operations (including a "list all" page and a "view details of one item" page).
+Now right-click on Games and choose **Add** > **New Scaffolded Item**. Choose the Razor Pages using **Entity Framework (CRUD)** option. CRUD stands for "Create, Read, Update, Delete" and this template will create pages for each of these operations (including a "list all" page and a "view details of one item" page).
 
 ![Visual Studio 2019 ASP.NET Core Add Scaffolded Pages](media/vs-2019/vs2019-add-scaffold.png)
 
@@ -73,7 +73,7 @@ services.AddDbContext<AppDbContext>(options =>
 
 You'll also find the `AppDbContext` connection string has been added to the project's *appsettings.json* file.
 
-If you run the app now, it may fail because no database has been created, yet. You can configure the app to automatically create the database if needed by [adding some code to Program.cs](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio#update-main):
+If you run the app now, it may fail because no database has been created, yet. You can configure the app to automatically create the database if needed by [adding some code to Program.cs](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio&preserve-view=true#update-main):
 
 ```csharp
 public static void Main(string[] args)
@@ -86,7 +86,7 @@ public static void Main(string[] args)
 
         try
         {
-            var context = services.GetRequiredService<SchoolContext>();
+            var context = services.GetRequiredService<Data.AppDbContext>();
             context.Database.EnsureCreated();
         }
         catch (Exception ex)
@@ -99,6 +99,15 @@ public static void Main(string[] args)
     host.Run();
 }
 ```
+
+To resolve the typenames in the preceding code, add the following using statements to *Program.cs* at the end of the existing block of using statements:
+
+```csharp
+using Microsoft.Extensions.DependencyInjection;
+using WebApplication1.Models;
+```
+
+Be sure to use your project name instead of WebApplication1 in your code.
 
 Most of the code is just for error handling and to provide access to the EF Core `AppDbContext` before the app is running. The important line is the one that says `context.Database.EnsureCreated()`, which will create the database if it doesn't already exist. Now the app is ready to run.
 
@@ -120,5 +129,5 @@ In the next video, you'll learn how to add web API support to your app.
 
 ## See also
 
-- [Razor Pages with Entity Framework Core in ASP.NET Core](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio)
-- [ASP.NET Core Razor Pages with EF Core](/aspnet/core/data/?view=aspnetcore-2.1)
+- [Razor Pages with Entity Framework Core in ASP.NET Core](/aspnet/core/data/ef-rp/intro?view=aspnetcore-2.1&tabs=visual-studio&preserve-view=true)
+- [ASP.NET Core Razor Pages with EF Core](/aspnet/core/data/?view=aspnetcore-2.1&preserve-view=true)

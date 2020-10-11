@@ -1,7 +1,8 @@
 ---
-title: "How to: Validate data when a new row is added to a ListObject control"
+title: "Validate data when new row is added to ListObject control"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -47,9 +48,9 @@ ms.workload:
  This code example assumes that you have an existing <xref:Microsoft.Office.Tools.Excel.ListObject> named `list1` on the worksheet in which this code appears.
 
 ## See also
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [ListObject control](../vsto/listobject-control.md)
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [How to: Map ListObject columns to data](../vsto/how-to-map-listobject-columns-to-data.md)

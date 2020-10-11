@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CollectionsShouldImplementGenericInterface"
 ms.assetid: c7d7126f-fa70-40be-8f93-3243e1760dc5
 caps.latest.revision: 26
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1010: Collections should implement generic interface
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|CollectionsShouldImplementGenericInterface|
 |CheckId|CA1010|

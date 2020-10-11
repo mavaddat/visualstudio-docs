@@ -1,7 +1,7 @@
 ---
 title: "IDiaSourceFile::get_uniqueId | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_uniqueId ( 
 ## Remarks
  Comparing keys rather than strings can accelerate line number processing.
 
-## See Also
+## See also
 - [IDiaSourceFile](../../debugger/debug-interface-access/idiasourcefile.md)

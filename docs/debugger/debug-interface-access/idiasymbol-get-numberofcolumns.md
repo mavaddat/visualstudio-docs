@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_numberOfColumns | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 64834351-e2c9-4f1c-9dc0-2abb5478bc63
@@ -29,5 +29,5 @@ HRESULT get_numberOfColumns(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

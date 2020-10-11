@@ -1,18 +1,20 @@
 ---
-title: "EnableLocationBrowseButton Element (Visual Studio Templates) | Microsoft Docs"
-ms.date: "11/04/2016"
+title: EnableLocationBrowseButton Element (Visual Studio Templates)
+titleSuffix: ""
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
 ms.technology: vs-ide-general
 ms.topic: reference
 f1_keywords:
-  - "http://schemas.microsoft.com/developer/vstemplate/2005#EnableLocationBrowseButton"
+- http://schemas.microsoft.com/developer/vstemplate/2005#EnableLocationBrowseButton
 helpviewer_keywords:
-  - "EnableLocationBrowseButton [Visual Studio project templates]"
+- EnableLocationBrowseButton [Visual Studio project templates]
 ms.assetid: a12d10d8-af49-482a-af77-e084fd07a47d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # EnableLocationBrowseButton element (Visual Studio templates)
 Specifies whether the **Browse** button is available in the **New Project** dialog box, so that users can easily modify the default directory where a new project is saved.
@@ -23,7 +25,7 @@ Specifies whether the **Browse** button is available in the **New Project** dial
 
 ## Syntax
 
-```
+```xml
 <EnableLocationBrowseButton> true/false </EnableLocationBrowseButton>
 ```
 
@@ -55,7 +57,7 @@ Specifies whether the **Browse** button is available in the **New Project** dial
 ## Example
  The following example illustrates the metadata for a [!INCLUDE[csprcs](../data-tools/includes/csprcs_md.md)] Windows application.
 
-```
+```xml
 <VSTemplate Type="Project" Version="3.0.0"
     xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
     <TemplateData>

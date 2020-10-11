@@ -1,7 +1,7 @@
 ---
 title: "IDiaPropertyStorage::ReadPropertyNames | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -45,5 +45,5 @@ HRESULT ReadPropertyNames (
 ## Remarks
  The returned property names must be freed (by calling the `SysFreeString` function) when they are no longer needed.
 
-## See Also
+## See also
 - [IDiaPropertyStorage](../../debugger/debug-interface-access/idiapropertystorage.md)

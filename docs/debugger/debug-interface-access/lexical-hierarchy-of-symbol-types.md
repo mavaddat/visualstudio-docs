@@ -1,7 +1,7 @@
 ---
 title: "Lexical Hierarchy of Symbol Types | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -39,7 +39,7 @@ The following table shows the symbol types in the lexical hierarchy.
 > [!NOTE]
 > Additional symbol properties may be available depending on the symbol type. These properties are listed in the individual symbol topics.
 
-## See Also
+## See also
 - [Class Hierarchy of Symbol Types](../../debugger/debug-interface-access/class-hierarchy-of-symbol-types.md)
 - [IDiaSymbol::get_symTag](../../debugger/debug-interface-access/idiasymbol-get-symtag.md)
 - [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)

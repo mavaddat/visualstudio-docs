@@ -1,18 +1,18 @@
 ---
-title: "How to: Add a Dependency to a VSIX Package | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'How to: Add a Dependency to a VSIX Package | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: how-to
 helpviewer_keywords:
-  - "package reference"
-  - "package assembly"
-  - "package dll"
-  - "vsix reference"
+- package reference
+- package assembly
+- package dll
+- vsix reference
 ms.assetid: 8f20177b-dab9-43a3-b959-81a591b451d6
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # How to: Add a dependency to a VSIX package
 
@@ -42,6 +42,6 @@ The VSIXInstaller will detect earlier versions of Visual Studio and inform the u
 
 ## See also
 
-- [VSIX extension schema 1.0 reference](https://msdn.microsoft.com/library/76e410ec-b1fb-4652-ac98-4a4c52e09a2b)
+- [VSIX extension schema 1.0 reference](/previous-versions/dd393700(v=vs.110))
 - [Anatomy of a VSIX package](../extensibility/anatomy-of-a-vsix-package.md)
 - [Prepare extensions for Windows Installer deployment](../extensibility/preparing-extensions-for-windows-installer-deployment.md)

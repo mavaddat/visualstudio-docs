@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1028"
 ms.assetid: 87160825-9f39-4142-8d7f-a31fe7ac7b84
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1028: Enum storage should be Int32
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|EnumStorageShouldBeInt32|
 |CheckId|CA1028|

@@ -3,7 +3,7 @@ title: "String expected | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5005"
 dev_langs: 
@@ -22,6 +22,6 @@ You attempted to invoke the **String.prototype.toString** or **String.prototype.
   
 - Only invoke the **String.prototype.toString** or **String.prototype.valueOf** methods on objects of type `String`.  
   
-## See Also  
- [String Object](../../javascript/reference/string-object-javascript.md)   
- [toString Method (Object)](../../javascript/reference/tostring-method-object-javascript.md)
+## See also  
+ [String Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)   
+ [toString Method (Object)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/tostring)

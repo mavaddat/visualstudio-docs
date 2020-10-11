@@ -1,19 +1,19 @@
 ---
-title: "Parameter Info in a Legacy Language Service2 | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Parameter Info in a Legacy Language Service2 | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "IntelliSense, Parameter Info tool tip"
-  - "language services [managed package framework], IntelliSense Parameter Info"
-  - "Parameter Info (IntelliSense), supporting in language services [managed package framework]"
+- IntelliSense, Parameter Info tool tip
+- language services [managed package framework], IntelliSense Parameter Info
+- Parameter Info (IntelliSense), supporting in language services [managed package framework]
 ms.assetid: a117365d-320d-4bb5-b61d-3e6457b8f6bc
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
-# Parameter Info in a Legacy Language Service
+# Parameter Info in a legacy language service 2
 IntelliSense Parameter Info is a tooltip that displays the signature of a method when the user types the parameter list start character (typically an open parenthesis) for the method parameter list. As each parameter is entered and the parameter separator (typically a comma) is typed, the tooltip is updated to show the next parameter in bold.
 
  The managed package framework (MPF) classes provide support for managing the Parameter Info tooltip. The parser must detect parameter start, parameter next, and parameter end characters, and it must supply a list of the method signatures and their associated parameters.

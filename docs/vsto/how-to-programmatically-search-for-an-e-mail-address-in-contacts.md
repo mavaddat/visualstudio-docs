@@ -1,7 +1,7 @@
 ---
-title: "How to: Programmatically search for an email address in contacts"
+title: "Find an email address in contacts programmatically"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"

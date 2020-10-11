@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "C, code analysis"
 ms.assetid: 03b8b47a-e9d8-4692-835f-2d22ec6c76a4
 caps.latest.revision: 37
-author: mikeblome
-ms.author: mblome
+author: corob-msft
+ms.author: corob
 manager: jillfra
 ---
 # Analyzing C/C++ Code Quality by Using Code Analysis
@@ -25,7 +25,7 @@ You can improve your C/C++ code by using the code analysis in Visual Studio to f
   
 ## In This Section  
   
-|||  
+|Title|Description|  
 |-|-|  
 |[Code Analysis for C/C++ Overview](../code-quality/code-analysis-for-c-cpp-overview.md)|Learn about the features of the code analysis tool.|  
 |[Quick Start: Code Analysis for C/C++](../code-quality/quick-start-code-analysis-for-c-cpp.md)|Learn the basics of code analysis for C/C++.|  

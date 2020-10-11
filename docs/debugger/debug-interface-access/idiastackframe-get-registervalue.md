@@ -1,7 +1,7 @@
 ---
 title: "IDiaStackFrame::get_registerValue | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -37,6 +37,6 @@ HRESULT get_registerValue(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns error code.
 
-## See Also
+## See also
 - [IDiaStackFrame](../../debugger/debug-interface-access/idiastackframe.md)
 - [CV_HREG_e Enumeration](../../debugger/debug-interface-access/cv-hreg-e.md)

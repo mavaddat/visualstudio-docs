@@ -1,21 +1,21 @@
 ---
-title: "Find the running ASP.NET process | Microsoft Docs"
-ms.date: "11/04/2018"
-ms.topic: "conceptual"
-dev_langs:
-  - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
-helpviewer_keywords:
-  - "ASP.NET debugging, ASP.NET process"
-  - "ASP.NET process"
+title: Find the running ASP.NET process | Microsoft Docs
+ms.date: 11/04/2018
+ms.topic: how-to
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - ASP.NET debugging, ASP.NET process
+  - ASP.NET process
 ms.assetid: 931a7597-b0f0-4a28-931d-46e63344435f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "aspnet"
+ms.workload: 
+  - aspnet
 ---
 # Find the name of the ASP.NET process
 
@@ -39,6 +39,6 @@ To debug a running [!INCLUDE[vstecasp](../code-quality/includes/vstecasp_md.md)]
 **See also:**
 
 - [Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md)
-- [Prerequisites for remote debugging web applications](/visualstudio/debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer)
+- [Prerequisites for remote debugging web applications](remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)
 - [System requirements](../debugger/aspnet-debugging-system-requirements.md)
 - [Debug ASP.NET applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)

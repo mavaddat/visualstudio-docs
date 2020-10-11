@@ -1,5 +1,6 @@
 ---
 title: "Overview of graphics diagnostics | Microsoft Docs"
+description: "A high-level overview of Visual Studio Graphics Diagnostics"
 ms.custom: "seodec18"
 ms.date: "02/09/2017"
 ms.topic: "conceptual"
@@ -21,6 +22,10 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
  Graphics Diagnostics supports apps that use Direct3D 10 or greater, and provides limited support for apps that use Direct2D. It does not support apps that use earlier versions of Direct3D, DirectDraw, or other graphics APIs.
 
 ### Windows 10 and Direct3D 12
+> [!NOTE]
+> Visual Studio recommends PIX on Windows for DirectX 12 games. [PIX on Windows](https://aka.ms/PIXonWindows) is a performance tuning and debugging tool that fully supports DirectX 12. [Find out more information](visual-studio-graphics-diagnostics-directx-12.md) or [download here](https://aka.ms/downloadPIX).
+
+
  Windows 10 introduced *Direct3D 12*, which is substantially different from Direct3D 10 and Direct3D 11. These differences bring DirectX back into alignment with modern graphics hardware and unleashing its full potential, but they also bring big API changes and place greater responsibility on the programmer to manage resource lifetimes and contention. Despite the differences, Graphics Diagnostics with Direct3D 12 maintains feature-parity with Graphics Diagnostics with Direct3D 11.2.
 
  Windows 10 also maintains support for previous versions of Direct3D and the games and applications that rely on them. Graphics Diagnostics in Visual Studio continues to support Direct3D 10 and Direct3D 11 on Windows 10.
@@ -46,7 +51,7 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 ### GPU Usage
  Graphics Diagnostics can also profile the performance of your Direct3D app. Because profiling data would be skewed by recording details of graphics events, this is separate from capturing frames to be used examined with the Graphics Analyzer.
 
- See [GPU Usage](/visualstudio/profiling/gpu-usage) for more information.
+ See [GPU Usage](../../profiling/gpu-usage.md) for more information.
 
 ### DirectX control panel
  The DirectX control panel is a component of DirectX that you can use to change the way that DirectX behaves—for example, you can enable the debug version of the DirectX runtime components, select the kind of debug messages that are reported, and disallow certain graphics hardware capabilities from being used to emulate less-capable hardware. This level of control over DirectX can help you debug and test your DirectX app. You can access the DirectX control panel from Visual Studio.
@@ -111,6 +116,6 @@ Visual Studio *Graphics Diagnostics* is a set of tools for recording and then an
 
  But Frame Analysis isn't just about going fast - it's about gaining the most performance you can while giving up the least amount of visual quality. Sometimes an expensive effect that looks great on a large display doesn't make the same impact when viewed on the small screen of a phone, where a simpler effect might look just as good without draining the battery. The automatic changes and benchmarks that Graphics Analysis provides can help you find the balance that's right for your app across a range of devices.
 
-## See Also
+## See also
 - [Command-Line Capture Tool](command-line-capture-tool.md)
 - [HLSL Debugger](hlsl-shader-debugger.md)

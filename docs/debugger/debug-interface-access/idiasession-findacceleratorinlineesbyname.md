@@ -1,7 +1,7 @@
 ---
 title: "IDiaSession::findAcceleratorInlineesByName | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: e203e5c2-6563-43fa-be56-3063955043ab
@@ -43,7 +43,7 @@ HRESULT findAcceleratorInlineeLinesByName ( 
 ## Remarks
  This function searches for inlinees only within Accelerator stub functions. It ignores native C++ procedure records.
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

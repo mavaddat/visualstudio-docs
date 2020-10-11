@@ -1,15 +1,16 @@
 ---
-title: "Strings Used as Keys for Finding a Source Control Plug-in | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Strings used as keys to find a source control plug-in
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "source control plug-ins, strings used for finding"
+- source control plug-ins, strings used for finding
 ms.assetid: c1e31f76-42a1-4c3d-afb2-664044ef12fd
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Strings Used as Keys for Finding a Source Control Plug-in
 The following strings are the keys for accessing the registry to find information about the source control plug-in.
@@ -40,7 +41,7 @@ The following strings are the keys for accessing the registry to find informatio
 |`STR_UI_LANGUAGE`|UILanguage|
 |`STR_SRCSAFE_ROOT_KEY`|Software\Microsoft\SourceSafe|
 
-## See Also
+## See also
 - [Source Control Plug-ins](../extensibility/source-control-plug-ins.md)
 - [How to: Install a Source Control Plug-in](../extensibility/internals/how-to-install-a-source-control-plug-in.md)
 - [MSSCCPRJ.SCC File](../extensibility/mssccprj-scc-file.md)

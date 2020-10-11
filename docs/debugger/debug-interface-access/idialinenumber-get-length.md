@@ -1,7 +1,7 @@
 ---
 title: "IDiaLineNumber::get_length | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_length ( 
 ## Remarks
  The block is the length of source code on the line as represented by the [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md) object.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

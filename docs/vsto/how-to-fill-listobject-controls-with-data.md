@@ -1,7 +1,7 @@
 ---
 title: "How to: Fill ListObject controls with data"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -22,8 +22,6 @@ ms.workload:
   You can use data binding as a way to quickly add data to your document. After binding data to a list object, you can disconnect the list object so it displays the data but is no longer bound to the data source.
 
  [!INCLUDE[appliesto_xlalldocapp](../vsto/includes/appliesto-xlalldocapp-md.md)]
-
- ![link to video](../vsto/media/playvideo.gif "link to video") For a related video demonstration, see [How do I: Create a list in Excel that is connected to a SharePoint list?](http://go.microsoft.com/fwlink/?LinkID=130263).
 
 ### To bind data to a ListObject control
 
@@ -53,9 +51,9 @@ ms.workload:
  This code example assumes you have an existing <xref:Microsoft.Office.Tools.Excel.ListObject> named `list1` on the worksheet in which this code appears.
 
 ## See also
-- [Extend Word documents and Excel workbooks in VSTO Add-ins at runtime](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
+- [Extend Word documents and Excel workbooks in VSTO Add-ins at run time](../vsto/extending-word-documents-and-excel-workbooks-in-vsto-add-ins-at-run-time.md)
 - [Controls on Office documents](../vsto/controls-on-office-documents.md)
-- [Add controls to Office documents at runtime](../vsto/adding-controls-to-office-documents-at-run-time.md)
+- [Add controls to Office documents at run time](../vsto/adding-controls-to-office-documents-at-run-time.md)
 - [How to: Map ListObject columns to data](../vsto/how-to-map-listobject-columns-to-data.md)
 - [Automate Excel by using extended objects](../vsto/automating-excel-by-using-extended-objects.md)
 - [ListObject control](../vsto/listobject-control.md)

@@ -3,24 +3,24 @@ title: Web Browser, Environment, Options Dialog Box
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "VS.Environment.Web Browser"
-  - "VS.ToolsOptionsPages.Environment.WebBrowser"
-  - "VS.ToolsOptionsPages.Environment.Web_Browser"
+- VS.Environment.Web Browser
+- VS.ToolsOptionsPages.Environment.WebBrowser
+- VS.ToolsOptionsPages.Environment.Web_Browser
 helpviewer_keywords:
-  - "browsers, customizing"
-  - "searching, search page for Web browser"
-  - "Web browsers, customizing"
-  - "searches, default Web browser search page"
-  - "URLs, specifying VS home page"
-  - "home page"
-  - "Options dialog box, Web settings"
-  - "Internet Explorer, setting options"
+- browsers, customizing
+- searching, search page for Web browser
+- Web browsers, customizing
+- searches, default Web browser search page
+- URLs, specifying VS home page
+- home page
+- Options dialog box, Web settings
+- Internet Explorer, setting options
 ms.assetid: 586db4eb-032d-4cb5-93a6-a7c14de1ae49
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Options dialog box: Environment \> Web Browser
 
@@ -46,7 +46,7 @@ Sets the editor used to open a Web page when you choose **View Source** on the p
 
 - **Source editor** Select to view source in the [editor](../../ide/writing-code-in-the-code-and-text-editor.md).
 
-- **HTML editor** Select to view source in the [HTML designer](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.
+- **HTML editor** Select to view source in the [HTML designer](/previous-versions/ex0hkwbx(v=vs.140)). Use this selection to edit the Web page in one of two views: Design view or the standard text-based Source view.
 
 - **External editor** Select to view source in another editor. Specify the path of any editor you choose, for example, Notepad.exe.
 
@@ -59,6 +59,5 @@ Click to change options for Internet Explorer in the **Internet Properties** dia
 
 ## See also
 
-- [Environment Options Dialog Box](../../ide/reference/environment-options-dialog-box.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
-- [HTML Designer](https://msdn.microsoft.com/Library/640043cc-3657-4677-a091-bc315e636477)
+- [HTML Designer](/previous-versions/ex0hkwbx(v=vs.140))

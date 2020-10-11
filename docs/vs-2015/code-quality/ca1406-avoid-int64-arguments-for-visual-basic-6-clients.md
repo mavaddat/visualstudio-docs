@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1406"
 ms.assetid: d5d0d3fc-f105-43da-be5b-923ab023309c
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1406: Avoid Int64 arguments for Visual Basic 6 clients
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidInt64ArgumentsForVB6Clients|
 |CheckId|CA1406|

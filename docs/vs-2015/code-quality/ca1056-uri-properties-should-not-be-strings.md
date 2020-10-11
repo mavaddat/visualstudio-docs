@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1056"
 ms.assetid: fdc99d29-0904-4a65-baa8-4f76833c953e
 caps.latest.revision: 14
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1056: URI properties should not be strings
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UriPropertiesShouldNotBeStrings|
 |CheckId|CA1056|

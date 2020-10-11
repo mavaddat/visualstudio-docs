@@ -22,7 +22,7 @@ The Visual Studio debugger allows you to control the execution of a program and 
 
 ## In this section
 
-|||
+|Title|Description|
 |-|-|
 |[Start a debug session  (JavaScript)](../debugger/start-a-debugging-session-for-store-apps-in-visual-studio-javascript.md)|How to start a debugging session describes different options for configuring and starting a debugging session for a JavaScript app.|
 |[Control execution in a debug session (JavaScript)](../debugger/control-execution-of-a-store-app-in-a-visual-studio-debug-session-for-windows-store-apps-javascript.md)|Debugger navigation takes you through a simple app that demonstrates how to start and stop debugging, how navigate through code, and how to view the program state.|
@@ -33,4 +33,4 @@ The Visual Studio debugger allows you to control the execution of a program and 
 |[Trigger suspend, resume, and background events for Windows Store)](../debugger/how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md)|The debugger disables Windows Process Lifetime Management (PLM) events that suspend, resume, and terminate apps. You can trigger these events from the debugger toolbar.<br /><br /> Background tasks enable you to perform important operations even when you app has been suspended. The debugger enables you start and debug these background task.|
 
 ## See Also
- [Debugging in Visual Studio (in the MSDN Library)](http://go.microsoft.com/fwlink/?LinkID=226896)
+ [Debugging in Visual Studio (in the MSDN Library)](https://msdn.microsoft.com/library/sc65sadd(VS.110).aspx)

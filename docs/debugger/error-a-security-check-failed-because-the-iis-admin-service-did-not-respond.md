@@ -1,7 +1,7 @@
 ---
-title: "Error: A Security Check Failed Because the IIS Admin Service Did Not Respond | Microsoft Docs"
+title: "A Security Check Failed Because the IIS Admin Service Did Not Respond | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.iis_not_responding"
 dev_langs:
@@ -38,5 +38,5 @@ This error occurs when the IIS Admin Service does not respond. This usually indi
 
      For additional information, see the IIS documentation.
 
-## See Also
+## See also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaLineNumber::get_statement | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_statement ( 
 ## Remarks
  Statements can span multiple lines. This method indicates if the associated line number marks the beginning of such a multi-line statement.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

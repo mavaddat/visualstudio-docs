@@ -1,20 +1,24 @@
 ---
 title: Convert Anonymous Type to Class
-ms.date: 02/13/2019
+ms.date: 03/10/2020
 ms.topic: reference
-author: kendrahavens
-ms.author: kehavens
+author: mikadumont
+ms.author: midumont
 manager: jillfra
 dev_langs:
   - CSharp
+  - VB
 ms.workload:
   - "dotnet"
+monikerRange: '>= vs-2019'
 ---
 # Convert anonymous type to class
 
 This refactoring applies to:
 
 - C#
+
+- Visual Basic
 
 **What:** Convert an anonymous type to class.
 

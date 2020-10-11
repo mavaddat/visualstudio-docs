@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_virtualBasePointerOffset | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_virtualBasePointerOffset ( 
 > [!NOTE]
 > A return value of `S_FALSE` means that the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

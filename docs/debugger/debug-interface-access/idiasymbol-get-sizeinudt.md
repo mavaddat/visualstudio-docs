@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_sizeInUdt | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: a82ab896-0185-46a4-b4d5-babfcc660fe1
@@ -29,5 +29,5 @@ HRESULT get_sizeInUdt(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

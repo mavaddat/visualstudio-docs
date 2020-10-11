@@ -1,20 +1,20 @@
 ---
-title: "IEnumDebugFields::Next | Microsoft Docs"
-ms.date: "11/04/2016"
+title: IEnumDebugFields::Next | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "IEnumDebugFields::Next"
+- IEnumDebugFields::Next
 helpviewer_keywords:
-  - "IEnumDebugFields::Next method"
+- IEnumDebugFields::Next method
 ms.assetid: 22c177a2-af81-4234-812b-f9b47be245a2
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # IEnumDebugFields::Next
 This method returns the next set of elements from the enumeration.
@@ -50,6 +50,6 @@ int Next(
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if fewer than the requested number of elements could be returned; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IEnumDebugFields](../../../extensibility/debugger/reference/ienumdebugfields.md)
 - [IDebugField](../../../extensibility/debugger/reference/idebugfield.md)

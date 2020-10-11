@@ -138,7 +138,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
  While the elements underneath `InstallChecks` define the tests to run, they do not execute them. To execute the tests, you must create `Command` elements underneath the `Commands` element.
 
 ## Example
- The following code example demonstrates the `InstallChecks` element as it is used in the product file for the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ The following code example demonstrates the `InstallChecks` element as it is used in the product file for the .NET Framework.
 
 ```xml
 <InstallChecks>
@@ -150,7 +150,7 @@ The `InstallChecks` element supports starting a variety of tests against the loc
 ## InstallConditions
  When `InstallChecks` are evaluated, they produce properties. The properties are then used by `InstallConditions` to determine whether a package should install, bypass, or fail. The following table lists the `InstallConditions`:
 
-|||
+|Condition|Description|
 |-|-|
 |`FailIf`|If any `FailIf` condition evaluates to true, the package will fail. The rest of the conditions will not be evaluated.|
 |`BypassIf`|If any `BypassIf` condition evaluates to true, the package will be bypassed. The rest of the conditions will not be evaluated.|

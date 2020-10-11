@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "UseParamsForVariableArguments"
 ms.assetid: bf98b733-4855-4110-9f16-eba5a9e79421
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2230: Use params for variable arguments
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseParamsForVariableArguments|
 |CheckId|CA2230|

@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "DoNotExposeGenericLists"
 ms.assetid: 5caac810-1a79-47df-a27b-c46c5040bf34
 caps.latest.revision: 22
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1002: Do not expose generic lists
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotExposeGenericLists|
 |CheckId|CA1002|

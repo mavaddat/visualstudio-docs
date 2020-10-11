@@ -3,7 +3,7 @@ title: "Syntax error (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1002"
 dev_langs: 
@@ -24,5 +24,5 @@ You created a statement that violates one or more of the grammatical rules of [!
   
 - Look for misdirected parentheses or braces.  
   
-## See Also  
- [Error Object](../../javascript/reference/error-object-javascript.md)
+## See also  
+ [Error Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error)

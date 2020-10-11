@@ -1,7 +1,7 @@
 ---
 title: "IDiaLineNumber::get_columnNumber | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,5 +35,5 @@ HRESULT get_columnNumber ( 
 ## Remarks
  The column value returned by this method is a byte offset into the line to the first character of the statement on the line.
 
-## See Also
+## See also
 - [IDiaLineNumber](../../debugger/debug-interface-access/idialinenumber.md)

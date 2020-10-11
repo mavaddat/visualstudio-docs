@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "ImplementISerializableCorrectly"
 ms.assetid: cf05936d-0d6c-49ed-a1b4-220032e50b97
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2240: Implement ISerializable correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ImplementISerializableCorrectly|
 |CheckId|CA2240|

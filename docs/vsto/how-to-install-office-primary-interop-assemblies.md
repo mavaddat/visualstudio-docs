@@ -1,7 +1,7 @@
 ---
 title: "How to: Install Office primary interop assemblies"
-ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.date: "08/14/2019"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -16,6 +16,8 @@ ms.workload:
 ---
 # How to: Install Office primary interop assemblies
   Install the Microsoft Office primary interop assemblies (PIAs) when you install Office.
+
+[!include[Add-ins note](includes/addinsnote.md)]
 
 ## To install the PIAs when you install Office
 

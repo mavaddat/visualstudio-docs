@@ -1,7 +1,7 @@
 ---
 title: "How to: Programmatically protect worksheets"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -42,7 +42,7 @@ ms.workload:
 
      The **Allow Users to Edit Ranges** dialog box appears. You can specify ranges that are unlocked using a password, and users who can edit ranges without a password.
 
-## Use code at runtime
+## Use code at run time
  The following code sets the password (using the variable getPasswordFromUser, which contains a password obtained from the user) and allows only sorting.
 
 ### To protect a worksheet by using code in a document-level customization

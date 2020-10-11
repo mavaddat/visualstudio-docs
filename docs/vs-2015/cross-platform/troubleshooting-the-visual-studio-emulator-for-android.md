@@ -37,7 +37,7 @@ This topic contains information to help you resolve issues that you may experien
 
 - [Visual Studio gets stuck trying to deploy the app to the emulator or the emulator does not appear as a debug target in other IDEs](#ADB)
 
-- [Emulator hangs because it couldn't set up the UDP port](#XamarinPlayer)
+- [Emulator stops responding because it couldn't set up the UDP port](#XamarinPlayer)
 
 - [Cannot attach debugger to a Xamarin project](#Skylake)
 
@@ -128,7 +128,7 @@ This topic contains information to help you resolve issues that you may experien
 
      ![Android&#95;Emu&#95;V&#95;Switch&#95;Man](../cross-platform/media/android-emu-v-switch-man.png "Android_Emu_V_Switch_Man")
 
-     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](http://windows.microsoft.com/windows-10/fix-network-connection-issues) (section 6).
+     If the setup is incorrect and you are using Windows 10, you might try  to [Reinstall network devices using netcfg –d command](https://support.microsoft.com/help/10741/windows-fix-network-connection-issues) (section 6).
 
 - If these steps do not resolve the issue, see [Emulator fails to start (first use)](#NoStart) for information on 3rd party software that may be interfering with the emulator.
 
@@ -261,8 +261,8 @@ This topic contains information to help you resolve issues that you may experien
 
   Restart the emulator and you should now be able to see the emulator connected to ADB and associated Android tools.
 
-## <a name="XamarinPlayer"></a> Emulator hangs because it couldn't set up the UDP port
- You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to hang or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn’t set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
+## <a name="XamarinPlayer"></a> Emulator stops responding because it couldn't set up the UDP port
+ You may experience this issue due to incompatibility with Xamarin Player. If the emulator appears to stop responding, or if you see this error message, "The emulator is unable to connect to the device operating system: Couldn’t set up the UDP port.  Some functionality might be disabled", you may be experiencing this issue. Take the following steps.
 
 1. Uninstall Xamarin Player.
 
@@ -305,6 +305,6 @@ This topic contains information to help you resolve issues that you may experien
 ## <a name="Support"></a> Support Resources
  If your host computer meets the system requirements and you encounter an issue not covered in this troubleshooting guide:
 
-- Ask a question on StackOverflow using the [android-emulator](http://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
+- Ask a question on StackOverflow using the [android-emulator](https://stackoverflow.com/questions/tagged/android-emulator) and visual-studio tags.
 
 - Report an issue using the Send a Smile tool in Visual Studio or in the Emulator Manager.

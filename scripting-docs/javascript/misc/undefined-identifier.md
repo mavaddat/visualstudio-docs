@@ -3,7 +3,7 @@ title: "Undefined identifier | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5009"
 dev_langs: 
@@ -28,6 +28,6 @@ You attempted to use an identifier that the [!INCLUDE[javascript](../../javascri
   
 - Declare the variable with a **var** statement (as in `var` x;).  
   
-## See Also  
- [Variables](../../javascript/variables-javascript.md)   
- [Variable Scope](../../javascript/advanced/variable-scope-javascript.md)
+## See also  
+ [Variables](https://developer.mozilla.org/docs/Learn/JavaScript/First_steps/Variables)   
+ [Variable Scope](https://developer.mozilla.org/docs/Web/JavaScript/Closures)

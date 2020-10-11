@@ -1,7 +1,7 @@
 ---
 title: "IDiaFrameData::get_type | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -32,6 +32,6 @@ HRESULT get_type ( 
 ## Return Value
  If successful, returns `S_OK`. Returns `S_FALSE` if this property is not supported. Otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
 - [StackFrameTypeEnum Enumeration](../../debugger/debug-interface-access/stackframetypeenum.md)

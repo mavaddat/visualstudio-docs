@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1308"
 ms.assetid: 7e9a7457-3f93-4938-ac6f-1389fba8d9cc
 caps.latest.revision: 13
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1308: Normalize strings to uppercase
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|NormalizeStringsToUppercase|
 |CheckId|CA1308|

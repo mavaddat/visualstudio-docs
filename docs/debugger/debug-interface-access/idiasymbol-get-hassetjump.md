@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_hasSetJump | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -42,7 +42,7 @@ HRESULT get_hasSetJump(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [IDiaSymbol::get_hasLongJump](../../debugger/debug-interface-access/idiasymbol-get-haslongjump.md)
 - [longjmp](/cpp/c-runtime-library/reference/longjmp)

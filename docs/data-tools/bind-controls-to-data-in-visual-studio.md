@@ -1,18 +1,18 @@
 ---
 title: Bind controls to data
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "data, displaying"
-  - "data sources, displaying data"
-  - "Data Sources window"
-  - "displaying data"
+- data, displaying
+- data sources, displaying data
+- Data Sources window
+- displaying data
 ms.assetid: be8b6623-86a6-493e-ab7a-050de4661fd6
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Bind controls to data in Visual Studio
 

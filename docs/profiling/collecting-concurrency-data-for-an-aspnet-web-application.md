@@ -1,16 +1,18 @@
 ---
-title: "Profiler command line to get ASP.NET web app concurrency data"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
-helpviewer_keywords:
-  - "concurrency profiling method"
-  - "profiling tools,concurrency method"
+title: Profiler command line - Get ASP.NET concurrency data
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
+helpviewer_keywords: 
+  - concurrency profiling method
+  - profiling tools,concurrency method
 ms.assetid: 0ba431c1-9eaf-4af9-8ce0-669c0835cdc2
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "aspnet"
+monikerRange: 'vs-2017'
+ms.workload: 
+  - aspnet
 ---
 
 # Collect concurrency data for an ASP.NET web application using the profiler command line

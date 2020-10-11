@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "UseGenericEventHandlerInstances"
 ms.assetid: 402101b6-555d-4cf7-b223-1d9fdfaaf1cd
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1003: Use generic event handler instances
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|UseGenericEventHandlerInstances|
 |CheckId|CA1003|

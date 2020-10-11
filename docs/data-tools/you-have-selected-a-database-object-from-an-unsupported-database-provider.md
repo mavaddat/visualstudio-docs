@@ -1,13 +1,15 @@
 ---
-title: You have selected a database object from an unsupported database provider
+title: Object from unsupported provider
+description: You have selected a database object from an unsupported database provider
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: reference
+ms.topic: error-reference
 ms.assetid: c0f1298e-31aa-471e-ae19-1bafffd2ae40
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # You have selected a database object from an unsupported database provider
 

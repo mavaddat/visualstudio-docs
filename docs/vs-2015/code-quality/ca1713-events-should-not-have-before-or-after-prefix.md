@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "EventsShouldNotHaveBeforeOrAfterPrefix"
 ms.assetid: 855772a4-aa9e-410b-88c1-c5fba1ca63da
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1713: Events should not have before or after prefix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|EventsShouldNotHaveBeforeOrAfterPrefix|
 |CheckId|CA1713|

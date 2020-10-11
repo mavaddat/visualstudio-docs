@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isMatrixRowMajor | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 36b1e881-ea76-48b0-b67f-e9eb0d19bec7
@@ -29,5 +29,5 @@ HRESULT get_isMatrixRowMajor(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

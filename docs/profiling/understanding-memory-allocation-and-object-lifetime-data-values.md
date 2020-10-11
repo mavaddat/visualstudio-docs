@@ -1,5 +1,6 @@
 ---
-title: "Understand memory allocation & object lifetime data values"
+title: "Memory allocation & object lifetime data values"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 helpviewer_keywords:
@@ -8,6 +9,7 @@ helpviewer_keywords:
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: jillfra
+monikerRange: 'vs-2017'
 ms.workload:
   - "multiple"
 ---

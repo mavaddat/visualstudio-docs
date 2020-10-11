@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSymbolsByAddr::Prev | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -45,6 +45,6 @@ HRESULT Prev ( 
 ## Remarks
  This method updates the enumerator position by the number of elements fetched.
 
-## See Also
+## See also
 - [IDiaEnumSymbolsByAddr](../../debugger/debug-interface-access/idiaenumsymbolsbyaddr.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

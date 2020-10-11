@@ -1,13 +1,13 @@
 ---
-title: "Walkthrough: Saving User Settings on a Start Page | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: 'Walkthrough: Saving User Settings on a Start Page | Microsoft Docs'
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: 754b9bf3-8681-4c77-b0a4-09146a4e1d2d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 monikerRange: vs-2017
 ---
 # Walkthrough: Save user settings on a Start Page
@@ -73,7 +73,7 @@ For more information about how to persist settings, see [Extending User Settings
 
      This step opens *MyControl.xaml.cs*, and creates a stub handler for the `Button_Click` event.
 
-2. Add the following `using` statements to the top of the file.
+2. Add the following `using` directives to the top of the file.
 
      [!code-csharp[StartPageDTE#11](../extensibility/codesnippet/CSharp/walkthrough-saving-user-settings-on-a-start-page_1.cs)]
 

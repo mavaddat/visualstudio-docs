@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_hasAssignmentOperator | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -42,5 +42,5 @@ HRESULT get_hasAssignmentOperator ( 
 |Header:|dia2.h|
 |Version:|DIA SDK v7.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

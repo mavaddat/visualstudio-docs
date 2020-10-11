@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findInlineFramesByVA | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 54295d3e-bbb6-4c10-ab9d-adcfc22b1f71
@@ -35,7 +35,7 @@ HRESULT findInlineFramesByVA ( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns an error code.
 
-## See Also
+## See also
 - [IDiaSession](../../debugger/debug-interface-access/idiasession.md)
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

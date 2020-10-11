@@ -1,14 +1,14 @@
 ---
 title: Create web templates
 ms.date: 01/02/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "Visual Studio templates, Web"
-  - "templates [Visual Studio], Web"
-  - "Web templates [Visual Studio]"
-  - "project templates [Visual Studio], Web"
-author: gewarren
-ms.author: gewarren
+- Visual Studio templates, Web
+- templates [Visual Studio], Web
+- Web templates [Visual Studio]
+- project templates [Visual Studio], Web
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ---
 # How to: Manually create web templates

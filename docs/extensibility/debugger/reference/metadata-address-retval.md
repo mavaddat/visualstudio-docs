@@ -1,20 +1,20 @@
 ---
-title: "METADATA_ADDRESS_RETVAL | Microsoft Docs"
-ms.date: "11/04/2016"
+title: METADATA_ADDRESS_RETVAL | Microsoft Docs
+ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "METADATA_ADDRESS_RETVAL"
+- METADATA_ADDRESS_RETVAL
 helpviewer_keywords:
-  - "METADATA_ADDRESS_RETVAL structure"
+- METADATA_ADDRESS_RETVAL structure
 ms.assetid: 5b0ec0fb-84b3-4ce7-8e24-becf3d881d7d
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 dev_langs:
-  - CPP
-  - CSharp
+- CPP
+- CSharp
 ---
 # METADATA_ADDRESS_RETVAL
 This structure represents a return value from a method or function.
@@ -44,7 +44,7 @@ public struct METADATA_ADDRESS_RETVAL {
  The ID of the method this return value is for.
 
  `dwCorType`\
- The base type of return value. This is a value from the `CorElementType` enumeration defined in the [!INCLUDE[dnprdnshort](../../../code-quality/includes/dnprdnshort_md.md)] SDK corhdr.h file.
+ The base type of return value. This is a value from the `CorElementType` enumeration defined in the .NET Framework SDK corhdr.h file.
 
  `dwSigSize`\
  The size of the return value signature (as stored in `rgSig`).

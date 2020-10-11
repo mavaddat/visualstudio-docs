@@ -1,5 +1,5 @@
 ---
-title: "Walkthrough: Updating a Chart in a Worksheet Using Radio Buttons"
+title: "Update chart in worksheet using radio buttons"
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -51,7 +51,7 @@ ms.workload:
 
 4. Add the following data to **Data for Chart** with cell A4 being the upper left corner, and E8 the lower right corner.
 
-   ||Q1|Q2|Q3|Q4|
+   |Region / Quarter|Q1|Q2|Q3|Q4|
    |-|--------|--------|--------|--------|
    |West|500|550|550|600|
    |East|600|625|675|700|

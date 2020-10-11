@@ -1,7 +1,7 @@
 ---
 title: "IDiaLoadCallback::NotifyDebugDir | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -49,6 +49,6 @@ HRESULT NotifyDebugDir ( 
 
  Most clients will not need this callback because the `IDiaDataSource::loadDataForExe` method transparently opens both .pdb and .dbg files when necessary to serve symbols.
 
-## See Also
+## See also
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)
 - [IDiaDataSource::loadDataForExe](../../debugger/debug-interface-access/idiadatasource-loaddataforexe.md)

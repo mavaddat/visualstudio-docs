@@ -146,13 +146,13 @@ Although a toolset can override the entire build process, usually you just want 
 
 - `$(VCTargetsPath)`\\*Microsoft.CppCommon.targets*
 
-   This file defines the main parts of the native build process, and also imports:
+  This file defines the main parts of the native build process, and also imports:
 
-   - `$(VCTargetsPath)`\\*Microsoft.CppBuild.targets*
+  - `$(VCTargetsPath)`\\*Microsoft.CppBuild.targets*
 
-   - `$(VCTargetsPath)`\\*Microsoft.BuildSteps.targets*
+  - `$(VCTargetsPath)`\\*Microsoft.BuildSteps.targets*
 
-   - `$(MSBuildToolsPath)`\\*Microsoft.Common.Targets*
+  - `$(MSBuildToolsPath)`\\*Microsoft.Common.Targets*
 
 - `$(VCTargetsPath)`\\*Microsoft.Cpp.Common.props*
 
@@ -428,7 +428,7 @@ For instance, to automatically generate .cpp or .h files from .xaml files, the `
 </Target>
 ```
 
-To use `Task.HostObject` to get the unsaved content of source files, the targets and task should be registered as [MsbuildHostObjects](/dotnet/api/microsoft.visualstudio.shell.interop.ivsmsbuildhostobject?view=visualstudiosdk-2017) for the given projects in a pkgdef:
+To use `Task.HostObject` to get the unsaved content of source files, the targets and task should be registered as [MsbuildHostObjects](/dotnet/api/microsoft.visualstudio.shell.interop.ivsmsbuildhostobject?view=visualstudiosdk-2017&preserve-view=true) for the given projects in a pkgdef:
 
 ```reg
 \[$RootKey$\\Projects\\{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}\\MSBuildHostObjects\]

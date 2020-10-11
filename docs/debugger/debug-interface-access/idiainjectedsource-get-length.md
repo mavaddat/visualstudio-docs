@@ -1,7 +1,7 @@
 ---
 title: "IDiaInjectedSource::get_length | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,6 +35,6 @@ HRESULT get_length ( 
 ## Remarks
  The value returned by this method is the length of the source code and is the same value as returned by the [IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md) method.
 
-## See Also
+## See also
 - [IDiaInjectedSource](../../debugger/debug-interface-access/idiainjectedsource.md)
 - [IDiaInjectedSource::get_source](../../debugger/debug-interface-access/idiainjectedsource-get-source.md)

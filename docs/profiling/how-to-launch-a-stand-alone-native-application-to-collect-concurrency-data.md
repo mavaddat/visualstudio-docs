@@ -1,13 +1,14 @@
 ---
-title: "How to: Launch a Stand-Alone Native Application with the Profiler to Collect Concurrency Data by Using the Command Line | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Profiler command line - Open native client app, get concurrency data
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: e5aed651-afed-4b70-9a7e-1a6032cc614f
-author: "mikejo5000"
-ms.author: "mikejo"
+author: mikejo5000
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "cplusplus"
+monikerRange: 'vs-2017'
+ms.workload: 
+  - cplusplus
 ---
 # How to: Launch a stand-alone native application with the profiler to collect concurrency data by using the command line
 This topic describes how to use [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] Profiling Tools command-line tools to start a native stand-alone (client) application and collect process and thread concurrency data.

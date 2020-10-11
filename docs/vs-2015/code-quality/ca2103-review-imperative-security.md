@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "ReviewImperativeSecurity"
 ms.assetid: d24fde71-bdf6-46c0-8965-9a73dc33c1aa
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2103: Review imperative security
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ReviewImperativeSecurity|
 |CheckId|CA2103|

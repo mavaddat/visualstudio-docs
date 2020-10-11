@@ -10,7 +10,7 @@ monikerRange: vs-2019
 ms.topic: tutorial
 ms.devlang: CSharp
 author: ardalis
-ms.author: tglee
+ms.author: ornella
 manager: jillfra
 dev_langs:
   - CSharp
@@ -79,10 +79,10 @@ Note that for most of the project templates you can also choose to enable Docker
 
 - No Authentication.
 - Individual User Accounts. These are stored in a local or Azure-based database.
-- Work or School Accounts. This option uses Active Directory, Azure AD, or Office 365 for authentication.
+- Work or School Accounts. This option uses Active Directory, Azure AD, or Microsoft 365 for authentication.
 - Windows Authentication. Suitable for intranet applications.
 
-Select the standard Web Application template with No Authentication and click **OK**.
+Select the standard Web Application template with No Authentication and click **Create**.
 
 ![Visual Studio 2019 Choose ASP.NET Core Project Options](media/vs-2019/vs2019-choose-aspnetcore-project.png)
 

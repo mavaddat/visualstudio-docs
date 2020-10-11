@@ -1,5 +1,5 @@
 ---
-title: "Allocation Hooks and C Run-Time Memory Allocations | Microsoft Docs"
+title: "Allocation Hooks and C Run-Time Memory Allocations"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -33,5 +33,5 @@ If your allocation hook doesn't ignore `_CRT_BLOCK` blocks, then any C run-time 
 
 If you examine the run-time library source files, you will see that the default allocation hook function, **CrtDefaultAllocHook** (which simply returns **TRUE**), is located in a separate file of its own, DBGHOOK.C. If you want your allocation hook to be called even for the allocations made by the run-time startup code that is executed before your application's **main** function, you can replace this default function with one of your own, instead of using [_CrtSetAllocHook](/cpp/c-runtime-library/reference/crtsetallochook).
 
-## See Also
+## See also
 - [Debug Hook Function Writing](../debugger/debug-hook-function-writing.md)

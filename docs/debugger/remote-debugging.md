@@ -27,7 +27,7 @@ For in-depth instructions on remote debugging, see these topics.
 
 |Scenario|Link|
 |-|-|-|
-|Azure App Service|[Snapshot Debugger](../debugger/debug-live-azure-applications.md) or [Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md)|
+|Azure App Service|[Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md) or, for Visual Studio Enterprise, the [Snapshot Debugger](../debugger/debug-live-azure-applications.md)|
 |Azure VM|[Remote debug ASP.NET on Azure](../debugger/remote-debugging-azure.md)|
 |Azure Service Fabric|[Debug an Azure Service Fabric application](/azure/service-fabric/service-fabric-debugging-your-application#debug-a-remote-service-fabric-application)|
 |ASP.NET|[Remote debug ASP.NET Core](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md) or [Remote Debug ASP.NET](../debugger/remote-debugging-aspnet-on-a-remote-iis-7-5-computer.md)|
@@ -119,7 +119,7 @@ For debugging in ASP.NET and other server environments, you must either run the 
 
    You can stop and start the remote debugger service from **Control Panel > Services**.
 
-## Set Up Debugging with Remote Symbols
+## Set up debugging with remote symbols
 
 [!INCLUDE [remote-debugger-symbols](../debugger/includes/remote-debugger-symbols.md)]
 

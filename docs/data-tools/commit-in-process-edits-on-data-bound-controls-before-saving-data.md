@@ -1,23 +1,25 @@
 ---
-title: Commit in-process edits on data-bound controls before saving
+title: Uncommitted edits
+description: Commit in-process edits on data-bound controls before saving
+ms.custom: SEO-VS-2020
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
-  - "VB"
-  - "CSharp"
+- VB
+- CSharp
 helpviewer_keywords:
-  - "committing edited records"
-  - "data-bound controls, in-process edits"
-  - "DataBinding class, committing edited records"
-  - "hierarchical update, committing edited records"
-  - "BindingSource class, committing edited records"
-  - "EndEdit method"
+- committing edited records
+- data-bound controls, in-process edits
+- DataBinding class, committing edited records
+- hierarchical update, committing edited records
+- BindingSource class, committing edited records
+- EndEdit method
 ms.assetid: 61af4798-eef7-468c-b229-5e1497febb2f
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Commit in-process edits on data-bound controls before saving data
 

@@ -57,8 +57,6 @@ The Visual Studio **Energy Consumption** profiler helps you analyze the power an
 > - Windows.Foundation.Diagnostics LoggingChannel implements the [Windows.Foundation.IClosable](https://msdn.microsoft.com/library/windows/apps/windows.foundation.iclosable.aspx) interface  (projected as [System.IDisposable](https://msdn.microsoft.com/library/System.IDisposable.aspx) in C# and VB).To avoid leaking operating system resources, call [LoggingChannel.Close](https://msdn.microsoft.com/library/windows/apps/windows.foundation.diagnostics.loggingchannel.close.aspx)() (Windows.Foundation.Diagnostics.LoggingChannel.Dispose() in C# and VB) when you are finished with a logging channel.  
 >   - Each open logging channel must have a unique name. Attempting to create a new logging channel with the same name as an undisposed channel causes an exception.  
   
- See the Windows SDK Sample [LoggingSession Sample](http://code.msdn.microsoft.com/windowsapps/LoggingSession-Sample-ccd52336) for examples.  
-  
  **Add marks to JavaScript code**  
   
  To add user marks add the following code at the points in your code that you want to mark:  
@@ -116,7 +114,7 @@ if (performance && performance.mark) {
   
  ![Energy profiler report page](../profiling/media/energyprof-all.png "ENERGYPROF_All")  
   
-|||  
+|Image|Description|  
 |-|-|  
 |![Step 1](../profiling/media/procguid-1.png "ProcGuid_1")|The report file is named Report*YYYYMMDD-HHMM*.diagsession. You can change the name if you decide to save the report.|  
 |![Step 2](../profiling/media/procguid-2.png "ProcGuid_2")|The timeline shows the length of the profiling session, app lifecycle activation events, and user marks.|  

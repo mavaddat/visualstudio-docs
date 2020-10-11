@@ -1,22 +1,22 @@
 ---
-title: "Choosing Between Shared and Versioned VSPackages | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Choosing Between Shared and Versioned VSPackages | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "SxS"
-  - "side-by-side installation"
-  - "installation [Visual Studio SDK], side-by-side"
+- SxS
+- side-by-side installation
+- installation [Visual Studio SDK], side-by-side
 ms.assetid: e3128ac3-2e92-48e9-87ab-3b6c9d80e8c9
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Choose between shared and versioned VSPackages
 Different versions of Visual Studio can coexist on the same computer. VSPackages can support any mix of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] versions.
 
- You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and associated versions of the [!INCLUDE[dnprdnshort](../code-quality/includes/dnprdnshort_md.md)].
+ You can enable side-by-side installations of VSPackages through either of two strategies, the shared strategy or the versioned strategy. Both accommodate the presence of multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] and associated versions of the .NET Framework.
 
  In the shared strategy, one VSPackage is registered for use in multiple versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)]. In the versioned strategy, multiple VSPackage DLLs are installed, one for each version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] that you support.
 
@@ -29,7 +29,7 @@ Different versions of Visual Studio can coexist on the same computer. VSPackages
 
   - Program your VSPackage to adapt to the version of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] in which it is running. Then, if queries for newer services fail, your VSPackage can offer other services that are supported in older versions of [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)].
 
-- Register your VSPackage appropriately. For more information, see [VSPackage registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage registration](https://msdn.microsoft.com/library/f69e0ea3-6a92-4639-8ca9-4c9c210e58a1).
+- Register your VSPackage appropriately. For more information, see [VSPackage registration](../extensibility/internals/vspackage-registration.md) and [Managed VSPackage registration](/previous-versions/bb166783(v=vs.100)).
 
 - Register file extensions appropriately. For more information, see [Registering file name extensions for side-by-side deployments](../extensibility/registering-file-name-extensions-for-side-by-side-deployments.md).
 

@@ -18,9 +18,9 @@ manager: jillfra
 # DA0010: Expensive GetHashCode
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-For the latest documentation on Visual Studio, see [DA0010: Expensive GetHashCode](https://docs.microsoft.com/visualstudio/profiling/da0010-expensive-gethashcode).  
+For the latest documentation on Visual Studio, see [DA0010: Expensive GetHashCode](/visualstudio/profiling/da0010-expensive-gethashcode).  
 
-|||  
+|Item|Value|  
 |-|-|  
 |Rule Id|DA0010|  
 |Category|.NET Framework Usage|  

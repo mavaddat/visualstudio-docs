@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findSymbolsByRVAForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 024ccd78-5867-4ca7-bc26-548758e9ac53
@@ -42,6 +42,6 @@ HRESULT findSymbolsByRVAForAcceleratorPointerTag (
 ## Remarks
  Call this method only on an `IDiaSymbol` interface that corresponds to an Accelerator stub function.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

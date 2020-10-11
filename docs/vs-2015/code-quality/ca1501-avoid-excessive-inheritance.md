@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1501"
 ms.assetid: 9e934746-1a4d-492a-91e4-085201abafa4
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1501: Avoid excessive inheritance
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AvoidExcessiveInheritance|
 |CheckId|CA1501|

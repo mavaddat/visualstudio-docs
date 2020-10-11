@@ -3,7 +3,7 @@ title: "Create a Vue.js app using Node.js"
 description: You can create Node.js applications in Visual Studio using the Vue.js framework
 ms.custom: "seodec18"
 ms.date: "07/06/2018"
-ms.topic: "conceptual"
+ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -32,7 +32,7 @@ The following new features support Vue.js application development in Visual Stud
     > This article requires features that are only available starting in Visual Studio 2017 version 15.8.
 
     ::: moniker range=">=vs-2019"
-    If a required version is not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019).
+    If a required version is not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads).
     ::: moniker-end
     ::: moniker range="vs-2017"
     If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/vs/older-downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=vs+2017+download) page to install it for free.
@@ -46,7 +46,7 @@ The following new features support Vue.js application development in Visual Stud
 
     If you don't have it installed, install the LTS version from the [Node.js](https://nodejs.org/en/download/) website. In general, Visual Studio automatically detects the installed Node.js runtime. If it does not detect an installed runtime, you can configure your project to reference the installed runtime in the properties page. (After you create a project, right-click the project node and choose **Properties**).
 
-## Create a Vue.js project using a template
+## Create a Vue.js project using Node.js
 
 You can use the new Vue.js templates to create a new project. Use of the template is the easiest way to get started. For detailed steps, see [Use Visual Studio to create your first Vue.js app](../javascript/quickstart-vuejs-with-nodejs.md).
 
@@ -164,7 +164,15 @@ These steps require vue-cli 3.0, which is currently in beta.
 
 #### Build with vue-cli 3.0
 
-An unknown issue with the vue-cli 3.0 prevents automating the build process. Each time that you try to refresh the wwwroot folder, you need to run the command `npm run build` on the client-app folder.
+An unknown issue with the vue-cli 3.0 may prevent automating the build process. Each time that you try to refresh the wwwroot folder, you need to run the command `npm run build` on the client-app folder.
+
+Alternatively, you can build the vue-cli 3.0 project as a pre-build event using the ASP.NET project properties. Right-click the project, choose **Properties**, and include the following commands in the **Build** tab, in the **Pre-build event command line** text box.
+
+``` cmd
+cd ./client-app
+npm run build
+cd ../
+```
 
 ## Limitations
 

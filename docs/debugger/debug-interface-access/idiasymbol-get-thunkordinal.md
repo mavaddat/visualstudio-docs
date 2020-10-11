@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_thunkOrdinal | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -40,7 +40,7 @@ HRESULT get_thunkOrdinal ( 
 
  A "thunk" is a piece of code that converts between a 32-bit memory address space (also known as flat address space) and a 16-bit address space (known as a segmented address space).
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [THUNK_ORDINAL Enumeration](../../debugger/debug-interface-access/thunk-ordinal.md)
 - [SymTagEnum Enumeration](../../debugger/debug-interface-access/symtagenum.md)

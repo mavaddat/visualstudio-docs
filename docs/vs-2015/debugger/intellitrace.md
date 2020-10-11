@@ -26,7 +26,7 @@ manager: jillfra
 # IntelliTrace
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-The latest version of this topic can be found at [IntelliTrace](https://docs.microsoft.com/visualstudio/debugger/intellitrace) .  
+The latest version of this topic can be found at [IntelliTrace](/visualstudio/debugger/intellitrace) .  
   
 You can spend less time debugging your application when you use IntelliTrace to record and trace your code's execution history. You can find bugs easily because IntelliTrace lets you:  
   
@@ -40,7 +40,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 ## What do you want to do?  
   
-|||  
+|Scenario|Articles|  
 |-|-|  
 |**Debug my application with IntelliTrace:**<br /><br /> -   Show me past events.<br />-   Show me call information with past events.<br />-   Save my IntelliTrace session.<br />-   Control the data that IntelliTrace collects.|-   [Walkthrough: Using IntelliTrace](../debugger/walkthrough-using-intellitrace.md)<br />     [IntelliTrace Features](../debugger/intellitrace-features.md)<br />-   [Configure IntelliTrace](https://msdn.microsoft.com/7657ecab-e07e-4b1b-872d-f05d966be37e)<br />-   [Historical Debugging](../debugger/historical-debugging.md)|  
 |**Collect IntelliTrace data during a test session in Test Manager**|-   [Collect more diagnostic data in manual tests](https://msdn.microsoft.com/library/bb5a2cc0-84f5-4dfe-9560-ca3d313aefd2)|  
@@ -49,7 +49,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 ## <a name="IntelliTraceSupport"></a> What apps can I debug with IntelliTrace?  
   
-|||  
+|Support level|App types|  
 |-|-|  
 |**Supported**|-   Visual Basic and Visual C# applications that use .NET Framework 2.0 or higher versions.<br />     You can debug most applications, including ASP.NET, Microsoft Azure, Windows Forms, WCF, WPF, Windows Workflow, SharePoint 2010, SharePoint 2013, and 64-bit apps.<br />     To debug SharePoint applications with IntelliTrace, see [Walkthrough: Debugging a SharePoint Application by Using IntelliTrace](https://msdn.microsoft.com/library/4bd80d2f-f680-4bf4-81c3-f14e8185f6a4).<br />     To debug Microsoft Azure apps with IntelliTrace, see [Debugging a Published Cloud Service with IntelliTrace and Visual Studio](../azure/vs-azure-tools-intellitrace-debug-published-cloud-services.md).|  
 |**Limited support**|-   F# apps on an experimental basis<br />-   Windows Store apps supported for events only|  
@@ -130,7 +130,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
   
 - **SharePoint 2010 and SharePoint 2013 application events**  
   
-   You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](http://go.microsoft.com/fwlink/?LinkId=320384) running in **Trace** mode.  
+   You can record user profile events and a subset of Unified Logging System (ULS) events for SharePoint 2010 and 2013 applications running outside Visual Studio. You can save these events to an .iTrace file. Requires Visual Studio Enterprise 2015, a previous version of Visual Studio Ultimate, or [Microsoft Monitoring Agent](https://go.microsoft.com/fwlink/?LinkID=309771) running in **Trace** mode.  
   
    When you open the .iTrace file, enter a SharePoint correlation ID to find its matching web request, view the recorded events, and start debugging from a specific event. If the file contains unhandled exceptions, you can choose a correlation ID to start debugging an exception.  
   
@@ -180,7 +180,7 @@ You can spend less time debugging your application when you use IntelliTrace to 
  [Using saved IntelliTrace data](../debugger/using-saved-intellitrace-data.md)  
   
 ### Blogs  
- [Visual Studio ALM + Team Foundation Server](http://go.microsoft.com/fwlink/?LinkID=201340)  
+ [Visual Studio ALM + Team Foundation Server](https://devblogs.microsoft.com/devops/welcome-to-the-visual-studio-alm-team-foundation-server-blog/)  
   
 ### Forums  
- [Visual Studio Diagnostics](http://go.microsoft.com/fwlink/?LinkId=262263)
+ [Visual Studio Diagnostics](https://social.msdn.microsoft.com/Forums/vsdebug)

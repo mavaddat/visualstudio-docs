@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CollectionPropertiesShouldBeReadOnly"
 ms.assetid: 26967aaf-6fbe-438a-b4d3-ac579b5dc0f9
 caps.latest.revision: 19
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2227: Collection properties should be read only
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|CollectionPropertiesShouldBeReadOnly|
 |CheckId|CA2227|

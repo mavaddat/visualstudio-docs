@@ -1,12 +1,13 @@
 ---
 title: Launch Visual Studio using DTE
+titleSuffix: ''
 ms.date: 04/26/2019
 ms.topic: conceptual
-author: gewarren
-ms.author:
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Launch Visual Studio using DTE
 

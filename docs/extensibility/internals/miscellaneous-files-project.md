@@ -1,18 +1,18 @@
 ---
-title: "Miscellaneous Files Project | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Miscellaneous Files Project | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "files, adding existing files to solutions"
-  - "Miscellaneous Files project"
-  - "Solution Items folder"
-  - "files, opening with Miscellaneous Files project"
+- files, adding existing files to solutions
+- Miscellaneous Files project
+- Solution Items folder
+- files, opening with Miscellaneous Files project
 ms.assetid: 93a278a8-d4f4-400b-8945-4f1b0a2b5bac
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Miscellaneous Files Project
 When a user opens project items, the IDE assigns to the Miscellaneous Files project any items that are not members of any projects in a solution.
@@ -29,7 +29,7 @@ When a user opens project items, the IDE assigns to the Miscellaneous Files proj
 
  The Miscellaneous Files project does not require the user to explicitly create it with the **New Project** dialog box. Also, the Miscellaneous Files project does not permanently manage a list of project members. It uses an optional feature to record a list of most recently used files for each user.
 
-## See Also
+## See also
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsProject3>
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsUIShellOpenDocument>
 - <xref:Microsoft.VisualStudio.Shell.Interop.VSDOCUMENTPRIORITY>

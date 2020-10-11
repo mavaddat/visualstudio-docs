@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "DoNotPassTypesByReference"
 ms.assetid: bcc3900a-e092-4bb8-896f-cb83f6289968
 caps.latest.revision: 20
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1045: Do not pass types by reference
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|DoNotPassTypesByReference|
 |CheckId|CA1045|

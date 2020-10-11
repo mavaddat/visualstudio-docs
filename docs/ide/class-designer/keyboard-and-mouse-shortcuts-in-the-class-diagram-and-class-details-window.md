@@ -3,16 +3,16 @@ title: Keyboard and Mouse Shortcuts for Class Designer
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
-  - "vs.classdetails.window"
+- vs.classdetails.window
 helpviewer_keywords:
-  - "class diagrams, keyboard shortcuts"
-  - "class diagrams, mouse shortcuts"
+- class diagrams, keyboard shortcuts
+- class diagrams, mouse shortcuts
 ms.assetid: c12d8dac-9902-4fde-b721-2a8116da53b7
-author: gewarren
-ms.author: gewarren
+author: TerryGLee
+ms.author: tglee
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Keyboard and mouse shortcuts in the Class Diagram and Class Details window
 
@@ -81,9 +81,8 @@ The following keyboard actions are supported in class diagrams:
 
 Use the following keys to navigate the **Class Details** window:
 
-|||
-|-|-|
 |Key|Result|
+|-|-|
 |**,** (comma)|If the cursor is in a parameter row, typing a comma moves the cursor to the Name field of the next parameter. If the cursor is in the last parameter row of a method, it moves the cursor to the \<add parameter> field, which you can use to create a new parameter.<br /><br /> If the cursor is elsewhere in the **Class Details** window, typing a comma literally adds a comma in the current field.|
 |**;** (semicolon) or **)** (closing parenthesis)|Move the cursor to the Name field of the next member row in the **Class Details** window grid.|
 |**Tab**|Moves the cursor to the next field, first moving left to right and then top to bottom. If the cursor is moving from a field in which you have typed text, **Class Details** processes that text and stores it if it does not produce an error.<br /><br /> If the cursor is on an empty field such as \<add parameter>, Tab moves it to the first field of the next row.|
@@ -97,3 +96,6 @@ Use the following keys to navigate the **Class Details** window:
 ## See also
 
 - [Create and configure type members](creating-and-configuring-type-members.md)
+- [How to use the keyboard exclusively](../reference/how-to-use-the-keyboard-exclusively.md)
+- [Default keyboard shortcuts in Visual Studio](../default-keyboard-shortcuts-in-visual-studio.md)
+- [Keyboard shortcuts in Blend](../../xaml-tools/keyboard-shortcuts-in-blend.md)

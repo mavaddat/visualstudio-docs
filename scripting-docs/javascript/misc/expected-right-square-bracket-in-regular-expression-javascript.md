@@ -3,7 +3,7 @@ title: "Expected ']' in regular expression (JavaScript) | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT5019"
 dev_langs: 
@@ -25,6 +25,6 @@ You attempted to create a character class for a regular expression match, but di
     > [!NOTE]
     > If you want to match a single bracket, escape it with a backslash - \\[ - so it is not interpreted as a special character by [!INCLUDE[javascript](../../javascript/includes/javascript-md.md)].  
   
-## See Also  
- [Regular Expression Object](../../javascript/reference/regular-expression-object-javascript.md)   
- [Regular Expression Syntax (JavaScript)](https://msdn.microsoft.com/library/1400241x)
+## See also  
+ [Regular Expression Object](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp)   
+ [Regular Expression Syntax (JavaScript)](/previous-versions/1400241x(v=vs.100))

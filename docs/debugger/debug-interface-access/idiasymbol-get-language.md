@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_language | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,6 +35,6 @@ HRESULT get_language ( 
 > [!NOTE]
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [CV_CFL_LANG Enumeration](../../debugger/debug-interface-access/cv-cfl-lang.md)

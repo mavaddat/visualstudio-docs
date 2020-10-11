@@ -1,7 +1,7 @@
 ---
-title: "Error: Kerberos Authentication Failed | Microsoft Docs"
+title: "Kerberos Authentication Failed | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.callback_kerberos_auth_failed"
 dev_langs:
@@ -52,6 +52,6 @@ Error: The Visual Studio Remote Debugger on the target computer cannot connect b
 
 5. Compare the IP address values.
 
-## See Also
+## See also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)
 - [Remote Debugging](../debugger/remote-debugging.md)

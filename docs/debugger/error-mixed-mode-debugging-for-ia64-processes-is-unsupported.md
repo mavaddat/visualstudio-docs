@@ -1,7 +1,7 @@
 ---
-title: "Error: Mixed mode debugging for IA64 processes is unsupported | Microsoft Docs"
+title: "Mixed mode debugging for IA64 processes is unsupported | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.interop_unsupported_ia64"
 dev_langs:
@@ -22,5 +22,5 @@ The [!INCLUDE[vsprvs](../code-quality/includes/vsprvs_md.md)] debugger does not 
 
 - Build a 32-bit version of your application for debugging.
 
-## See Also
+## See also
 - [Remote Debugging](../debugger/remote-debugging.md)

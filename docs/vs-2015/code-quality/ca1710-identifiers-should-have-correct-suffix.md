@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1710"
 ms.assetid: 2b8e6dce-b4e8-4a66-ba9a-6b79be5bfe8c
 caps.latest.revision: 22
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1710: Identifiers should have correct suffix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldHaveCorrectSuffix|
 |CheckId|CA1710|

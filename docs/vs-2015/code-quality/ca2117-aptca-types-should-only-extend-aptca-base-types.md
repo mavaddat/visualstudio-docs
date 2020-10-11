@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA2117"
 ms.assetid: c505b586-2f1e-47cb-98ee-a5afcbeda70f
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2117: APTCA types should only extend APTCA base types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|AptcaTypesShouldOnlyExtendAptcaBaseTypes|
 |CheckId|CA2117|

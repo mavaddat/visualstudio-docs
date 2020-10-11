@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CallBaseClassMethodsOnISerializableTypes"
 ms.assetid: 5a15b20d-769c-4640-b31a-36e07077daae
 caps.latest.revision: 17
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2236: Call base class methods on ISerializable types
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|CallBaseClassMethodsOnISerializableTypes|
 |CheckId|CA2236|

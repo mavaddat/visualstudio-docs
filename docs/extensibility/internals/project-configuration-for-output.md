@@ -1,15 +1,15 @@
 ---
-title: "Project Configuration for Output | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Project Configuration for Output | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: conceptual
 helpviewer_keywords:
-  - "project configurations, output"
+- project configurations, output
 ms.assetid: a4517f73-45af-4745-9d7f-9fddf887b636
-author: madskristensen
-ms.author: madsk
+author: acangialosi
+ms.author: anthc
 manager: jillfra
 ms.workload:
-  - "vssdk"
+- vssdk
 ---
 # Project Configuration for Output
 Every configuration can support a set of build processes that produce output items such as executable or resource files. These output items are private to the user and can be placed in groups that link related types of output such as executable files (.exe, .dll, .lib) and source files (.idl, .h files).
@@ -38,7 +38,7 @@ Output groups
 
  For more information, see the implementation of `IVsOutputGroup` in the Custom Project sample at [MPF for Projects](https://github.com/tunnelvisionlabs/MPFProj10).
 
-## See Also
+## See also
 - [Managing Configuration Options](../../extensibility/internals/managing-configuration-options.md)
 - [Project Configuration for Building](../../extensibility/internals/project-configuration-for-building.md)
 - [Project Configuration Object](../../extensibility/internals/project-configuration-object.md)

@@ -1,9 +1,9 @@
 ---
-title: "Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer"
+title: "The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer"
 titleSuffix: ""
 ms.custom: "seodec18"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.access_denied_oncallback"
 dev_langs:
@@ -22,7 +22,7 @@ ms.workload:
 ---
 # Error: The Microsoft Visual Studio Remote Debugging Monitor on the remote computer does not have permission to connect to this computer
 
-This error occurs when the user who is trying to run the Visual Studio Remote Debugging Monitor (msvsmon) does not have an account on the local computer.
+This error occurs when the user who is trying to run the Visual Studio Remote Debugging Monitor (msvsmon) does not have an account on the local computer. This error may occur when remote debugging using the legacy debugging engine.
 
 ## To fix this problem
 

@@ -1,14 +1,14 @@
 ---
 title: Deploying a Custom Directive Processor
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
-  - "text templates, custom directive processors"
-author: gewarren
-ms.author: gewarren
+- text templates, custom directive processors
+author: JoshuaPartlow
+ms.author: joshuapa
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Deploying a Custom Directive Processor
 

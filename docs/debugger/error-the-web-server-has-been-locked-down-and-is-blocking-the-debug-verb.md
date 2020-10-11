@@ -1,7 +1,7 @@
 ---
-title: "Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | Microsoft Docs"
+title: "The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.webdbg_debug_verb_blocked"
 dev_langs:
@@ -42,6 +42,6 @@ Stepping into a Web application or XML Web service failed because the IIS lockdo
 
 7. Restart the server or restart IIS.
 
-## See Also
+## See also
 - [Debugging Web Applications: Errors and Troubleshooting](../debugger/debugging-web-applications-errors-and-troubleshooting.md)
 - [Error: The Web Server Could Not Find the Requested Resource](../debugger/error-the-web-server-could-not-find-the-requested-resource.md)

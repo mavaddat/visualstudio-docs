@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_numberOfAcceleratorPointerTags | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 1886e3ec-b227-4187-8d93-c5144b4b77ae
@@ -32,5 +32,5 @@ HRESULT get_numberOfAcceleratorPointerTags(
 ## Remarks
  This method is called on an `IDiaSymbol` interface that corresponds to a C++ AMP accelerator stub function.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

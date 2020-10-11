@@ -1,19 +1,19 @@
 ---
 title: Create Data-Driven Unit Tests
 ms.date: 05/08/2019
-ms.topic: conceptual
-f1_keywords:
-  - "vs.test.testresults.unittest.datadriven"
-  - "vs.test.testresults.unittest.datadriven.failure"
-helpviewer_keywords:
-  - "unit tests, running"
-  - "unit tests, data-driven"
-  - "data-driven unit tests"
-ms.author: gewarren
+ms.topic: how-to
+f1_keywords: 
+  - vs.test.testresults.unittest.datadriven
+  - vs.test.testresults.unittest.datadriven.failure
+helpviewer_keywords: 
+  - unit tests, running
+  - unit tests, data-driven
+  - data-driven unit tests
+ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
-author: gewarren
+ms.workload: 
+  - multiple
+author: mikejo5000
 ---
 # How to: Create a data-driven unit test
 
@@ -173,4 +173,4 @@ When the method under test is corrected and the test rerun, the results bar turn
 - <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert?displayProperty=fullName>
 - [Unit test your code](../test/unit-test-your-code.md)
 - [Run unit tests with Test Explorer](../test/run-unit-tests-with-test-explorer.md)
-- [Write unit tests for the .NET Framework with the Microsoft unit test framework for managed code](../test/unit-test-your-code.md)
+- [Write unit tests for .NET with the Microsoft unit test framework](../test/unit-test-your-code.md)

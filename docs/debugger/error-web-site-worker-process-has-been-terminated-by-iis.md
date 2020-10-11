@@ -1,7 +1,7 @@
 ---
-title: "Error: Web site worker process has been terminated by IIS | Microsoft Docs"
+title: "Web site worker process has been terminated by IIS | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "troubleshooting"
+ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.web_server_process_terminated"
 dev_langs:
@@ -50,5 +50,5 @@ The debugger stopped execution of code on the Web site. This caused Internet Inf
 
 8. Close IIS Manager and the **Administrative Tools** window.
 
-## See Also
+## See also
 - [Remote Debugging Errors and Troubleshooting](../debugger/remote-debugging-errors-and-troubleshooting.md)

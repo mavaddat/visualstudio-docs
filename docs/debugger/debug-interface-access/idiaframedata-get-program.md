@@ -1,7 +1,7 @@
 ---
 title: "IDiaFrameData::get_program | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -45,5 +45,5 @@ HRESULT get_program ( 
 
    Note that the program string is specific to the CPU and to the calling convention set up for the function represented by the current stack frame.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)

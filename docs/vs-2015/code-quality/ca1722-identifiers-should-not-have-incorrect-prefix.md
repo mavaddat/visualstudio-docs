@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "IdentifiersShouldNotHaveIncorrectPrefix"
 ms.assetid: c3313c51-d004-4f9a-a0d1-6c4c4a1fb1e6
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1722: Identifiers should not have incorrect prefix
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|IdentifiersShouldNotHaveIncorrectPrefix|
 |CheckId|CA1722|

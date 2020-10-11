@@ -1,7 +1,7 @@
 ---
 title: "Create custom deployment step for SharePoint projects"
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -23,9 +23,9 @@ ms.workload:
 
 - Creating a Visual Studio extension that performs two main tasks:
 
-    - The extension defines a custom deployment step to upgrade SharePoint solutions.
+  - The extension defines a custom deployment step to upgrade SharePoint solutions.
 
-    - The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
+  - The extension creates a project extension that defines a new deployment configuration, which is a set of deployment steps that are executed for a given project. The new deployment configuration includes the custom deployment step and several built-in deployment steps.
 
 - Create two custom SharePoint commands that the extension assembly calls. SharePoint commands are methods that can be called by extension assemblies to use APIs in the server object model for SharePoint. For more information, see [Call into the SharePoint object models](../sharepoint/calling-into-the-sharepoint-object-models.md).
 
@@ -42,11 +42,11 @@ ms.workload:
 
   Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](http://go.microsoft.com/fwlink/?LinkId=177796).
+- Using the server object model for SharePoint. For more information, see [Using the SharePoint Foundation Server-Side Object Model](/previous-versions/office/developer/sharepoint-2010/ee538251(v=office.14)).
 
-- SharePoint solutions. For more information, see [Solutions Overview](http://go.microsoft.com/fwlink/?LinkId=169422).
+- SharePoint solutions. For more information, see [Solutions Overview](/previous-versions/office/developer/sharepoint-2010/aa543214(v=office.14)).
 
-- Upgrading SharePoint solutions. For more information, see [Upgrading a Solution](http://go.microsoft.com/fwlink/?LinkId=177802).
+- Upgrading SharePoint solutions. For more information, see [Upgrading a Solution](/previous-versions/office/developer/sharepoint-2010/aa543659(v=office.14)).
 
 ## Create the projects
  To complete this walkthrough, you must create three projects:
@@ -184,7 +184,7 @@ ms.workload:
 
 1. In **Solution Explorer**, under the **UpgradeDeploymentStep** project, open the shortcut menu for the **source.extension.vsixmanifest** file, and then choose **Open**.
 
-     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Upgrade Deployment Step for SharePoint Projects**.
 
@@ -212,7 +212,7 @@ ms.workload:
 10. In the **Type** list, enter **SharePoint.Commands.v4**.
 
     > [!NOTE]
-    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](https://msdn.microsoft.com/9fcfc098-edc7-484b-9d4c-acd17829d737).
+    > This element specifies a custom extension that you want to include in the Visual Studio extension. For more information, see [Asset Element (VSX Schema)](/previous-versions/dd393737(v=vs.110)).
 
 11. In the **Source** list, choose **A project in current solution**.
 

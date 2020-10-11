@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA2226"
 ms.assetid: d202401a-ea14-4559-b15e-0ea4f5b68789
 caps.latest.revision: 16
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2226: Operators should have symmetrical overloads
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|OperatorsShouldHaveSymmetricalOverloads|
 |CheckId|CA2226|

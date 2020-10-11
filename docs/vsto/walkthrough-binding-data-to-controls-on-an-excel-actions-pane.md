@@ -1,5 +1,6 @@
 ---
 title: "Walkthrough: Bind data to controls on an Excel actions pane"
+titleSuffix: ""
 ms.date: "02/02/2017"
 ms.topic: "conceptual"
 dev_langs:
@@ -141,7 +142,7 @@ ms.workload:
      [!code-csharp[Trin_VstcoreActionsPaneExcel#2](../vsto/codesnippet/CSharp/Trin_VstcoreActionsPaneExcelCS/ActionsControl.cs#2)]
 
 ## Show the actions pane
- The actions pane isn't visible until you add the control at runtime.
+ The actions pane isn't visible until you add the control at run time.
 
 #### To show the actions pane
 

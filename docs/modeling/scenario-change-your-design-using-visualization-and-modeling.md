@@ -1,20 +1,22 @@
 ---
-title: "Scenario: Change your design using visualization and modeling"
+title: 'Change your design using visualization and modeling'
+description: Overview of the visualization and modeling tools in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: overview
 helpviewer_keywords:
-  - "code visualization [Visual Studio ALM]"
-  - "modeling software [Visual Studio ALM]"
-  - "software modeling [Visual Studio ALM]"
-  - "walkthroughs [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], visualizing code"
-  - "walkthrough [Visual Studio ALM], modeling software"
-  - "walkthroughs [Visual Studio ALM], modeling software"
-author: gewarren
-ms.author: gewarren
+- code visualization [Visual Studio ALM]
+- modeling software [Visual Studio ALM]
+- software modeling [Visual Studio ALM]
+- walkthroughs [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], visualizing code
+- walkthrough [Visual Studio ALM], modeling software
+- walkthroughs [Visual Studio ALM], modeling software
+author: JoshuaPartlow
+ms.author: joshuapa
+ms.custom: SEO-VS-2020
 manager: jillfra
 ms.workload:
-  - "multiple"
+- multiple
 ---
 # Scenario: Change your design using visualization and modeling
 
@@ -73,7 +75,7 @@ For more information about Team Foundation Server, see:
 
 The following table describes roles that these tools can play during multiple and various stages of the software development lifecycle:
 
-||**User Requirements Modeling**|**Business Process Modeling**|**System Architecture & Design**|**Code Visualization & Exploration**|**Verification**|
+|Tool / Role|User Requirements Modeling|Business Process Modeling|System Architecture & Design|Code Visualization & Exploration|Verification|
 |------|-|-|-|-|-|
 |Domain-Specific Language (DSL) diagram|Yes|Yes|Yes|||
 |Dependency diagram, layer validation|||Yes|Yes|Yes|
@@ -180,7 +182,7 @@ See:
 
 - [Use the visual designer](/azure/devops/pipelines/get-started-designer)
 
-- [TFVC gated check-in](/azure/devops/pipelines/build/triggers#gated)
+- [TFVC gated check-in](/azure/devops/pipelines/build/triggers)
 
 - [Build and release tasks](/azure/devops/pipelines/tasks/index)
 
@@ -208,9 +210,9 @@ As their work progresses, the teams update their work items to reflect the time 
 
 See:
 
-- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts)
+- [About Agile tools and Agile project management](/azure/devops/boards/backlogs/backlogs-overview?view=vsts&preserve-view=true)
 
-- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts)
+- [Charts, dashboards, and widgets (Azure DevOps Services)](/azure/devops/report/dashboards/overview?view=vsts&preserve-view=true)
 
 - [Create your backlog and tasks using Project](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project)
 
@@ -230,13 +232,13 @@ To make sure that the code conforms to the design, the teams configure their bui
 
 See:
 
-- [Testing the application](/azure/devops/test/overview?view=vsts)
+- [Testing the application](/azure/devops/test/overview?view=vsts&preserve-view=true)
 
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)
 
-- [Use version control](http://go.microsoft.com/fwlink/?LinkID=525605)
+- [Use version control](/azure/devops/repos/tfvc/overview?view=azure-devops&preserve-view=true)
 
-- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts)
+- [Azure Pipelines](/azure/devops/pipelines/index?view=vsts&preserve-view=true)
 
 ## Update the System Using Visualization and Modeling
 
@@ -349,11 +351,11 @@ A class diagram has the following major features:
 
 - Types such as classes, interfaces, and enumerations:
 
-    - A *class* is the definition of objects that share specific structural or behavioral characteristics.
+  - A *class* is the definition of objects that share specific structural or behavioral characteristics.
 
-    - An *interface* defines a part of the externally visible behavior of an object.
+  - An *interface* defines a part of the externally visible behavior of an object.
 
-    - An *enumeration* is a classifier that contains a list of literal values.
+  - An *enumeration* is a classifier that contains a list of literal values.
 
 - *Attributes* are values of a certain type that describe each instance of a *classifier*. A classifier is a general name for types, components, use cases, and even actors.
 
@@ -472,11 +474,11 @@ Dependency diagrams help you:
 
 |**Category**|**Links**|
 |-|-|
-|**Forums**|- [Visual Studio Visualization & Modeling Tools](http://go.microsoft.com/fwlink/?LinkId=184720)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](http://go.microsoft.com/fwlink/?LinkId=184721)|
+|**Forums**|- [Visual Studio Visualization & Modeling Tools](https://social.msdn.microsoft.com/Forums/en-US/home?forum=vsarch)<br />- [Visual Studio Visualization & Modeling SDK (DSL Tools)](https://social.msdn.microsoft.com/Forums/home?forum=dslvsarchx)|
 
 ## See also
 
 - [Visualize code](../modeling/visualize-code.md)
 - [Use models in your development process](../modeling/use-models-in-your-development-process.md)
-- [Use models in Agile development](https://msdn.microsoft.com/592ac27c-3d3e-454a-9c38-b76658ed137f)
+- [Use models in Agile development](/previous-versions/ff398061(v=vs.140))
 - [Validate your system during development](../modeling/validate-your-system-during-development.md)

@@ -7,8 +7,8 @@ ms.technology: vs-ide-general
 ms.topic: conceptual
 ms.assetid: c3a14d28-d811-4ff3-bd09-21dce14025ca
 caps.latest.revision: 7
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: jillfra
 ---
 # Getting Started with Debugging in Visual Studio 2015
@@ -130,7 +130,7 @@ Visual Studio 2015 provides a powerful integrated set of project build and debug
 
  You can stop your app by pressing Shift+F5 or by clicking the **Stop** button. Or, you can simply close the app’s main window (or command line dialog).
 
- If your code ran perfectly and exactly as expected, congratulations! Change the build configuration to **Release** and rebuild it for deployment! (Professionals may want to jump to the bit on Unit Testing at the end, though.) However, if it hung, or crashed, or gave you some strange results, you’ll need to find the source of those problems and fix the bugs.
+ If your code ran perfectly and exactly as expected, congratulations! Change the build configuration to **Release** and rebuild it for deployment! (Professionals may want to jump to the bit on Unit Testing at the end, though.) However, if it stops responding, or crashed, or gave you some strange results, you’ll need to find the source of those problems and fix the bugs.
 
 ### Setting Simple Breakpoints
  Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. You do NOT need to rebuild a project after setting and removing breakpoints.
@@ -143,7 +143,7 @@ Visual Studio 2015 provides a powerful integrated set of project build and debug
 
  Common uses for breakpoints include:
 
-1. To narrow down the source of a crash or hang, scatter them throughout and around the code of the method call you think is causing the failure. As you step through the code, remove and then reset the breakpoints closer together until you find the offending line of code.
+1. To narrow down the source of a crash or program not responding, scatter them throughout and around the code of the method call you think is causing the failure. As you step through the code, remove and then reset the breakpoints closer together until you find the offending line of code.
 
 2. When you introduce new code, set a breakpoint at the beginning of it and step through the code to make sure it is behaving as expected.
 
@@ -164,7 +164,7 @@ Visual Studio 2015 provides a powerful integrated set of project build and debug
 
  ![Visual Studio 2015 conditional breakpoint](../ide/media/vs-ide-gs-debug-breakpoint-conditional.PNG "Vs_ide_gs_debug_breakpoint_conditional")
 
- For more detail on how to declare the expressions used to evaluate conditional breakpoints, check out the Channel9 video [Breakpoint Configuration Experience in Visual Studio 2015](http://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/711).
+ For more detail on how to declare the expressions used to evaluate conditional breakpoints, check out the Channel9 video [Breakpoint Configuration Experience in Visual Studio 2015](https://channel9.msdn.com/Events/Visual-Studio/Connect-event-2014/711).
 
 ### Inspecting Your Code at Run-time
  When your running code hits a breakpoint and halts, you can inspect your variables and call stacks to determine what is going on. Are the values in the ranges you expect to see? Are calls being made in the right order?

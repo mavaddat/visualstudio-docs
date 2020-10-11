@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "SpecifyIFormatProvider"
 ms.assetid: fb34ed9a-4eab-47cc-8eef-3068a4a1397e
 caps.latest.revision: 24
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1305: Specify IFormatProvider
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|SpecifyIFormatProvider|
 |CheckId|CA1305|

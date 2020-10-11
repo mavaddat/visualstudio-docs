@@ -1,7 +1,7 @@
 ---
 title: "IDiaFrameData::get_allocatesBasePointer | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -35,6 +35,6 @@ HRESULT get_allocatesBasePointer ( 
 ## Remarks
  This property should be used only by code that formerly accessed FPO_DATA, or when the program string returned by the [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md) method is `NULL`. Otherwise, the program string contains all the information needed to compute previous register values.
 
-## See Also
+## See also
 - [IDiaFrameData](../../debugger/debug-interface-access/idiaframedata.md)
 - [IDiaFrameData::get_program](../../debugger/debug-interface-access/idiaframedata-get-program.md)

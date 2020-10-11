@@ -1,13 +1,14 @@
 ---
-title: "How to: Include Prerequisites with a ClickOnce Application | Microsoft Docs"
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+title: Include prerequisites (ClickOnce app)
+ms.custom: SEO-VS-2020
+ms.date: 11/04/2016
+ms.topic: how-to
 ms.assetid: c66bf0a5-8c93-4e68-a224-3b29ac36fe4d
 author: mikejo5000
 ms.author: mikejo
 manager: jillfra
-ms.workload:
-  - "multiple"
+ms.workload: 
+  - multiple
 ---
 # How to: Include prerequisites with a ClickOnce application
 Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](../deployment/includes/ndptecclick_md.md)] application, you must first download the installer packages for those prerequisites to your development computer. When you publish an application and choose **Download prerequisites from the same location as my application**, an error will occur if the installer packages aren't in the **Packages** folder.
@@ -25,10 +26,10 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
 
 3. In Notepad, open the *Package.xml* file.
 
-4. Locate the **Name** element that contains **http://go.microsoft.com/fwlink**, and copy the URL. Include the **LinkID** portion.
+4. Locate the **Name** element that contains `http://go.microsoft.com/fwlink`, and copy the URL. Include the **LinkID** portion.
 
    > [!NOTE]
-   > If no **Name** element contains **http://go.microsoft.com/fwlink**, open the **Product.xml** file in the root folder for the prerequisite and locate the **fwlink** string.
+   > If no **Name** element contains `http://go.microsoft.com/fwlink`, open the **Product.xml** file in the root folder for the prerequisite and locate the **fwlink** string.
 
    > [!IMPORTANT]
    > Some prerequisites have multiple installer packages (for example, for 32-bit or 64-bit systems). If multiple **Name** elements contain **fwlink**, you must repeat the remaining steps for each of them.
@@ -44,4 +45,4 @@ Before you can distribute prerequisite software with a [!INCLUDE[ndptecclick](..
     You can now distribute the installer package with your application.
 
 ## See also
-- [How to: Install prequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
+- [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)

@@ -1,20 +1,22 @@
 ---
 title: "Getting Started with ASP.NET Core"
 description: "This article describes how to get started with ASP.NET in Visual Studio for Mac, including installation and creating a new project."
-author: conceptdev
-ms.author: crdun
+author: sayedihashimi
+ms.author: sayedha
 ms.date: 04/02/2019
 ms.assetid: 6E8B0C90-33D6-4546-8207-CE0787584565
 ms.custom: video
+no-loc: [Blazor, "Blazor WebAssembly"]
+ms.topic: how-to
 ---
 
 # Getting Started with ASP.NET Core
 
- Visual Studio for Mac makes it easy to develop your app’s service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It’s been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
+ Visual Studio for Mac makes it easy to develop your app's service with its support for the latest ASP.NET Core Web development platform. ASP.NET Core runs on .NET Core, the latest evolution of the .NET Framework and runtime. It's been tuned for fast performance, factored for small install sizes, and reimagined to run on Linux and macOS, as well as Windows.
 
 ## Installing .NET Core
 
-.NET Core 2.1 is automatically installed when you install Visual Studio for Mac.
+.NET Core 3.1 is automatically installed when you install Visual Studio for Mac. For more information about versions of .NET Core supported in Visual Studio for Mac see [.NET Core Support](./net-core-support.md).
 
 ## Creating an ASP.NET Core app in Visual Studio for Mac
 
@@ -30,14 +32,16 @@ There are a number of projects that will provide you with a pre-built template t
 - **.NET Core > API**
 - **.NET Core > Web Application**
 - **.NET Core > Web Application (Model-View-Controller)**
+- **.NET Core > Blazor Server App**
+- **.NET Core > Blazor WebAssembly App**
 
 ![ASP.NET Project Options](media/asp-net-core-2019-new-asp-core.png)
 
-Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app, that should look similar to the image below:
+Select the **ASP.NET Core Empty Web Application** and press **Next**. Give the Project a Name and press **Create**. This creates a new ASP.NET Core app. In the solution pad's left pane, expand the second arrow and then select **Startup.cs**. It should look similar to the image below:
 
 ![New ASP.NET Core Empty Project view](media/asp-net-core-2019-empty-project.png)
 
-The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project’s NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
+The ASP.NET Core Empty template creates a web application with two default files: **Program.cs** and **Startup.cs**, which are explained below. It also creates a Dependencies folder, which contains your project's NuGet package dependencies such as ASP.NET Core, the .NET Core framework, and the MSBuild targets that build the project:
 
 ![Solution Pad displaying dependencies](media/asp-net-core-2019-solution-dependencies.png)
 
@@ -113,9 +117,9 @@ You can configure delegates by using the `Run`,`Map`, and `Use` methods on `IApp
 
 The `Configure` method of the pre-built template is built to do a few things. First, it configures an exception handling page for use during development. Then, it sends a response to the requesting web page with a simple "Hello World".
 
-This simple Hello, World project can run now without any additional code being added. To run the app, and view it in your browser, press the Play (Triangular) button in the toolbar:
+This simple Hello, World project can run now without any additional code being added. To run the app, you can either select which browser you want to run app the app in using the dropdown right of the Play button, or simply hit the Play (triangular) button to use your default browser:
 
-![Run App](media/asp-net-core-2019-run-debug.png)
+![Browser Run](media/asp-net-web-picker.png)
 
 Visual Studio for Mac uses a random port to launch your web project. To find out what port this is, open the Application Output, which is listed under **View > Pads**. You should find output similar to that shown below:
 
@@ -231,7 +235,7 @@ Make sure to complete all steps successfully to ensure that .NET Core is install
 
 This guide gave an introduction to ASP.NET Core. It describes what it is, when to use it, and provided information on using it in Visual Studio for Mac.
 For more information on the next steps from here, refer to the following guides:
-- [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1#build-web-ui-and-web-apis-using-aspnet-core-mvc) docs.
+- [ASP.NET Core](/aspnet/core/?view=aspnetcore-2.1) docs.
 - [Creating Backend Services for Native Mobile Applications](/aspnet/core/mobile/native-mobile-backend), which shows how to build a REST service using ASP.NET Core for a Xamarin.Forms app.
 - [ASP.NET Core hands-on lab](https://github.com/Microsoft/vs4mac-labs/tree/master/Web/Getting-Started).
 

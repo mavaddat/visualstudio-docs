@@ -1,23 +1,24 @@
 ---
 title: "Install Visual Studio 2019 for Mac"
 description: "Instructions on how to install Visual Studio 2019 for Mac and additional components required for cross-platform development."
-author: conceptdev
-ms.author: crdun
-ms.date: 04/02/2019
+author: heiligerdankgesang
+ms.author: dominicn
+ms.date: 09/18/2019
 ms.technology: vs-ide-install
 ms.assetid: 22B1F2CD-32AE-464D-80AC-C8AB4786B015
 ms.custom: video
+ms.topic: how-to
 ---
 # Install Visual Studio 2019 for Mac
 
 To start developing native, cross-platform .NET apps on macOS, install Visual Studio 2019 for Mac following the steps below.
 
  > [!div class="button"]
- > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vsmac2019)
+ > [Download Visual Studio for Mac](https://visualstudio.microsoft.com/vs/mac/)
 
 ## Requirements
 
-- A Mac with macOS High Sierra 10.12 or above.
+- A Mac with macOS High Sierra 10.13 or above.
 
 To build Xamarin apps for iOS or macOS, you'll also need:
 
@@ -26,7 +27,7 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 ## Installation instructions
 
-1. Download the installer from the [Visual Studio for Mac download page](https://aka.ms/vsmac).
+1. Download the installer from the [Visual Studio for Mac download page](https://visualstudio.microsoft.com/vs/mac/).
 2. Once the download is complete, click the **VisualStudioforMacInstaller.dmg** to mount the installer, then run it by double-clicking the arrow logo:
 
     [![Click the large arrow to begin installation](media/install-installer-sml.png)](media/install-installer.png#lightbox)
@@ -38,18 +39,39 @@ To build Xamarin apps for iOS or macOS, you'll also need:
 
 5. An alert will appear asking you to acknowledge the privacy and license terms. Follow the links to read them, then press **Continue** if you agree:
 
-    [![Follow the links to the privacy and terms, then continue if you agree](media/install-privacy-sml.png)](media/install-privacy.png#lightbox)
+    [![Follow the links to the privacy and terms, then continue if you agree](media/install-privacy.png)](media/install-privacy.png#lightbox)
 
-6. The list of available workloads is displayed. Select the ones you wish to use:
+6. The list of available workloads is displayed. Select the components you wish to use:
 
-    [![Choose which optional workload features you would like to install](media/install-selection-sml.png)](media/install-selection.png#lightbox)
+    [![Choose which optional workload features you would like to install](media/install-selection.png)](media/install-selection.png#lightbox)
+
+   If you do not wish to install all platforms, use the guide below to help you decide which platforms to install:
+
+   |Type of App  |Target  |Selection  |Notes  |
+   |---------|---------|---------|---------|
+   |**Apps Using Xamarin**| Xamarin.Forms|Select **Android** and **iOS** platforms |You will need to install [**Xcode**](https://developer.apple.com/xcode/) |
+   ||iOS only|Select **iOS** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   ||Android only|Select **Android** platform|Note that you should also select the relevant dependencies|
+   ||Mac only|Select **macOS (Cocoa)** platform|You will need to install [**Xcode**](https://developer.apple.com/xcode/)|
+   |**.NET Core applications**|         |Select **.NET Core** platform.|         |
+   |**ASP.NET Core Web Applications**|         |Select **.NET Core** platform.|         |
+   |**Azure Functions**|         |Select **.NET Core** platform.|         |
+   |**Cross-platform Unity Game Development**|         |No additional platforms need to be installed beyond Visual Studio for Mac.| Refer to the [Unity setup guide](./setup-vsmac-tools-unity.md) for more information on installing the Unity extension.|
 
 7. After you have made your selections, press the **Install** button.
-8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You might be prompted to enter your password to grant the privileges necessary for installation.
+8. The installer will display progress as it downloads and installs Visual Studio for Mac and the selected workloads. You will be prompted to enter your password to grant the privileges necessary for installation.:
 
-If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](https://docs.microsoft.com/visualstudio/mac/installation#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
+    [![Choose which optional workload features you would like to install](media/installation-progress.png)](media/installation-progress.png#lightbox)
 
-Learn more about the changes in the [release notes](https://docs.microsoft.com/visualstudio/releasenotes/vs2019-mac-relnotes).
+9. Once installed, Visual Studio for Mac will prompt you to personalize your installation by signing in and selecting the key bindings that you'd like to use:
+
+    [![Sign in to the IDE](media/ide-tour-2019-start-signin.png)](media/ide-tour-2019-start-signin.png#lightbox)
+
+    [![Choose which keyboard shortcuts you would like to use](media/ide-tour-2019-keyboard-shortcut.png)](media/ide-tour-2019-keyboard-shortcut.png#lightbox)
+
+If you have network trouble while installing in a corporate environment, review the [installing behind a firewall or proxy](#install-visual-studio-for-mac-behind-a-firewall-or-proxy-server) instructions.
+
+Learn more about the changes in the [release notes](/visualstudio/releasenotes/vs2019-mac-relnotes).
 
 > [!NOTE]
 > If you chose not to install a platform or tool during the original installation (by unselecting it in step #6), you must run the installer again if you wish to add the components later.
@@ -60,7 +82,7 @@ To install Visual Studio for Mac behind a firewall, certain endpoints must be ma
 
 Configure your network to allow access to the following locations:
 
-- [Visual Studio endpoints](/visualstudio/install/install-visual-studio-behind-a-firewall-or-proxy-server)
+- [Visual Studio endpoints](./install-behind-a-firewall-or-proxy-server.md)
 
 ## Next steps
 

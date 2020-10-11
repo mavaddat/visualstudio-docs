@@ -1,7 +1,7 @@
 ---
 title: "Dia2dump Sample | Microsoft Docs"
 ms.date: "07/24/2018"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -36,7 +36,7 @@ By default, the installation directory is a protected directory. That means you 
 
 1. In **Solution Explorer**, select the Dia2Dump project (not the solution).
 
-1. Open the project's **Property Pages** dialog box. For details, see [Working with Project Properties](/cpp/ide/working-with-project-properties).
+1. Open the project's **Property Pages** dialog box. For details, see [Working with Project Properties](/cpp/build/working-with-project-properties).
 
 1. Open the **Configuration Properties** > **C/C++** > **General** property page.
 

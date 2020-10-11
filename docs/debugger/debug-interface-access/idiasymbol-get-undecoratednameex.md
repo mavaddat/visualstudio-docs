@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_undecoratedNameEx | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -69,5 +69,5 @@ HRESULT get_undecoratedNameEx( 
 |UNDNAME_NO_IDENT_CHAR_CHECK|0x10000|Suppresses check for valid identifier characters.|
 |UNDNAME_NO_PTR64|0x20000|Does not include ptr64 in output.|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

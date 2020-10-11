@@ -1,5 +1,5 @@
 ---
-title: "Mixed mode debugging for IA64 processes is unsupported. | Microsoft Docs"
+title: "Mixed mode debugging for IA64 processes is unsupported"
 ms.date: "11/04/2016"
 ms.topic: "conceptual"
 f1_keywords:
@@ -43,5 +43,5 @@ Visual Studio does not support mixed-mode debugging of managed and native code i
 
 2. In the Property Pages, click **Platform** and select Win32 from the list of platforms,
 
-## See Also
+## See also
 - [Debug 64-Bit Applications](../debugger/debug-64-bit-applications.md)

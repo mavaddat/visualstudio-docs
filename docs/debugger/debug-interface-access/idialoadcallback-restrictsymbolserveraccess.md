@@ -1,7 +1,7 @@
 ---
 title: "IDiaLoadCallback::RestrictSymbolServerAccess | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -28,5 +28,5 @@ HRESULT RestrictSymbolServerAccess();
 ## Remarks
  Any return code other than `S_OK` prevents use of a symbol server to resolve symbols.
 
-## See Also
+## See also
 - [IDiaLoadCallback2](../../debugger/debug-interface-access/idialoadcallback2.md)

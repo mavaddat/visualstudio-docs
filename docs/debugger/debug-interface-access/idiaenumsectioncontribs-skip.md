@@ -1,7 +1,7 @@
 ---
 title: "IDiaEnumSectionContribs::Skip | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -32,5 +32,5 @@ HRESULT Skip( 
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` if there are no more section contributions to skip.
 
-## See Also
+## See also
 - [IDiaEnumSectionContribs](../../debugger/debug-interface-access/idiaenumsectioncontribs.md)

@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_isCTypes | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 helpviewer_keywords:
@@ -45,6 +45,6 @@ HRESULT get_isCTypes(
 |Header:|dia2.h|
 |Version:|DIA SDK v8.0|
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [Exe](../../debugger/debug-interface-access/exe.md)

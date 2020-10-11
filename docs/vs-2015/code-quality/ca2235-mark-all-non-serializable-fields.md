@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "MarkAllNonSerializableFields"
 ms.assetid: 599ad877-3a15-426c-bf17-5de15427365f
 caps.latest.revision: 15
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2235: Mark all non-serializable fields
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|MarkAllNonSerializableFields|
 |CheckId|CA2235|

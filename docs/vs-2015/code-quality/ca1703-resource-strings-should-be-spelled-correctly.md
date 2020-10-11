@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "ResourceStringsShouldBeSpelledCorrectly"
 ms.assetid: 693f4970-f512-40cb-ae3b-a0f3a5c6d6f1
 caps.latest.revision: 18
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1703: Resource strings should be spelled correctly
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|ResourceStringsShouldBeSpelledCorrectly|
 |CheckId|CA1703|

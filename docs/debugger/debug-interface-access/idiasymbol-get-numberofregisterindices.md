@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::get_numberOfRegisterIndices | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: 1ec8b8ea-e423-4327-8dc0-a390e6e3ffb0
@@ -29,5 +29,5 @@ HRESULT get_numberOfRegisterIndices(
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)

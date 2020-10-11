@@ -1,20 +1,25 @@
 ---
 title: Add new data sources
 ms.date: 11/21/2018
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
-  - "vs.datasource.datasourcefieldspicker"
+- vs.datasource.datasourcefieldspicker
 helpviewer_keywords:
-  - "data [Visual Studio], data sources"
-  - "data sources"
+- data [Visual Studio], data sources
+- data sources
 ms.assetid: ed28c625-bb89-4037-bfde-cfa435d182a2
-author: gewarren
-ms.author: gewarren
+author: ghogen
+ms.author: ghogen
 manager: jillfra
 ms.workload:
-  - "data-storage"
+- data-storage
 ---
 # Add new data sources
+
+:::moniker range="vs-2019"
+> [!NOTE]
+> The features described in this article apply to .NET Framework Windows Forms and WPF development. In Visual Studio 2019 (and previous versions), the features are not supported for .NET Core development, for both WPF and Windows Forms.
+:::moniker-end
 
 In the context of .NET data tools in Visual Studio, the term *data source* refers to .NET objects that connect to a data store and make the data available to a .NET application. The Visual Studio designers can consume the output of the data source to generate the boilerplate code that binds the data to forms when you drag and drop database objects from the **Data Sources** window. This kind of data source can be:
 

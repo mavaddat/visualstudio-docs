@@ -1,7 +1,7 @@
 ---
 title: "IDiaSymbol::findSymbolsForAcceleratorPointerTag | Microsoft Docs"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: "reference"
 dev_langs:
   - "C++"
 ms.assetid: fb66852c-c5f7-4140-b9fe-20cb4e51a9fe
@@ -34,6 +34,6 @@ HRESULT findSymbolsForAccleratorPointerTag (
 ## Return Value
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
-## See Also
+## See also
 - [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
 - [IDiaEnumSymbols](../../debugger/debug-interface-access/idiaenumsymbols.md)

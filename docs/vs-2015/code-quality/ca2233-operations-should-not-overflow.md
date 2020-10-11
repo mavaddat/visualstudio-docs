@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA2233"
 ms.assetid: 3a2b06ba-6d1b-4666-9eaf-e053ef47ffaa
 caps.latest.revision: 21
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA2233: Operations should not overflow
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|OperationsShouldNotOverflow|
 |CheckId|CA2233|

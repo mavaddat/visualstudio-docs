@@ -12,14 +12,14 @@ helpviewer_keywords:
   - "CA1820"
 ms.assetid: da1e70c8-b1dc-46b9-8b8f-4e6e48339681
 caps.latest.revision: 23
-author: gewarren
-ms.author: gewarren
+author: jillre
+ms.author: jillfra
 manager: "wpickett"
 ---
 # CA1820: Test for empty strings using string length
 [!INCLUDE[vs2017banner](../includes/vs2017banner.md)]
 
-|||
+|Item|Value|
 |-|-|
 |TypeName|TestForEmptyStringsUsingStringLength|
 |CheckId|CA1820|

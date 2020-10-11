@@ -1,7 +1,8 @@
 ---
 title: "Create custom action project item with item template, part 1"
+titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
@@ -49,7 +50,7 @@ ms.workload:
 
   Knowledge of the following concepts is helpful, but not required, to complete the walkthrough:
 
-- Custom actions in SharePoint. For more information, see [Custom Action](http://go.microsoft.com/fwlink/?LinkId=177800).
+- Custom actions in SharePoint. For more information, see [Custom Action](/previous-versions/office/developer/sharepoint-2010/ms458635(v=office.14)).
 
 - Item templates in Visual Studio. For more information, see [Creating Project and Item Templates](../ide/creating-project-and-item-templates.md).
 
@@ -212,7 +213,7 @@ ms.workload:
     </VSTemplate>
     ```
 
-     This file defines the contents and behavior of the item template. For more information about the contents of this file, see [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference).
+     This file defines the contents and behavior of the item template. For more information about the contents of this file, see [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md).
 
 4. In **Solution Explorer**, open the shortcut menu for the **ItemTemplate** project, choose **Add**, and then choose **New Item**.
 
@@ -256,7 +257,7 @@ ms.workload:
     </Elements>
     ```
 
-     This file defines a default custom action that creates a menu item on the **Site Actions** menu of the SharePoint site. When a user chooses the menu item, the URL specified in the `UrlAction` element opens in the web browser. For more information about the XML elements you can use to define a custom action, see [Custom Action Definitions](http://go.microsoft.com/fwlink/?LinkId=177801).
+     This file defines a default custom action that creates a menu item on the **Site Actions** menu of the SharePoint site. When a user chooses the menu item, the URL specified in the `UrlAction` element opens in the web browser. For more information about the XML elements you can use to define a custom action, see [Custom Action Definitions](/sharepoint/dev/schema/custom-action-definition-schema).
 
 12. Optionally, open the *ItemTemplate.ico* file and modify it so that it has a design that you can recognize. This icon will display next to the project item in the **Add New Item** dialog box.
 
@@ -289,7 +290,7 @@ ms.workload:
 
 1. In **Solution Explorer**, open the shortcut menu for the **source.extension.vsixmanifest** file in the CustomActionProjectItem project, and then choose **Open**.
 
-     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](https://msdn.microsoft.com/76e410ec-b1fb-4652-ac98-4a4c52e09a2b).
+     Visual Studio opens the file in the manifest editor. The source.extension.vsixmanifest file is the basis for the extension.vsixmanifest file that all VSIX packages require. For more information about this file, see [VSIX Extension Schema 1.0 Reference](/previous-versions/dd393700(v=vs.110)).
 
 2. In the **Product Name** box, enter **Custom Action Project Item**.
 
@@ -449,6 +450,6 @@ ms.workload:
 - [Define custom SharePoint project item types](../sharepoint/defining-custom-sharepoint-project-item-types.md)
 - [Create item templates and project templates for SharePoint project items](../sharepoint/creating-item-templates-and-project-templates-for-sharepoint-project-items.md)
 - [Use the SharePoint project service](../sharepoint/using-the-sharepoint-project-service.md)
-- [Visual Studio Template Schema Reference](/visualstudio/extensibility/visual-studio-template-schema-reference)
+- [Visual Studio Template Schema Reference](../extensibility/visual-studio-template-schema-reference.md)
 - [Image Editor for Icons](/cpp/windows/image-editor-for-icons)
 - [Creating an Icon or Other Image &#40;Image Editor for Icons&#41;](/cpp/windows/creating-an-icon-or-other-image-image-editor-for-icons)

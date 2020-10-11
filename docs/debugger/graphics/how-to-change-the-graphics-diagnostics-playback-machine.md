@@ -1,7 +1,8 @@
 ---
-title: "How to: Change the Graphics Diagnostics Playback Machine | Microsoft Docs"
+title: "Change graphics diagnostics playback machine"
+ms.custom: SEO-VS-2020
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 ms.assetid: 1b9aa3ea-29a0-4e21-bc57-936f33537b5c
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -42,5 +43,5 @@ You can play back graphics information by using your local machine, or by using 
 > [!NOTE]
 > The **Remote Debugger Connections** dialog box might also display remote debugging targets that are directly connected to your development machine or are on the same subnet. You can use one of these remote debugging targets as the Graphics Diagnostics playback machine without manually configuring it. In the **Remote Debugger Connections** dialog box, select the target you want and then choose the **Select** button.
 
-## See Also
+## See also
 - [Graphics Log Document](graphics-log-document.md)

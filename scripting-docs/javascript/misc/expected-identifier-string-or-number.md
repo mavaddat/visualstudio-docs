@@ -3,7 +3,7 @@ title: "Expected identifier, string or number | Microsoft Docs"
 ms.date: "01/18/2017"
 ms.prod: visual-studio-windows
 ms.technology: vs-javascript
-ms.topic: reference
+ms.topic: error-reference
 f1_keywords: 
   - "VS.WebClient.Help.SCRIPT1028"
 dev_langs: 
@@ -26,5 +26,5 @@ var point = {x:1.2, y:-3.4};
   
 - Ensure you use the proper literal syntax.  
   
-## See Also  
- [Comma Operator (,)](../../javascript/reference/comma-operator-decrement-javascript.md)
+## See also  
+ [Comma Operator (,)](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comma_Operatorhttps://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comma_Operator)
